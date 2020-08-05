@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Create and Run a Batch" />
+        <h1>Create and Run a Batch</h1>
+        <p>You can create report batches that consist of wells, folders, and reserves categories. This enables you to generate entity-level and folder-level reports at the same time, in several reserves categories. If you run several batches simultaneously and select <b>Consolidate Results</b>, the batch results are added together. </p>
+        <p>Unlike the other reporting methods, the Batch Manager does not report on entities or folders selected in the Entity Explorer. It has its own window for selecting entities. However, if you apply a filter to the project, the filter also applies to the entities visible in the Batch Manager.</p>
+        <p>Once you have run a batch, you can select reports or create customized report lists and use them with your batches. See <MadCap:xref href="Create a Report List.htm#Create_a_Report_List">Create a Report List</MadCap:xref>.</p>
+        <p>Selecting Folders and Entities </p>
+        <p>To report on a folder (a summation of all the entities in the folder) select the folder level in the <b>Entities to report</b> window. To report on an entity, select the entity level. In the example below, the folders and entities selected in Figure 1 result in the Report List in Figure 2. </p>
+        <table style="border-top: medium none;border-right: medium none;border-collapse: collapse;border-bottom: medium none;margin-left: 2.9pt;border-left: medium none;" border="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tbody>
+                <tr style="height: 50pt;">
+                    <td style="padding-bottom: 2.9pt;padding-top: 2.9pt;width: 192.85pt;height:50pt;padding-left: 2.9pt;vertical-align: top;padding-right: 2.9pt;">
+                        <img src="../Resources/Images/image051_001.jpg" />
+                    </td>
+                    <td style="padding-bottom: 2.9pt;padding-top: 2.9pt;width: 15.05pt;height: 50pt;padding-left: 2.9pt;vertical-align: top;padding-right: 2.9pt;">
+                        &#160;
+                    </td>
+                    <td style="padding-bottom: 2.9pt;padding-top: 2.9pt;width: 189pt;height: 50pt;padding-left: 2.9pt;vertical-align: top;padding-right: 2.9pt;">
+                        <img src="../Resources/Images/image053_002.jpg" />
+                    </td>
+                    <td style="border-top: medium none;border-right: medium none;border-bottom: medium none;padding-bottom: 0pt;padding-top: 0pt;padding-left: 0pt;border-left: medium none;padding-right: 0pt;">
+                        &#160;
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 2.9pt;padding-top: 2.9pt;width: 192.85pt;padding-bottom: 2.9pt;background: white;vertical-align: top;padding-right: 2.9pt;"><b>Figure 1</b>: Entities to report. The first and second folder levels and the entity level (one well each) are selected.
+                    </td>
+                    <td style="padding-left: 2.9pt;padding-top: 2.9pt;width: 15.05pt;padding-bottom: 2.9pt;background: white;vertical-align: top;padding-right: 2.9pt;">
+                        &#160;
+                    </td>
+                    <td style="padding-left: 2.9pt;padding-top: 2.9pt;width: 193.5pt;padding-bottom: 2.9pt;background: white;vertical-align: top;padding-right: 2.9pt;" colspan="2"><b>Figure 2</b>: Report Tree. The Economic Summary has been selected for the folder level and each entity in the Print Preview.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        You can also select folders and entities by right-clicking in the Entities to Report window. The table below explains the options in the context sensitive menu if you have selected a Folder, Ungrouped Entity, or Grouped Entity. 
+        <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0"><col class="TableStyle-TopHeadRowTableInProc-Column-Column1" /><col class="TableStyle-TopHeadRowTableInProc-Column-Column1" /><col class="TableStyle-TopHeadRowTableInProc-Column-Column1" /><col class="TableStyle-TopHeadRowTableInProc-Column-Column1" /><thead><tr class="TableStyle-TopHeadRowTableInProc-Head-Header1"><th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                        Context Menu
+                    </th><th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                        Folder
+                    </th><th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                        Ungrouped Entity
+                    </th><th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                        Grouped Entity
+                    </th></tr></thead><tbody><tr style="height: 37.4pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Select <b>Only <i>folder name</i></b></td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Deselects everything then selects only the folder.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Deselects everything then selects only the entity.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Deselects everything then selects only the entity.
+                    </td></tr><tr style="height: 12pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td colspan="4" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Select
+                    </td></tr><tr style="height: 15pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Folders And Entities
+                    </td><td colspan="3" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Selects everything: all folders, ungrouped entities, and grouped entities.
+                    </td></tr><tr style="height: 34.25pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Child Folders and Entities
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Selects the folder and all child entities (grouped and ungrouped).
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Invalid
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Invalid
+                    </td></tr><tr style="height: 23.45pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Child Folders And Top-level Entities
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Selects the folder and all ungrouped child entities. Grouped entities are unaffected.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Invalid
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Invalid
+                    </td></tr><tr style="height: 9.5pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Child Entities
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Selects all child entities (grouped and ungrouped).
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Selects the entity and all group children.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Selects the entity and all group children.
+                    </td></tr><tr style="height: 36pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Child Top-level Entities
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Selects all ungrouped child entities. Grouped entities are unaffected.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Invalid
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Invalid
+                    </td></tr><tr style="height: 5pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Siblings
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Selects all sibling folders and entities.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Selects all sibling folders and entities.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Selects all sibling grouped entities.
+                    </td></tr><tr style="height: 1.3pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td colspan="4" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Deselect
+                    </td></tr><tr style="height: 15pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Folders And Entities
+                    </td><td colspan="3" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Deselects everything: all folders, ungrouped entities, and grouped entities.
+                    </td></tr><tr style="height: 36pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Child Folders And Entities
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Deselects the folder and all child entities (grouped and ungrouped).
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Invalid
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Invalid
+                    </td></tr><tr style="height: 36pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Child Entities
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Deselects all child entities, leaving the folder and any child folders still selected.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Deselects the entity and all group children.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Deselects the entity and all group children.
+                    </td></tr><tr style="height: 14pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                        All Siblings
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                        Deselects all sibling folders and entities.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                        Deselects all sibling folders and entities.
+                    </td><td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                      Deselects all sibling grouped entities.
+                    </td></tr></tbody></table>
+      To create and run a batch using quick selection
+        <ol><li>
+                On the Standard toolbar, click the <b>Batch Manager</b> icon <img src="../Resources/Images/image054_001.png" class="InlineImage" />.
+            </li><li>
+                In the <b>Batch Manager</b>, click the <b>Entities</b> tab.
+            </li><li>
+                Under Entity Selection Mode, click Quick Selection. 
+            </li><li>
+                Under <b>Entities to report</b>, select the entities and/or folders you want to report on. See <i>Selecting Folders and Entities</i>, above. 
+            </li><li>
+                Under <b>Plans</b>, select the reserves plan, plan, or calculated plan you want to see results for. 
+            </li><li>
+                Under <b>Reserves categories</b>, select the reserves categories you want to report on. 
+            </li><li>
+                On the <b>Report Options</b> tab, select the currency you want to use for the batch.
+            </li><li>
+                Do one of the following: 
+            </li><table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0"><col class="TableStyle-TopHeadRowTableInProc-Column-Column1" /><col class="TableStyle-TopHeadRowTableInProc-Column-Column1" /><thead><tr class="TableStyle-TopHeadRowTableInProc-Head-Header1"><th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            To
+                        </th><th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Do this
+                        </th></tr></thead><tbody><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                      Save the batch for future use
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Go to step 8.
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                       Run the batch
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                        Go to step 9.
+                        </td></tr></tbody></table><li>
+                Click <b>Save as Batch</b>, enter a name, and click <b>Save</b>. <br />The created batch is selected in the batches list. 
+            </li><li>
+                Click <b>Run.</b></li><li>
+                In the <b>Print Preview</b>, click a report to view or click <b>Select/Manage Reports</b> to create a report list. See <MadCap:xref href="Create a Report List.htm#Create_a_Report_List">Create a Report List</MadCap:xref>.
+            </li></ol><p class="ProcedureIntro">To run an existing batch or batches</p><ol><li>
+                On the Standard toolbar, click the <b>Batch Manager</b> icon <img src="../Resources/Images/image054_001.png" class="InlineImage" />.
+            </li><li>
+                In the <b>Batch Manager</b>, click the <b>Entities</b> tab.
+            </li><li>
+                Under Entity Selection Mode, click Select from Batch list. 
+            </li><li>
+                In the <b>Batches</b> window, select the batch(es) you want to run. 
+            </li><li>
+                If you are running more than one batch and want to consolidate the results, select <b>Consolidate results</b>. 
+            </li><li>
+                On the <b>Report Options</b> tab, select the currency you want to use for the batch.
+            </li><li>
+                At the bottom of the <b>Batch Manager</b> dialog box, click <b>Run</b>. 
+            </li><li>
+                In the <b>Print Preview</b>, click the reports you want to view or click <b>Select/Manage Reports</b> to create a report list. See <MadCap:xref href="Create a Report List.htm#Create_a_Report_List">Create a Report List</MadCap:xref>. 
+            </li></ol><p class="ProcedureIntro">To edit a batch</p><ol><li>
+                In the <b>Batch Manager</b>, click the <b>Entities</b> tab. 
+            </li><li>
+                Under Entity Selection Mode, click Select from batch list. 
+            </li><li>
+                In the <b>Batches</b> list, double-click the batch you want to edit. 
+            </li><li>
+                In the <b>Batch Editor</b>, edit your batch and click <b>OK</b>. 
+            </li></ol></body>
+</html>

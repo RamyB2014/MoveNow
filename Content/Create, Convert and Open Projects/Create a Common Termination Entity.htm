@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Create a CTE" />
+        <h1>Create a Common Termination Entity </h1>
+        <p class="ProcedureIntro">To create a CTE</p>
+        <ol>
+            <li>
+                Do one of the following: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            If
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Then
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            You have organized your entity hierarchy by Field (all wells and your cost entity are in the same folder),
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            In the entity explorer, right-click the folder level of the field you want to create as a CTE, point to <b>Create As</b> and select <b>Common Termination Entity</b>.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            You have filtered to your wells and cost entity, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Right-click the folder level of the field you want to create as a CTE, point to <b>Create As</b> and select <b>Common Termination Entity</b>.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                In the Common Termination Entity dialog box, edit the <b>Entity Properties</b> and/or <b>Custom Fields</b>, if required. 
+            </li>
+            <li>
+                Select the following options for Child Results: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Honour economic limit on child entities
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            This option tends to maximize the value of a CTE. 
+                            The child entity will terminate at the earlier of the calculated common termination date or its own economic limit. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Ignore economic limit on child entities
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><span style="font-size: 11pt;">This option tends to maximize the volume produced by a CTE.</span><span style="font-size: 11pt;">The child entity will terminate at the calculated common termination date only. The child entity might be run beyond its economic limit, incurring costs out to the common termination date.</span><b><span style="font-size: 11pt;">Note</span></b><span style="font-size: 11pt;">: If you select this option and run economics on this well individually it will still run to the CTE’s termination date. To run the well to its own economic limit, select the option above before running economics for the entity. </span>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Apply termination date to children
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1"><b>Enabled</b>: The CTE date is applied to the child entities.
+                            <b>Disabled</b>: The CTE date is not applied to the child entities.
+                            For analysis purposes, disabling this setting makes it possible to determine what is causing the common economic limit to occur. 
+                            <div class="NoteInProcedure"><span style="font-size: 11pt;">: This setting should remain enabled unless you want to determine what is causing the economic limit to occur. </span></div></td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Select one of the following options for Negative Wedges: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Use project options
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Use the setting in <MadCap:xref href="../Options/Project Options Economics.htm#Allow">Allow Negative Wedge Results</MadCap:xref>.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Allow
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Always allow negative wedges in the calculation
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Do not allow
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Never allow negative wedges in the calculation
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="NoteInProcedure"> The Negative Wedges option only applies to the CTE as a whole. Child calculations always allow negative wedges.</div>
+            <li>
+                Click <b>OK</b>. 
+            </li>
+        </ol>
+        <h2>Reserves Plan Summary Window</h2>
+        The Reserves Plan Summary window displays reserves category information for the CTE and child entities. Inputs on child entities are entered independently of the CTE, and not saved on the CTE. Use the <b>Refresh Summary Grid</b> button to load the entity input reserves categories.
+        <ul class="DoubleSpace"><li style="margin-left: 0pt;text-indent: 0pt;">Inputs on child entities (<img src="../Resources/Images/image095.png" class="InlineImage" />): Indicates reserves category inputs for child entities</li><li style="margin-left: 0pt;text-indent: 0pt;">Economic results status (<img src="../Resources/Images/image096_001.png" class="InlineImage" />): Indicates economic output for the CTE </li></ul><div class="Note"> The summary grid is blank by default. The current reserves category is highlighted when you refresh the grid. </div></body>
+</html>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Create a Working Interest Rollup" />
+        <h1>Create a Working Interest Rollup</h1>
+        <p>Creating a working interest roll up requires you to create a custom field that you use to hold a Factor value. You then add a factor value to each entity in the rollup. The factor value is applied to each entity's history, forecast, daily data, P/Z, and volumetrics when the roll up is calculated. </p>
+        <p class="ProcedureIntro">To create a working interest roll up</p>
+        <ol>
+            <li>
+                <MadCap:xref href="../Entity Management/Configure Custom Fields.htm#Configure_Custom_Fields">Create a custom field</MadCap:xref> to hold the factor value. The custom field must be a <b>Number</b> field. 
+            </li>
+            <img src="../Resources/Images/image071_002.jpg" class="IndentImage" />
+            <li>
+                On <b>Wells | Custom Fields</b>, enter a value in the custom field for each entity in the rollup and save the edits. 
+            </li>
+            <img src="../Resources/Images/image073_003.jpg" class="IndentImage" />
+            <li>
+                Create a Rollup|topic=Create a Rollup. You can select the custom field holding the Factor value. The factor values you entered for each entity are applied to each entity and used in the roll up calculations when the rollup is created. 
+            </li>
+            <div class="Caution"> If you select a <b>Factor</b>, entities without a value in the factor custom field are not included in the rollup calculations. </div>
+        </ol>
+    </body>
+</html>

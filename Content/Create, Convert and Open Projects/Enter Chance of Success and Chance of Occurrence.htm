@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Enter Chance of Success and Chance of Occurrence" />
+        <h1>Enter Chance of Success and Chance of Occurrence </h1>
+        <p>Chance of Success and Chance of Occurrence are entered on <b>Economics | General</b>. </p>
+        <p>Chance of Success (COS) is the confidence level that the well will produce. It is a risk factor used to take the probability that the entity will be successful into account in determining the expected value. You can define which of your capital costs apply to the success or failure case, or both (Common) in the Capital Cost header - Cost Stream. 
+        </p>
+        <p>Chance of Occurrence is the chance that a project will proceed, and has nothing to do with risk factors. It is used as a simple factor on the expected value.
+        </p>
+        <h2>Using Chance of Success</h2>
+        <p>When you enter COS for a case, the costs are allocated for Canadian Development Expenses (CDE) and Canadian Exploration Expenses (CEE) as follows (using M$100 and a COS @ 75%): </p>
+        <p>When COS is used for CDE costs, the common and success portions are allocated to CDE, while the failure portion is allocated to CEE as illustrated in Table 1. </p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Cost (M$100)
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        CDE
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                        CEE
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Common 
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        75
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        25
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Success
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        75
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        --
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        Failure
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        --
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                        25
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Table 1: Allocation of CDE Capital Costs</p>
+        <p>When you enter COS for CEE costs, the common, success, and failure portions are allocated to CEE as illustrated in Table 2. </p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Cost (M$100)
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        CDE
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                        CEE
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Common 
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        --
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        100
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Success
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        --
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        75
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        Failure
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        --
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                        25
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Table 2: Allocation of CEE Capital Costs </p>
+        <h2>Using Chance of Occurrence </h2>
+        <p>When you use COO for CEE and CDE capital costs, only the success portion of common or success costs is allocated to either category. Failure portions or failure costs are not allocated to either category. </p>
+        <h2>Combining COO and COS </h2>
+        <p>When you use COO and COS, the COS portion is calculated first and the COO portion is calculated based on the COS value. The final amount is then allocated to the CDE or CEE category as described in Tables 1 and 2 above. </p>
+        <p>Table 3 illustrates how a CDE capital cost of M$100 would be allocated with a COO of 75% and a COS of 75%.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Cost (M$100)
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        &#160;CDE
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                        &#160;CEE
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Common 
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        &#160;56.25
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        &#160;18.75
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Success
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        &#160;56.25
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        &#160;--
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        Failure
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        &#160;--
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                        &#160;18.75
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Table 3</p>
+    </body>
+</html>

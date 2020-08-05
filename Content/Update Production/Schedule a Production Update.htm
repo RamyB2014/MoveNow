@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Schedule a Production Update" />
+        <h1>Schedule a Production Update </h1>
+        <p>This procedure explains how to schedule a PPDM (IHS or GeoLogic) or daily data production update. Once you schedule an update, you cannot use <MadCap:variable name="General.ProductName" /> until the update is complete. <MadCap:variable name="General.ProductName" /> must remain running until the update is complete. </p>
+        <p>See <MadCap:xref href="../Update Production Overview.htm#Production_Update_Overview">Production Update Overview</MadCap:xref> for more information. </p>
+        <h2>Tagging Updated Wells </h2>
+        <p>When you update production, you can tag the updated wells with text (using a custom field) so you can identify the updated wells after the update. See the procedure below for details. </p>
+        <p class="ProcedureIntro">To schedule a production update </p>
+        <ol class="Procedure">
+            <li>
+                From the <b>File</b> menu, select <b>Import</b>. 
+            </li>
+            <li>
+                In the Import dialog box, select <b>Import from data source(s)</b> and select the data sources you want to use.
+            </li>
+            <li>
+                Do one of the following: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            If 
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Then
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            You want to update wells based on a well list, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>A</b>.&#160; Under Wells to Update, select <b>Well List</b>.
+                            <b>B</b>.&#160; Browse to the well list text file and click <b>Open</b>.&#160; 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            You <b>do</b> <b>not</b> want to update wells based on a well list, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1"><b>A</b>.&#160; Under Wells to Update, select the wells you want to update. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Click <b>Next</b>. 
+            </li>
+            <li>
+                If required, edit the <b>Import Options</b> by clicking <b>Edit</b>.
+            </li>
+            <li>
+                Do one of the following:
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            If 
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Go to
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            You want to tag the updated wells, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Step <b>7</b>. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            You <b>do</b> <b>not</b> want to tag the updated wells, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Step <b>9</b>. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Select the custom field from the <b>Populate Custom Field</b> list. 
+            </li>
+            <li>
+                Next to the <b>Populate Custom Field</b> list, type the text you want to appear in the custom field of the imported wells. 
+            </li>
+            <li>
+                Click <b>Next</b>. 
+            </li>
+            <li>
+                If necessary, edit the <b>Data Source Import Options</b>. 
+            </li>
+            <li>
+                Click <b>Finish</b>. <br />A countdown to the update is displayed. 
+            </li>
+            <li>
+                If you want to override the update delay and import now, click <b>Import Now</b>. If you want to cancel the scheduled import, click <b>Cancel</b>. 
+            </li>
+        </ol>
+        <p>You must leave <MadCap:variable name="General.ProductName" /> running until the update is complete. The wells are updated on the specified date according to the Import Parameters and External Data Settings in . </p>
+        <p>If you entered text in a custom field, you can find the wells with that text on <b>Wells and General Economics | Well Info</b> <b>and Custom Fields</b>.</p>
+    </body>
+</html>

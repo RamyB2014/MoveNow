@@ -1,0 +1,716 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: TwoLeftHeadRowTableInProc;
+	border-collapse: collapse;
+	max-id: 9;
+	cell-padding-right: 20px;
+	margin-left: 5px;
+}
+
+mcTableColumnStyle
+{
+	span: 2;
+	name: Column1;
+	id: 0;
+	type: Header;
+	font-weight: bold;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column2;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 2px;
+	separator-color: #c0c0c0;
+	name: Header1;
+	id: 2;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	name: Body1;
+	id: 1;
+	separator-color: #a9a9a9;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #c0c0c0;
+	name: Footer1;
+	id: 3;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-TwoLeftHeadRowTableInProc
+{
+	border-collapse: collapse;
+	margin-left: 5px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-Column-Column1
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-Column-Column2
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-Head-Header1
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadI-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadI-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadE-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+	border-bottom-width: 2px;
+	border-bottom-color: #c0c0c0;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadE-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadF-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+	border-bottom-width: 2px;
+	border-bottom-color: #c0c0c0;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadF-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadH-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadH-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadD-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+	border-bottom-width: 2px;
+	border-bottom-color: #c0c0c0;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadD-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadC-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadC-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadB-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadB-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadA-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadA-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadG-Column1-Header1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadG-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadI-Column2-Header1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadI-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadE-Column2-Header1
+{
+	padding-right: 20px;
+	border-bottom-width: 2px;
+	border-bottom-color: #c0c0c0;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadE-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadF-Column2-Header1
+{
+	padding-right: 20px;
+	border-bottom-width: 2px;
+	border-bottom-color: #c0c0c0;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadF-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadH-Column2-Header1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadH-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadD-Column2-Header1
+{
+	padding-right: 20px;
+	border-bottom-width: 2px;
+	border-bottom-color: #c0c0c0;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadD-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadC-Column2-Header1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadC-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadB-Column2-Header1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadB-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadA-Column2-Header1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadA-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadG-Column2-Header1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-HeadG-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-Foot-Footer1
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootI-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootI-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootE-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-top-color: #c0c0c0;
+	border-top-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootE-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootF-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-top-color: #c0c0c0;
+	border-top-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootF-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootH-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootH-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootD-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-top-color: #c0c0c0;
+	border-top-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootD-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootC-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootC-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootB-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootB-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootA-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootA-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootG-Column1-Footer1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootG-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootI-Column2-Footer1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootI-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootE-Column2-Footer1
+{
+	padding-right: 20px;
+	border-top-width: 1px;
+	border-top-color: #c0c0c0;
+	border-top-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootE-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootF-Column2-Footer1
+{
+	padding-right: 20px;
+	border-top-width: 1px;
+	border-top-color: #c0c0c0;
+	border-top-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootF-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootH-Column2-Footer1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootH-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootD-Column2-Footer1
+{
+	padding-right: 20px;
+	border-top-width: 1px;
+	border-top-color: #c0c0c0;
+	border-top-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootD-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootC-Column2-Footer1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootC-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootB-Column2-Footer1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootB-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootA-Column2-Footer1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootA-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootG-Column2-Footer1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-FootG-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-Body-Body1
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyI-Column1-Body1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyI-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyE-Column1-Body1
+{
+	padding-right: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: #a9a9a9;
+	border-bottom-style: solid;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyE-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyF-Column1-Body1
+{
+	padding-right: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: #a9a9a9;
+	border-bottom-style: solid;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyF-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyH-Column1-Body1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyH-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyD-Column1-Body1
+{
+	padding-right: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: #a9a9a9;
+	border-bottom-style: solid;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyD-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyC-Column1-Body1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyC-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyB-Column1-Body1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyB-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyA-Column1-Body1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyA-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyG-Column1-Body1
+{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyG-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyI-Column2-Body1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyI-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyE-Column2-Body1
+{
+	padding-right: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: #a9a9a9;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyE-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyF-Column2-Body1
+{
+	padding-right: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: #a9a9a9;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyF-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyH-Column2-Body1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyH-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyD-Column2-Body1
+{
+	padding-right: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: #a9a9a9;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyD-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyC-Column2-Body1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyC-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyB-Column2-Body1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyB-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyA-Column2-Body1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyA-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyG-Column2-Body1
+{
+	padding-right: 20px;
+}
+
+.TableStyle-TwoLeftHeadRowTableInProc-BodyG-Column2-Body1 p
+{
+	
+}
+
+

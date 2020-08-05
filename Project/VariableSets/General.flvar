@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="Aucerna">Aucerna</Variable>
+  <Variable
+    Comment=""
+    Name="TollFreePhone"
+    EvaluatedDefinition="1-866-856-9544">1-866-856-9544</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress"
+    EvaluatedDefinition="Suite 800, 250 - 2nd Street SW">Suite 800, 250 - 2nd Street SW</Variable>
+  <Variable
+    Name="ProductName"
+    Comment=""
+    OriginalName="ProductName"
+    EvaluatedDefinition="Value Navigator">Value Navigator</Variable>
+  <Variable
+    Name="CityProv"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Calgary, Alberta">Calgary, Alberta</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-02-16T18:02:51.1357833-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="LinkedIn"
+    Comment=""
+    EvaluatedDefinition="https://www.linkedin.com/company/aucerna/">https://www.linkedin.com/company/aucerna/</Variable>
+  <Variable
+    Name="Facebook"
+    Comment=""
+    EvaluatedDefinition="https://www.facebook.com/aucerna/">https://www.facebook.com/aucerna/</Variable>
+  <Variable
+    Name="Twitter"
+    Comment=""
+    EvaluatedDefinition="https://twitter.com/AucernaSocial">https://twitter.com/AucernaSocial</Variable>
+  <Variable
+    Name="Email"
+    Comment=""
+    EvaluatedDefinition="support@aucerna.com">support@aucerna.com</Variable>
+  <Variable
+    Name="Version"
+    Comment=""
+    EvaluatedDefinition="" />
+  <Variable
+    Name="LastSaved"
+    Comment=""
+    Type="DateTimeFileSaved"
+    LastUpdated="2019-03-07T15:12:44.0714539-07:00"
+    EvaluatedDefinition="MMMM dd, yyyy 'at' hh:mm tt">MMMM dd, yyyy 'at' hh:mm tt</Variable>
+  <Variable
+    Name="Contact"
+    Comment=""
+    EvaluatedDefinition="https://aucerna.com/contact-us/">https://aucerna.com/contact-us/</Variable>
+  <Variable
+    Name="Support"
+    Comment=""
+    EvaluatedDefinition="https://aucerna.com/support/">https://aucerna.com/support/</Variable>
+</CatapultVariableSet>

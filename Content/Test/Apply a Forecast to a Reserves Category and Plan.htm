@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Apply a Forecast to a Reserves Category and Plan" />
+        <h1>Apply a Forecast to a Reserves Category and Plan</h1>
+        <p>After you create a forecast on <b>Predictions | Workspace</b>, you can apply it to several plans and reserves categories on the current entity. </p>
+        <p>When you apply a forecast to a plan and reserves category, a copy of the forecast is made and applied to the new plan. The copied forecast’s name is the same as the original, but the <b>Plan</b> and <b>Reserves Category</b> columns are populated and the text is bold. This is the active forecast for the reserves category and plan and is also displayed on <b>Predictions | Declines</b> when you select the corresponding reserves category and plan. The original forecast is still displayed on <b>Predictions | Workspace</b>, but its text is not bold and the <b>Plan</b> and <b>Reserves Category</b> columns are not populated. You can apply the original forecast to other plans and reserves categories, which always creates a copy as described above. </p>
+        <p>To apply a workspace forecast to more than one plan or reserves category for several wells at once, see <MadCap:xref href="Apply Workspace Forecasts.htm#Apply_Workspace_Forecasts">Apply Workspace Forecasts</MadCap:xref>. </p>
+        <p class="ProcedureIntro">To apply a forecast to a plan and reserves category</p>
+        <ol class="Procedure">
+            <li>
+                Select the forecast you want to apply to a plan and reserves category.
+            </li>
+            <li>
+                Click <b>Apply Forecast</b>. 
+            </li>
+            <li>
+                Select the following options: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Plan
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            The plan in which the forecast will be active. See <MadCap:xref href="../Create a Plan.htm#Create_a_Plan">Create a Plan</MadCap:xref>. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Reserves Category
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            The reserves category in which the forecast will be active. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Create a copy of the target active forecast
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Only available if you have selected a plan and reserves category with an active forecast.
+                            This option creates a copy of the currently active forecast, which you are replacing with the new forecast. The copy takes the name of the name of the forecast being replaced and appends “Copy” to the name. If the forecast being replaced has no name, the copy is named “&lt;Plan&gt;+&lt;Reserves Category&gt;+Copy”. 
+                            If you do not select this option, the forecast being replaced is overwritten by the new forecast—it is not saved. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Click <b>OK</b>. The active forecast is displayed in bold text. 
+            </li>
+        </ol>
+    </body>
+</html>

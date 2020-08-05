@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Favicon skin"
+  ComponentType="Favicon">
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="AucernaFavicon.png">H4sIAAAAAAAEAAH5AQb+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAALiIAAC4iAari3ZIAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMjHxIGmVAAABaUlEQVQ4T5WSMUvDQBiGTwWVOjkr6qDJ1eI/EEFwUHAUcXEQ/AeCIKhdLCq5qMVBmqSECt6FiotoVxd/QkdBnBURm0RRIX4cX02uWEgfeAnce+/7heQjbcnnu4nDt4nNN/CkQxyxCoqkynwJT1NSrPXB5Me/Aoc/kdJ1Bt0UWEKDgp+4QJbsoZsSRxSVApt/Evt8HN32hEZ2tHGUzdVO5qcHLNdXS8QNXvsfn9H10KRRU4axHIebssQiXld5258ahNBzsuDlkEb01FALbP5AXLcfYzEh04+T4aa8wqxaIAX7keSdaTRg+lcyGJj6d8ho+Hqg+TPm1kdLQUAq1RGMy+m3SpjpjcCcGEIbfuvVMATVD+qIS+n5hraQDEsxbVOaSWyx21IAG+rNwXS6A6/LYaqApxeYtFzPT/ZiLKZUysiNVEr4HbopcbwVpcC+WEMnNV0w9R4L6qRa7cHzDjgTY7ALBWLxHCGE/ALTcBW9x2Q4ZgAAAABJRU5ErkJggg9LNVr5AQAA</Resource>
+    </Resources>
+  </Stylesheet>
+  <Master
+    Image="AucernaFavicon.png" />
+  <Browser>
+    <SmallFavicon
+      Image="(generated)"
+      SizePx="16 px" />
+    <MediumFavicon
+      Image="(none)"
+      SizePx="" />
+    <LargeFavicon
+      Image="(none)"
+      SizePx="" />
+  </Browser>
+  <ShortcutIcon
+    Image="(none)" />
+  <Touch>
+    <TouchIcon
+      Image="(none)"
+      SizePx="" />
+  </Touch>
+  <Windows>
+    <MicrosoftSmallTile
+      Image="(none)" />
+    <MicrosoftMediumTile
+      Image="(none)" />
+    <MicrosoftWideTile
+      Image="(none)" />
+    <MicrosoftLargeTile
+      Image="(none)" />
+  </Windows>
+  <Strings />
+</CatapultSkin>

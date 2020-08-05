@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Create a Type Well" />
+        <h1>Create a Type Well</h1>
+        <p class="ProcedureIntro">To create a type well</p>
+        <ol class="Procedure">
+            <li>
+                In the Explorer, select the wells to use in the type well.
+            </li>
+            <li>
+                Right-click, point to <b>Create as</b>, and select <b>Type Well</b>. 
+            </li>
+            <li>
+                In the <b>Create Type Well</b> dialog box, complete the following fields: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Field
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Name
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Type well name
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Type Well Product
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            If the wells used to create the type well have oil and gas forecasts, but Gas is selected as the type well product, the oil forecasts are not used. The Auto setting determines the type well’s product automatically based on the production history of the wells being used.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Start Date
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            The date to which the production history of all wells will be normalized. In PDP cases, the Start Date is equal to the <MadCap:xref href="Options/Project Options Economics.htm#Reference_Date">Reference Date</MadCap:xref> by default. 
+                            When a well is created from a Type Well in a non-PDP reserves category, the <MadCap:xref href="Test/Add or Adjust the Project Start Date.htm#Add_or_Adjust_the_Project_Start_Date">Project Start</MadCap:xref> is set to the Type Well’s Start Date.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Max shut-in months
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            If the number of months between a well’s last production date and the Current Month exceeds the number entered in max Shut In Months, the well is considered shut in. See <MadCap:xref href="Test/About Type Wells.htm#Gap_Wells_and_Shut_in_Wells">About Type Wells</MadCap:xref>. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Include non-producing months
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            If enabled, non-producing months are included in the Calendar Day Rate calculation.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Calculation rate
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Calendar Day</b>: The average calendar day rate for each month.
+                            <b>Producing Day</b>: Ignores all non-producing hours on the child wells when generating volumes/rates on the type well.&#160;
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Cut-off Point
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            See <MadCap:xref href="Test/About Type Wells.htm#WellCutOff" target="_popup">Well Cut-off Point</MadCap:xref>.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Fixed Range
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Specify a segment of the combined well history to use in the type well calculation. For example, you could choose to use only 2 years of data and also exclude the first month be entering <b>2</b> and <b>24</b> for the <b>Start</b> and <b>End</b> months, respectively
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Calculation Data
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>History</b>: Only production history is used to create the type well. 
+                            <b>History and Forecast</b>: History and forecast data are used to create the type well. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            <MadCap:xref href="Plans.htm#Plans">Plan</MadCap:xref>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Determines which plan to use in creating the type well forecast. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Reserves Category
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Only active if <b>History and Forecast</b> is selected in Calculation Data. Determines which reserves category to use in creating the type well forecast.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Factor Type
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Select Unfactored, Percentile (also specify a percentile value), P-Mean, or Custom Factors.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                If you selected a <b>Factor Type</b> other than <b>Unfactored</b>, click <b>Advanced Options</b> and select the following options as required:
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Method
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Select <b>Aggregation</b> or <b>Selected Well</b>. 
+                            This determines the type of statistical analysis performed to calculate weighting factors.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Future drill count
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Specify the number of wells that will be forecasted using the type well.
+                            Used to calculate weighting factors.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            High/Low EUR
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Number of extrapolation points used to extend the trend line on the graph for high and low EUR.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Distribution
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Select <b>Smoothed</b> or <b>Actual</b> data. Determines how the trend line is calculated from source wells.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Click <b>OK</b>. 
+            </li>
+        </ol>
+        <div class="Note">After creating the type well, you can edit the options above on the <b>Type Well</b> tab by clicking <b>Options</b>. </div>
+        <p>Type Wells only consist of production history. To use the Type Well history as the forecast for a new well, you must create a forecast for the Type Well and then create the new well. See <MadCap:xref href="Create a Well Using a Type Well.htm#Create_a_Well_Using_a_Type_Well">Create a Well Using a Type Well</MadCap:xref>. </p>
+        <p>You can create copies of a type well and assign those copies different factor types, such as P Mean, P10, or a custom factor percentage. See <MadCap:xref href="Use a Type Well to Create Related Type Wells.htm#Use_a_Type_Well_to_Create_Related_Type_Wells">Use a Type Well to Create Related Type Wells</MadCap:xref>. </p>
+    </body>
+</html>

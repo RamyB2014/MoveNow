@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Create a SQL Server Project from a Production Data File" />
+        <h1>Create a SQL Server Project from a Production Data File</h1>
+        <p>To create a <MadCap:popup><MadCap:popupHead>SQL Server or SQL Server - Windows Authentication project</MadCap:popupHead><MadCap:popupBody class="popuptext"><b><span style="border-top: medium none;border-right: medium none;border-bottom: medium none;border-left: medium none;"><span style="border-top: medium none;border-right: medium none;border-bottom: medium none;border-left: medium none;">SQL Server</span></span></b><span style="border-top: medium none;border-right: medium none;border-bottom: medium none;border-left: medium none;"><span style="border-top: medium none;border-right: medium none;border-bottom: medium none;border-left: medium none;">: When accessing the database from outside <MadCap:variable name="General.ProductName" />, you will need a password. <br /></span></span><b><span style="border-top: medium none;border-right: medium none;border-bottom: medium none;border-left: medium none;"><span style="border-top: medium none;border-right: medium none;border-bottom: medium none;border-left: medium none;">SQL Server - Windows Authentication</span></span></b><span style="border-top: medium none;border-right: medium none;border-bottom: medium none;border-left: medium none;"><span style="border-top: medium none;border-right: medium none;border-bottom: medium none;border-left: medium none;">:&#160; When accessing the database from outside <MadCap:variable name="General.ProductName" />, Windows Authentication is used. </span></span></MadCap:popupBody></MadCap:popup>, you must have SQL Server administrator rights.</p>
+        <p>To create a SQL Server project you need to configure the connection settings in <MadCap:xref href="../Options/User Options Connection Settings.htm#User_Options_Connection_Settings">User Options: Connection Settings</MadCap:xref>.</p>
+        <div class="Note"> You must use at least SQL Server 2008 for <MadCap:variable name="General.ProductName" /> 6 or higher databases.</div>
+        <p class="ProcedureIntro">To create a SQL Server (or SQL Server - Windows Authentication) project from a production data file</p>
+        <ol class="Procedure">
+            <li>
+                On the <b>File</b> menu, click <b>Open</b>.
+            </li>
+            <li>
+                In the Project Launcher, click <b>Create From Import</b>.
+            </li>
+            <li>
+                Browse to the production data file and click <b>Open</b>. 
+            </li>
+            <li>
+                In Project Name, type a name. 
+				</li>
+            <li>
+                In File, browse to a location to save the .vndl file (a <MadCap:variable name="General.ProductName" />-specific connection link for server-based project files).
+            </li>
+            <li>
+                From the Type list, select <b>SQL Server</b> or <b>SQL Server - Windows Authentication</b>.
+            </li>
+            <li>
+                In Server, type the name of the server or click to select it from the list.
+            </li>
+            <li>
+                Click <b>OK</b>.
+            </li>
+            <li>
+                In the Import Options dialog box, click <b>Edit</b> to change the options or click <b>Next</b> to continue. 
+            </li>
+            <p class="Note2"><b>Note</b>: Depending on the last production dates in your data file, you might be asked to <MadCap:xref href="Set the Current Month.htm#Set_the_Current_Month">set the current month</MadCap:xref>. </p>
+            <li>
+                Click <b>Finish</b>. 
+            </li>
+        </ol>
+        <p>A new project is created in the location you specified and <MadCap:variable name="General.ProductName" /> opens. The new project appears in the Project Launcher the next time you open it. </p>
+    </body>
+</html>

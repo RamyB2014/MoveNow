@@ -1,0 +1,1241 @@
+/*<meta />*/
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the search-bar is at the top of the topic page, it will be listed closer to the top of this stylesheet.
+
+===========================================================================================================================================================*/
+
+/*==Topic General Styles==*/
+
+pre code
+{
+	margin-right: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+body
+{
+	color: #404040;
+	line-height: 170%;
+	background-color: #fff;
+	font-size: 100%;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+h1
+{
+	color: #0096A9;
+	font-size: 170%;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-weight: normal;
+	border-top: solid 1px #c0c0c0;
+	padding-top: 10px;
+	font-family: Arial, Calibri, 'Microsoft Sans Serif';
+}
+
+h2
+{
+	margin-bottom: 3px;
+	margin-top: 12px;
+	font-weight: normal;
+	font-size: 130%;
+	font-family: Arial, Calibri, 'Microsoft Sans Serif';
+}
+
+h3
+{
+	margin-bottom: 3px;
+	margin-top: 12px;
+	font-weight: normal;
+	font-size: 110%;
+	font-family: Arial, Calibri, 'Microsoft Sans Serif';
+}
+
+h4
+{
+	margin-bottom: 3px;
+	margin-top: 12px;
+	font-weight: normal;
+	font-size: 100%;
+	font-family: Arial, Calibri, 'Microsoft Sans Serif';
+}
+
+hNull	/*This is a heading used for styles that won't be picked up by menu proxies*/
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+li
+{
+	margin-right: 5px;
+	font-size: 100%;
+	font: Calibri;
+	font-family: Calibri, sans-serif;
+}
+
+p
+{
+	margin-right: 5px;
+	margin-top: 0;
+	font-size: 100%;
+	margin-bottom: 8px;
+	line-height: 1.4;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+img	/*Setting max-width: 100%; property makes images always fit the width of the container*/
+{
+	mc-thumbnail-max-height: 200;
+	max-height: 100%;
+	margin-top: 8px;
+	mc-thumbnail: none;
+	margin-bottom: 8px;
+	display: block;
+	border-style: solid;
+	border: solid 1px #a9a9a9;
+	padding: 2px;
+}
+
+img.thumbnail
+{
+	margin-bottom: 0px;
+	display: block;
+	mc-thumbnail: popup;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #0096A9;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #000000;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+a
+{
+	font-weight: bold;
+	mc-format: '{para}';
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	text-decoration: none;
+	color: #0096A9;
+}
+
+p.info-content a
+{
+	color: #ffffff;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref
+{
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: none;
+	color: #0096A9;
+}
+
+MadCap|xref:hover
+{
+	color: #0096A9;
+}
+
+MadCap|dropDownHotspot
+{
+	display: block;
+	font-size: 130%;
+	font-weight: normal;
+	margin: .75em 0;
+	margin-bottom: 3px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 12px;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-disable-glossary-terms: true;
+	mc-dita-type: p;
+	mc-heading-level: 2;
+	font-family: Arial, Calibri, sans-serif;
+}
+
+MadCap|dropDownBody
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+MadCap|dropDown	/*Change the "mc-open-image" and "mc-closed-image" properties to change the icons used in drop-downs*/
+{
+	mc-closed-image: url('../Images/Assets/Icons/Arrows/DropDownClosed.png');
+	mc-open-image: url('../Images/Assets/Icons/Arrows/DropDownArrowOpenTeal.png');
+}
+
+/*==Master Page Topic Layout==*/
+
+nav.title-bar	/*Adds bottom border on top navigation bar*/
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+div.top-bar	/*Contains the breadcrumbs and toolbar*/
+{
+	border-bottom: 1px solid #d3d3d3;
+	min-height: 50px;
+	/*Min-height is necessary for topics that are not included in a TOC*/
+}
+
+div.button-group-container-left img
+{
+	border: none;
+}
+
+div.search-container
+{
+	padding-bottom: 20px;
+}
+
+/*==Elements for the left side of Master Page layout==*/
+
+div.in-topic-side-menu	/*This is the div that the menu proxy that uses in-topic headings is contained in*/
+{
+	height: 300px;
+	padding-left: 10px;
+	margin-top: 15px;
+	overflow-y: auto;
+}
+
+div.in-topic-menu-proxy
+{
+	max-height: 700px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+div.side-menu	/*This is the div that the menu proxy is contained in*/
+{
+	padding-left: 10px;
+	margin-top: 15px;
+	display: none;
+}
+
+div.side-content	/*This is the div for the side-content containing "Search Tips" and the "Contact Support" button*/
+{
+	padding-top: 10px;
+}
+
+MadCap|dropDownHead.side-content	/*Font properties for the "Search Tips" drop-down head */
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+div.cta	/*Call to action button/Contact Support button*/
+{
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	padding: 2px 0px;
+	border: 1px solid #0096A9;
+	width: 162px;
+	color: #0096A9;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	margin-top: 20px;
+}
+
+div.cta:hover	/*When hovering over the CTA button the following properties will apply*/
+{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transform: scale(1.01);
+}
+
+a.cta:link
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.cta:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+div.topic-layout	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.topic-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.topic-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.topic-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.topic-layout > div:nth-child(1)	/*Menu Proxy container*/
+{
+	width: 20%;
+	margin-left: 0%;
+	border-right: 1px solid #d3d3d3;
+}
+
+div.topic-layout > div:nth-child(2)	/*Topic container*/
+{
+	width: 78%;
+	margin-left: 2%;
+	border-right: 1px solid #d3d3d3;
+}
+
+div.home-tiles > div:nth-child(4)
+{
+	width: 8.3333%;
+	margin-left: 0%;
+}
+
+caption
+{
+	margin-top: 0;
+	font-size: 80%;
+	margin-bottom: 6px;
+	text-align: left;
+}
+
+code
+{
+	font-family: 'Courier New', Consolas, 'Lucida Console', 'Lucida Sans';
+	margin-bottom: 3px;
+}
+
+li:last-child
+{
+	
+}
+
+sup
+{
+	
+}
+
+ol.Procedure > li > ul
+{
+	padding-left: 0;
+}
+
+table
+{
+	font-size: 100%;
+	caption-side: bottom;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: solid 1px #a9a9a9;
+	margin-top: 10px;
+	font-family: Calibri, Arial, sans-serif;
+	margin-bottom: 13px;
+}
+
+ul.DoubleSpace
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	margin-right: 5px;
+}
+
+MadCap|dropDownHead
+{
+	
+}
+
+a:link
+{
+	color: #0096A9;
+}
+
+th
+{
+	text-align: left;
+}
+
+MadCap|popupBody
+{
+	
+}
+
+MadCap|popupHead
+{
+	
+}
+
+MadCap|conceptLink
+{
+	mc-image: none;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	color: #0096A9;
+}
+
+MadCap|conceptLinkControlListItemLink
+{
+	padding-left: 5px;
+}
+
+tbody
+{
+	vertical-align: inherit;
+}
+
+thead
+{
+	vertical-align: inherit;
+	font-size: 90%;
+	font-family: Arial, Calibri, 'Microsoft Sans Serif';
+}
+
+header
+{
+	
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media tablet
+{
+	div.topic-layout > div:nth-child(1)
+	{
+		width: 25%;
+		/*display: none;*/
+	}
+
+	div.topic-layout > div:nth-child(2)
+	{
+		width: 73%;
+		margin-left: 2%;
+	}
+}
+
+@media mobile
+{
+	div.top-bar
+	{
+		min-height: 0;
+	}
+
+	div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+}
+
+@media print
+{
+	p.Note
+	{
+		background-color: #ddedfe;
+		border-bottom-color: #2a579a;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+		border-top-color: #2a579a;
+		border-top-width: 2px;
+		border-top-style: solid;
+		border-right-color: #2a579a;
+		border-right-width: 2px;
+		border-right-style: solid;
+		border-left-color: #2a579a;
+		border-left-width: 2px;
+		border-left-style: solid;
+		border-bottom-left-radius: 12px;
+		border-bottom-right-radius: 12px;
+		border-top-right-radius: 12px;
+		border-top-left-radius: 12px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		padding-right: 15px;
+		padding-left: 15px;
+		box-shadow: 2px 3px #DEDEDE;
+	}
+
+	img
+	{
+		border-left-style: none;
+		border-bottom-style: none;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-top: 0px;
+		border: 0px;
+		mc-thumbnail: popup;
+		mc-thumbnail-max-height: auto;
+		mc-thumbnail-max-width: 5in;
+		max-width: 5in;
+	}
+
+	img.thumbnail
+	{
+		mc-thumbnail-max-width: 5in;
+		mc-thumbnail-max-height: auto;
+	}
+
+	img.ThumbnailInProcedure
+	{
+		mc-thumbnail-max-width: 2in;
+		mc-thumbnail: popup;
+	}
+
+	img.HeaderImage
+	{
+		display: none;
+	}
+
+	img.InlineImage
+	{
+		
+	}
+
+	img.InProcedure
+	{
+		
+	}
+
+	img.InProcedureWithCaption
+	{
+		mc-thumbnail-max-width: 5in;
+	}
+
+	img.WithCaption
+	{
+		display: none;
+		mc-thumbnail-max-width: 5in;
+	}
+
+	MadCap|tocProxy
+	{
+		mc-heading-format: 'inherit';
+	}
+
+	header
+	{
+		header: inherit;
+	}
+}
+
+/*Bill-defined styles*/
+
+p.InternalWarning
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #D9EDF7;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	line-height: 1.25em;
+}
+
+p.Monospaced
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	line-height: 1.25em;
+	overflow: hidden;
+	padding: 15px 0px 15px 10px;
+	text-align: left;
+	margin: 5px 0px;
+	background-color: #f5f5f5;
+	font-family: monospace;
+}
+
+/* List Styling items*/
+/* horizontal spacing between list markers and text */
+
+ol li
+{
+	padding-left: 5px;
+}
+
+/* horizontal alignment for images in an ordered list, should match above */
+
+ol p
+{
+	padding-left: 15px;
+}
+
+/* First Level */
+
+ol
+{
+	/*border-left: 1px solid black;*/
+	margin-left: 0px;
+	line-height: 1.4;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	font-size: 100%;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+/* Second Level */
+
+ol ol
+{
+	padding-left: 20px;
+	list-style-type: disc;
+	display: block;
+}
+
+/* Third Level */
+
+ol ol ol
+{
+	list-style-type: circle;
+	display: block;
+}
+
+/* Fourth Level */
+
+ol ol ol ol
+{
+	list-style-type: circle;
+}
+
+/* Working styles for the ul.ProseUL class*/
+
+ul.DoubleSpace li
+{
+	
+}
+
+/*Optional selectors for the first and last children of the ol.ProseUL*/
+
+ul.DoubleSpace li:first-child
+{
+	margin-top: 0px;
+}
+
+ul.DoubleSpace li:last-child
+{
+	margin-bottom: 0px;
+}
+
+/*Use this class to override the list item type to use the Disc bullet*/
+/* Unordered List Styling Items*/
+/* horizontal spacing between list markers and text */
+
+ul li
+{
+	padding-left: 0px;
+}
+
+/* horizontal alignment for images in an unordered list, should match above */
+
+ul p
+{
+	padding-left: 15px;
+}
+
+/* First Level */
+
+ul
+{
+	/*border-left: 1px solid black;*/
+	margin-right: 5px;
+	margin-left: 0;
+	margin-bottom: 6pt;
+	margin-top: 6pt;
+	font-size: 100%;
+	font-family: Calibri, Arial, sans-serif;
+	line-height: 1.5;
+}
+
+/* Second Level */
+
+ul ul
+{
+	list-style-type: circle;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+/* Third Level */
+
+ul ul ul
+{
+	list-style-type: square;
+	margin-left: 0px;
+}
+
+/* Fourth Level */
+
+ul ul ul ul
+{
+	list-style-type: disc;
+	margin-left: 0px;
+}
+
+/*Use this class to override the list item type to use the Disc bullet*/
+
+li.Bullet
+{
+	list-style-type: disc;
+	margin-top: 0;
+}
+
+/*Tight list for non-prose items*/
+
+ul.SingleSpace
+{
+	line-height: 1.2;
+}
+
+p.ImageCaptionInProcedure
+{
+	margin-right: 5px;
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	margin: 1.12em 0;
+	margin-top: 0;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: p;
+	mc-leader-indent: 5pt;
+	padding: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	font-size: 80%;
+	line-height: 1.5em;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+div.Indent
+{
+	margin-left: 23px;
+	font-family: Calibri, Arial, Verdana, Tahoma, sans-serif;
+}
+
+div.CodeText
+{
+	font-family: 'Courier New', Courier, Monospace, Consolas, 'Lucida Console', 'Lucida Sans';
+	margin-left: 25px;
+	font-size: 100%;
+	line-height: 100%;
+	margin-bottom: 3px;
+	margin-right: 100px;
+}
+
+img.InProcedure
+{
+	mc-thumbnail-max-height: 100;
+	margin-left: 5px;
+	mc-thumbnail: none;
+	max-height: 100px;
+}
+
+img.InProcedureWithCaption
+{
+	margin-bottom: 0;
+	mc-dita-type: image;
+	mc-thumbnail: none;
+	mc-thumbnail-max-height: 200;
+	mc-thumbnail-max-width: auto;
+	margin-left: 5px;
+	max-height: 100px;
+}
+
+img.WithCaption
+{
+	margin-bottom: 0;
+	max-height: 100%;
+	mc-dita-type: image;
+	mc-thumbnail: none;
+	mc-thumbnail-max-height: 200;
+	mc-thumbnail-max-width: auto;
+}
+
+img.ThumbnailInProcedure
+{
+	mc-dita-type: image;
+	mc-thumbnail-max-width: auto;
+	mc-thumbnail-max-height: 100px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	mc-thumbnail: popup;
+}
+
+p.ImageCaption
+{
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 80%;
+	line-height: 1.5em;
+	margin-right: 5px;
+	margin-top: 0;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: p;
+	mc-leader-indent: 5pt;
+	padding: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	margin-bottom: 5px;
+	margin: 5px 0;
+}
+
+span.BoldTag
+{
+	font-weight: bold;
+}
+
+p.ProcedureIntro
+{
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+caption.TableCaption
+{
+	text-align: left;
+	caption-side: bottom;
+	font-size: 80%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	display: table-caption;
+}
+
+ol.Procedure
+{
+	line-height: 1.4;
+}
+
+p.ItalicsForUIElements
+{
+	font-style: italic;
+}
+
+span.BoldForUI
+{
+	font-weight: bold;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+span.ItalicsForUI
+{
+	font-style: italic;
+}
+
+div.Note
+{
+	background-color: #D9EDF7;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.25em;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-leader-indent: 5pt;
+	-moz-border-radius: 6px;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-top: 15px;
+	text-align: left;
+	-webkit-border-radius: 6px;
+	mc-dita-type: div;
+	padding-right: 15px;
+	display: block;
+	margin: 10px 5px 10px 0px;
+	background-image: url('../Images/Assets/Icons/MainIcons/Notes-blue.png');
+}
+
+div.NoteInProcedure
+{
+	background-color: #D9EDF7;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.25em;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: div;
+	mc-leader-indent: 5pt;
+	-moz-border-radius: 6px;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 15px;
+	padding-top: 15px;
+	text-align: left;
+	-webkit-border-radius: 6px;
+	margin: 10px 5px 10px 23px;
+	margin-left: 5px;
+	background-image: url('../Images/Assets/Icons/MainIcons/Notes-blue.png');
+}
+
+div.Caution
+{
+	background-color: #fcf8e3;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.25em;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: p;
+	mc-leader-indent: 5pt;
+	-moz-border-radius: 6px;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 0px;
+	padding-top: 15px;
+	text-align: left;
+	-webkit-border-radius: 6px;
+	margin: 10px 5px 10px 0px;
+	background-image: url('../Images/Assets/Icons/MainIcons/Caution-Yellow.png');
+}
+
+div.CautionInProcedure
+{
+	background-color: #fcf8e3;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.25em;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: p;
+	mc-leader-indent: 5pt;
+	-moz-border-radius: 6px;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 0px;
+	padding-top: 15px;
+	text-align: left;
+	-webkit-border-radius: 6px;
+	margin: 10px 5px 10px 23px;
+	margin-left: 5px;
+	background-image: url('../Images/Assets/Icons/MainIcons/Caution-Yellow.png');
+}
+
+div.Warning
+{
+	background-color: #FCE5E6;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.25em;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: p;
+	mc-leader-indent: 5pt;
+	-moz-border-radius: 6px;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 0px;
+	padding-top: 15px;
+	text-align: left;
+	-webkit-border-radius: 6px;
+	margin: 10px 5px 10px 0px;
+	background-image: url('../Images/Assets/Icons/MainIcons/Warning-red.png');
+}
+
+div.WarningInProcedure
+{
+	background-color: #FCE5E6;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.25em;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: p;
+	mc-leader-indent: 5pt;
+	-moz-border-radius: 6px;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 0px;
+	padding-top: 15px;
+	text-align: left;
+	-webkit-border-radius: 6px;
+	margin: 10px 5px 10px 23px;
+	margin-left: 5px;
+	background-image: url('../Images/Assets/Icons/MainIcons/Warning-red.png');
+}
+
+div.Example
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Calibri, Arial, sans-serif;
+	margin-left: 23px;
+	margin-right: 30px;
+	padding: 15px;
+	background-color: #ffe3c9;
+}
+
+span.ClickImage
+{
+	color: #9acd32;
+	display: block;
+	font-style: normal;
+	caption-side: bottom;
+}
+
+p.ThumbnailImageCaption
+{
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 80%;
+	line-height: 1.5em;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: p;
+	mc-leader-indent: 5pt;
+	padding: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	margin: 0em 0px 0px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	mc-auto-number-format: 'Click image to expand or minimize.';
+}
+
+p.ThumbnailImageCaptionInProcedure
+{
+	display: block;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 80%;
+	margin: 1.12em 0;
+	margin-right: 5px;
+	margin-top: 0;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: p;
+	mc-leader-indent: 5pt;
+	padding: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	line-height: 1.5em;
+	margin-left: 5px;
+	margin-bottom: 3px;
+	mc-auto-number-format: 'Click image to expand or minimize.';
+}
+
+caption.IC
+{
+	padding-top: 0;
+	display: block;
+}
+
+img.InlineImage
+{
+	padding: 0px;
+	display: inline;
+	margin-bottom: 0;
+	max-height: 30px;
+}
+
+img.HeaderImage
+{
+	border: none;
+}
+
+li.ListImageAlign
+{
+	margin-right: 5px;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	text-align: left;
+}
+
+div.Tip
+{
+	font-size: 100%;
+	line-height: 1.25em;
+	background-image: url('../Images/Assets/Icons/MainIcons/Tips-white.png');
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	text-align: left;
+	display: block;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	margin: 10px 5px 10px 0px;
+	padding: 10px 0px 15px 60px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 15px;
+	padding-top: 15px;
+	overflow: hidden;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: div;
+	mc-leader-indent: 5pt;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #b0c38b;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+div.TipInProcedure
+{
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.25em;
+	background-color: #b0c38b;
+	background-image: url('../Images/Assets/Icons/MainIcons/Tips-white.png');
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	display: block;
+	text-align: left;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	margin: 10px 5px 10px 23px;
+	margin-left: 5px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 15px;
+	padding-top: 15px;
+	overflow: hidden;
+	mc-auto-number-offset: 0;
+	mc-auto-number-position: inside-head;
+	mc-dita-type: div;
+	mc-leader-indent: 5pt;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 15px 0px 15px 60px;
+}
+

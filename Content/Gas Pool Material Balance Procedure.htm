@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Gas Pool Material Balance Procedure" />
+        <h1>Gas Pool Material Balance Procedure</h1>
+        <h2>Create a group of the wells to include in the analysis</h2>
+        <p>When doing a pool material balance, <MadCap:xref href="Entity Management/Create a Group.htm#Create_a_Group" target="_popup">creating a group</MadCap:xref> enables you to view the BHP and AOF tests for several wells on one graph on <b>Predictions | P/Z</b>. </p>
+        <h2>Deselect wells that don’t belong to the pool</h2>
+        <p>Looking at pressures on the Pressure vs. Time graph is a quick way to find wells that don’t belong to a pool. Identify wells with an initial pressure that is too high compared to the pool at the time of the pressure test. </p>
+        <p>On the <b>P/Z</b> and <b>Pressure</b> graphs, each pressure test is labelled with a letter that corresponds to a well in the Rollup. The first production month for each well is also indicated at the bottom of the <b>Pressure vs. Time</b> graph with a tick mark and a letter. </p>
+        <p>Wells are listed with their corresponding letters on <b>Predictions |P/Z| Well Information</b>. The <b>Well Information</b> tab also lists each well’s pool and first production month. </p>
+        <p>You can deselect entities on the <b>Well Information</b> tab by removing the checkmark in the <b>Use</b> column or you can <MadCap:xref href="Entity Management/Remove Entities from a Group.htm#Remove_Entities_from_a_Group">remove the entity from the group</MadCap:xref>. </p>
+        <h2>Deselect unwanted gas analyses and recalculate the Master Gas Analysis</h2>
+        <p>All available gas analyses for the group are averaged to produce a Master Gas Analysis. Gas analyses appear in <b>Predictions | Gas Analysis</b>. </p>
+        <p>To deselect a gas analysis, remove the checkmark in the Use column of Predictions | Gas Analysis. When gas analyses are modified on the Predictions | Gas Analysis tab, the Master Gas Analysis is automatically recalculated. However, when viewing gas analyses for a group that has been modified, the Master Gas Analysis is not automatically recalculated. When a Master Gas Analysis needs to be recalculated, it is displayed with a grey background. To recalculate the Master Gas Analysis, click Recalculate Master Gas Analysis on Predictions | Gas Analysis. </p>
+        <p>Each component for a gas analysis can be sorted for easy detection of anomalous values. To sort the component columns, click in the white area above each column header. Depending on whether you sort the column ascending or descending, anomalous values will go to the top or bottom of the column. </p>
+        <p>Also see <MadCap:xref href="Test/Add a Gas Analysis.htm#Add_a_Gas_Analysis" target="_popup">Add a Gas Analysis</MadCap:xref>. </p>
+        <h2>Enter the Corrected Pool Datum and Recovery Factor (or Abandonment Pressure)</h2>
+        <p>The Corrected Pool Datum and Recovery Factor are entered on <b>Predictions | P/Z | P/Z Information</b>. The Pool Datum, if available, can be found in <b>Predictions |P/Z| Well Information</b>. </p>
+        <p>If a new abandonment pressure is entered, the recovery factor is automatically recalculated. When a recovery factor is entered, the abandonment pressure is automatically recalculated. </p>
+        <h2>Deselect unwanted BHP tests</h2>
+        <p>BHP Tests, when available, are in <b>Predictions |P/Z| BHP Tests</b>. To find wells with insufficient shut in times, click in the white area above the <b>Shut In Time</b> column header. Depending on whether you sort the column ascending or descending, times will be listed from longest to shortest or shortest to longest.</p>
+        <p>BHP Tests can be deselected individually or in bulk from either the <b>BHP Test</b> tab, or from either graph on the <b>P/Z</b> tab. </p>
+        <p>To deselect individual BHP Tests from the <b>BHP</b> tab, in the <b>Use</b> column, deselect the test’s checkbox. </p>
+        <p class="ProcedureIntro">To bulk deselect BHP Tests from the BHP tab</p>
+        <ol>
+            <li>
+                Left-click the first well and hold the mouse button. 
+            </li>
+            <li>
+                Drag the mouse over the wells you want to deselect to highlight them. 
+            </li>
+            <li>
+                Right-click inside the highlighted area and click <b>Deselect</b> from the menu.
+				            </li>
+        </ol>
+        <p class="Procedure">To deselect individual BHP Tests from the P/Z graphs: <span style="font-weight: normal;">Double-click the test (</span><img src="Resources/Images/image055_001.png" class="InlineImage" /><span style="font-weight: normal;">). The red square becomes </span><img src="Resources/Images/image057.jpg" class="InlineImage" /><span style="font-weight: normal;">. Clicking </span><img src="Resources/Images/image057.jpg" class="InlineImage" /><span style="font-weight: normal;">&#160;reselects the BHP Test. </span></p>
+        <p class="ProcedureIntro">To bulk deselect BHP Tests from the P/Z graphs</p>
+        <ol>
+            <li>
+                Right-click on the graph. 
+            </li>
+            <li>
+                Point to <b>Select Points</b> and click <b>Deselect Below Line</b>.<br />The mouse cursor changes to a pen. 
+            </li>
+            <li>
+                Hold the left mouse button and draw a continuous line above all the tests you wish to deselect and release the mouse button. All points below the line are deselected. 
+            </li>
+        </ol>
+        <h2>Explanation of BHP Test Data</h2>
+        <ul>
+            <li><b>Cum to Date</b> is calculated from the cumulative gas production at the test date.
+            </li>
+            <li><b>Z factor</b> is calculated with information from the master gas analysis and the <b>P/Z Information</b> tab. When calculating Z factor, <MadCap:variable name="General.ProductName" /> needs to calculate the pressure for the test. The pressure is calculated using a pressure that depends on which Pressure Source is selected.
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                           Pressure Source
+                        </th>
+                        <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                            Value used as “pressure” in calculations
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                            Extrap Pressure Datum
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                            Extrap Datum Pressure
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                            Extrap Pressure Mpp
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                            Extrap MPP Pressure
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                            Pressure Datum
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                            Well Datum Pressure
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                            Pressure Mpp
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                            MPP Pressure
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                            Run Depth Pressure
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                            Run Depth Pres
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                            Otherwise
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                            0
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </ul>
+        <p>If <b>Corrected pool datum</b> is set, <MadCap:variable name="General.ProductName" /> uses it to correct the pressure before proceeding with the calculation.</p>
+        <p>Other variables used when calculating the Z factor:</p>
+        <ul>
+            <li>
+                Kelly Bushing
+            </li>
+            <li>
+                Pool Datum Correction
+            </li>
+            <li>
+                Formation Temperature
+            </li>
+            <li>
+                Current Depth, Reference Depth
+            </li>
+            <li>
+                Gas Gradient, Run Depth Gradient, Gas Column Correction
+            </li>
+        </ul>
+        <h2>Edit the declines of the child wells</h2>
+        <p>If you intend to use the manual forecast of a group, the declines of each well should be validated. See <MadCap:xref href="Entity Management/Edit a Group Forecast.htm#Edit_a_Group_Forecast">Edit a Group Forecast</MadCap:xref>. </p>
+        <p>Clear the manual decline and generate a group forecast</p>
+        <p>When you create a Group, <MadCap:variable name="General.ProductName" /> automatically creates a manual forecast (a summation of the child wells’ forecasts). If you want a forecast based on the combined history of the child wells, you can best fit the Group. </p>
+        <p class="ProcedureIntro">To delete a forecast </p>
+        <ol>
+            <li>
+                In the <b>Reserve Category</b> window, click <b>Remove All Data</b> (<img src="Resources/Images/image059.jpg" class="InlineImage" />).
+            </li>
+        </ol>
+        <p class="ProcedureIntro">To best fit a Group</p>
+        <ol>
+            <li>
+                Delete the manual forecast by clicking <b>Remove All Data</b> (<img src="Resources/Images/image059.jpg" class="InlineImage" />) in the <b>Reserve Category</b> window.
+            </li>
+            <li>
+                On the <b>Predictions</b> menu, point to <b>Best Fit</b>. See <MadCap:xref href="Best Fit or Refit Wells.htm#Best_Fit_or_Refit_Wells">Best Fit or Refit Wells</MadCap:xref>.
+			</li>
+        </ol>
+        <p>To return to the manual forecast,         
+               on <b>Predictions | Declines</b>, click <b>Recalculate</b>. </p>
+        <h2>Adjust the group final rate</h2>
+        <p>When a group is best fit, <MadCap:variable name="General.ProductName" /> uses the minimum rate (Qf) found in <MadCap:xref href="Options/User Options Product Specific.htm#User_Options_Product_Specific">User Options: Product Specific</MadCap:xref>. Validate the minimum rate on the group forecast as this Qf may not be appropriate for the group. </p>
+        <h2>Link the decline to the P/Z analysis</h2>
+        <p>See <MadCap:xref href="Link a Decline to a PZ or Volumetric Analysis.htm#Link_a_Decline_to_a_PZ_or_Volumetric_Analysis">Link a Decline to a P/Z or Volumetric Analysis</MadCap:xref>.</p>
+    </body>
+</html>

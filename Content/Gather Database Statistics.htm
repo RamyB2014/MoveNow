@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Gather Database Statistics" />
+        <h1>Gather Database Statistics</h1>
+        <p>Gather Database Statistics enables a user to optimize the performance of <MadCap:variable name="General.ProductName" /> Oracle and SQLite projects. Gathering database statistics can increase the speed of many operations in <MadCap:variable name="General.ProductName" />, such as economic calculations, batch operations, and export/import. It accomplishes this by gathering statistics about tables and indices which enables the query optimizer to make better query planning choices. </p>
+        <p>Database Statistics are automatically gathered during an economic calculation when a folder level or consolidation calculation requires the calculation of more than 500 entities. In addition, the statistics for a particular table are only calculated if there were no previous statistics or the number of rows stored with the existing statistics differs by more than 10% of the actual number of rows in the table.</p>
+        <p>To gather database statistics, click <b>Gather Database</b> <b>Statistics</b> in the <b>Administration</b> menu while in an Oracle or SQLite project. </p>
+        <p class="ProcedureIntro">To disable the automatic gathering of database statistics </p>
+        <ol>
+            <li>
+                Open the <b>Eni.ValueNavigator.config</b> file located in the <MadCap:variable name="General.ProductName" /> installation folder.
+            </li>
+            <li>
+                Set the gather_statistics setting to <b>False</b>.
+            </li>
+        </ol>
+        <p>Once you set the <b>gather_statistics</b> setting to false, statistics are no longer automatically gathered.</p>
+        <p>To gather database statistics, click <b>Gather Database</b> <b>Statistics</b> in the <b>Administration</b> menu while in an Oracle or SQLite project. </p>
+    </body>
+</html>

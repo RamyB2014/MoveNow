@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Create a Stream Price" />
+        <h1>Create a Stream Price</h1>
+        <p>The Sample price deck included with <MadCap:variable name="General.ProductName" /> includes bench mark stream prices that you can use as a basis for creating your own stream prices. Once you have created stream prices for all of your products, you can group the stream prices into price sets and apply the set to an entity or a set of entities. See <MadCap:xref href="Create a Price Set.htm#Create_a_Price_Set">Create a Price Set</MadCap:xref>. </p>
+        <p class="ProcedureIntro">To create a stream price</p>
+        <ol>
+            <li>
+                In the Tools menu, select <b>Global Project Data</b> &gt; <b>Price Decks</b>. 
+            </li>
+            <li>
+                In the Price Deck Editor, click <b>Stream Prices</b> (on the left). 
+            </li>
+            <li>
+                In the editor window, select the folder level where you want the new stream price.
+            </li>
+            <li>
+                Under the Stream Prices window, click <b>Add</b>. 
+            </li>
+            <li>
+                Enter a name and click <b>OK</b>. 
+            </li>
+            <li>
+                To the right of the Stream Prices window, specify the Country, Province/State, (these fields are already selected if you chose the appropriate folder level) Product, and Currency. 
+            </li>
+            <li>
+                Do one of the following: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Options 
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Go to 
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Use a base price as a starting point, and adjust it with differentials. 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Step <b>8</b>.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Enter prices in the date array, starting at the Reference Date.
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Step <b>14</b>. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Under <b>Parent Price</b>, click <b>Set </b>and select a price.
+            </li>
+            <div class="NoteInProcedure"> If the Stream Price Currency does not match the Parent Price currency, an exchange column is automatically inserted between the Parent and Result price and the exchange rate is applied. </div>
+            <li>
+                Under <b>Differentials</b>, click <b>Add</b>. 
+            </li>
+            <li>
+                Enter a name and <b>Description</b>. 
+            </li>
+            <li>
+                Select a <b>Differential Type</b> and click <b>OK</b>. 
+            </li>
+            <li>
+                Enter the differential value in the new column between the <b>Parent</b> price and the <b>Result</b> price. 
+            </li>
+            <li><b>Optional</b>: To add a price escalation, complete the steps below. See <MadCap:xref href="Escalate Prices.htm#Escalate_Prices">Escalate Prices</MadCap:xref> for more information. 
+            <ul class="IndentTightList"><li>
+                In the <b>Escalation %</b> row in the header area of the <b>Result</b> column, enter an <b>Escalation</b> <b>%</b>. 
+            </li><li>
+                In the <b>Result</b> column, enter a new price in the year the escalation begins. 
+            </li></ul></li>
+        </ol>
+        <ol start="14">
+            <li>
+                The cell is displayed with a grey background to indicate a manual price override. The <b>Escalation %</b> is applied to the override and begins one year after the override. 
+            </li>
+            <li>
+                Click <b>Save</b>. 
+            </li>
+        </ol>
+    </body>
+</html>

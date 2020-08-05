@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-131937354-4">
+        </script>
+        <script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-131937354-4');
+		</script>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+    </head>
+    <body>
+        <div>
+            <img class="HeaderImage" src="../Images/Assets/Logos/Aucerna Topic Header Product Logo.png" />
+        </div>
+        <div>
+            <div id="contentBody">
+                <div>
+                    <MadCap:breadcrumbsProxy />
+                    <MadCap:bodyProxy />
+                </div>
+                <p>&#160;</p>
+            </div>
+        </div>
+    </body>
+</html>

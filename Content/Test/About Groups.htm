@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>[%=Heading.Level1%]</title>
+    </head>
+    <body>
+        <MadCap:keyword term="About Groups" />
+        <h1>About Groups </h1>
+        <p>Create a group when you want to see one decline for several wells and assign one set of costs to them rather than forecasting and assigning costs to each well separately. </p>
+        <h2>Well Behaviour in Groups</h2>
+        <p>When you create a group, you are creating a new entity. Once wells are added to the group, they still appear in the Wells And Groups explorer view well list, but become part of the new entity. Therefore, wells cannot belong to more than one group at the same time. See <MadCap:xref href="../Differences between Groups and Rollups.htm#Differences_between_Groups_and_Rollups">Differences between Groups and Rollups</MadCap:xref>. </p>
+        <h2>Group and Child Well Economics</h2>
+        <p>When wells are added to a group, their economics are not summed at the group level. You must assign one set of economics to the group and run them at the group level. If you edit the economics of a child well, those changes are not reflected at the group level. You are able to run economics on a child well, but these are entirely overridden at the group and higher levels by the group’s economics. Groups receive a Working Interest of 100% by default.</p>
+        <h2>Group Forecast</h2>
+        <p>When you create a group, <MadCap:variable name="General.ProductName" /> automatically creates a manual “summation” forecast (a summation of the child wells’ forecasts) based on gross production. When a group has a summation forecast, decline parameters are not displayed on <b>Predictions | Declines</b> and the columns on <b>Predictions | Data</b> are grey. </p>
+        <p>You cannot edit the manual summation forecast on Predictions | Declines. However, you can edit the decline parameters on <b>Predictions | Data</b> of each individual well and recalculate the forecast. If you want a forecast that can be edited, you can delete the manual summation forecast and best fit the group. See <MadCap:xref href="../Entity Management/Edit a Group Forecast.htm#Edit_a_Group_Forecast">Edit a Group Forecast</MadCap:xref>. If you have deleted the manual summation forecast, but want to return to it, click Recalculate on <b>Predictions | Declines</b>. </p>
+        <h2>Group on-time</h2>
+        <p>The group on-time calculation is a simple average of the hours for child wells in a group per step. The average is calculated as total producing hours / total calendar hours for each step.</p>
+    </body>
+</html>

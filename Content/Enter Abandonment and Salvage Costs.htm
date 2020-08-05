@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Enter Abandonment and Salvage Costs" />
+        <h1>Enter Abandonment and Salvage Costs</h1>
+        <p>Abandonment and Salvage amounts can be entered in two places: <b>Economics | General</b> and <b>Economics | Prices &amp; Costs | Capital Costs</b>. </p>
+        <h2>Abandonment and Salvage in Economics | General</h2>
+        <p>Abandonment and salvage amounts entered under <b>Abandonment and Salvage</b> on <b>Economics | General</b> are inflated from the <b>Economic Calculation Start Date</b> according to the rate entered for <b>Capital Cost Inflation</b>. See <MadCap:xref href="Edit Inflation.htm#Edit_Inflation">Edit Inflation</MadCap:xref>.</p>
+        <p>The full abandonment and salvage amounts are incurred, regardless of the <b>Chance of Success</b>. However, if the COS is less than 100%, the failure portion is incurred immediately while the remaining amount is incurred after the well becomes uneconomic. If you enter a delay (months) the amounts are incurred that number of months after the well becomes uneconomic. </p>
+        <div class="Note">When entering abandonment or salvage costs on a well with no forecast, you must enter the costs as an <MadCap:xref href="Entity Management/Override Inherited Values.htm#Override_Inherited_Values" target="_popup">override</MadCap:xref> in any reserves category other than <MadCap:xref href="Entity Management/Understanding the Common Reserves Category.htm#Understanding_the_Common_Reserves_Category" target="_popup">Common</MadCap:xref>. When abandonment and salvage are entered in Common on a well with no forecast, the costs are not calculated and do not appear in reports. </div>
+        <p class="Procedure">To enter an abandonment or salvage amount on Economics | General</p>
+        <ol>
+            <li>
+                Go to <b>Economics | General</b>.
+            </li>
+            <li>
+                Under <b>Delayed Abandonment</b> or <b>Delayed Salvage</b>, enter the amount in the <b>Cost</b> field.
+            </li>
+            <li>
+                If you are delaying the costs, enter the delay in months (full months only) in the <b>Delay</b> textbox. 
+            </li>
+        </ol>
+        <h2>Abandonment and Salvage Amounts in Economics | Prices &amp; Costs | Capital Costs</h2>
+        <p>Abandonment and salvage amounts entered on the <b>Capital Costs</b> tab are inflated from the date they are entered according to the rate entered for <b>Capital Cost Inflation</b> (unless <b>Prevent Inflation</b> is selected on the <b>Capital Costs</b> tab). See <b>Adjust Inflation</b>.</p>
+        <p>If a Chance of Success is entered on <b>Economics | General</b> and abandonment or salvage is entered as a failure cost, the failure portion is only incurred on the date that it is entered. For success costs, only the success portion of the cost is incurred on the date it is entered. </p>
+        <div class="Note"> When entering abandonment or salvage costs on shut –in wells, you must enter the costs as an <MadCap:xref href="Entity Management/Override Inherited Values.htm#Override_Inherited_Values" target="_popup">override</MadCap:xref> in any reserves category other than <MadCap:xref href="Entity Management/Understanding the Common Reserves Category.htm#Understanding_the_Common_Reserves_Category" target="_popup">Common</MadCap:xref>. When abandonment and salvage are entered in Common on a well with no forecast, the costs are not calculated and do not appear in reports. </div>
+        <p>See <MadCap:xref href="Enter Capital Costs.htm#Enter_Capital_Costs">Enter Capital Costs</MadCap:xref>.</p>
+    </body>
+</html>

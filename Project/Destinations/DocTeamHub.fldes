@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="Publish destination for the documentation team hub."
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="\\cgysvrdocteam01\wwwroot\ValNav"
+  Port=""
+  ViewUrl="http://cgysvrdocteam01/valnav/"
+  Type="file"></CatapultDestination>

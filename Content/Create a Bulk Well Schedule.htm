@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Create a Bulk Well Schedule" />
+        <h1>Create a Bulk Well Schedule</h1>
+        <p>To create a well schedule, you use a well or wells as the source for all the wells in the schedule. The well you use as the source should have a forecast (including gas analysis and products if applicable), interests and royalties, a chance of success (COS) and a chance of occurrence (COO). You can also add Allowances or Volumetrics (both are optional).</p>
+        <p>When a well is created from a Bulk Well Generator in a non-PDP reserves category, the Project Start will automatically be created and set to the Start Date.</p>
+        <h2>Production Start Date</h2>
+        <p>By default, the date used for start of production on each well in the schedule is equal to the amount of time between the last capital expenditure and the start of production in the source well. </p>
+        <p>You can override the default start of production date with a common production start date. The common production start date on <span class="BoldForUI">Bulk Well Generator | Definition</span> applies to all wells in the row. See the procedure below for more details. </p>
+        <p class="ProcedureIntro">To create a well schedule</p>
+        <ol class="Procedure">
+            <li>
+                In the Explorer, right click the source well, point to <b>Create as,</b> and select <b>Bulk Well Generator</b>. (You can specify other source wells once you have created the schedule). 
+            </li>
+            <li>
+                In the Create Bulk Well Generator dialog box, type a name for the schedule.
+            </li>
+            <li>
+                Enter Entity Properties information, if required.
+            </li>
+            <li>
+                Enter text for the Custom Fields, if required (to organize the wells into a folder in the Entity Hierarchy). 
+            </li>
+            <li>
+                Click <b>OK</b> to create the schedule. <br />The new schedule appears in the Explorer.
+            </li>
+            <li>
+                Select the new schedule in the Explorer and go to <b>Bulk Well Generator | Definition</b>. The source well appears in the first row of the schedule. 
+            </li>
+            <li>
+                Complete the following fields: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            <p>Field</p>
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            <p>Description</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            <p># of Wells</p>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            <p>The number of wells you plan to drill. </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            <p># of Rigs</p>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            <p>Number of available rigs.</p>
+                            <p>Determines how long it will take to drill the number of wells you indicated based on the time you enter in Time Between Wells. </p>
+                            <p><b>Example</b>: If you indicate two wells and one rig with 30 days between wells, the second well will be drilled 30 days after the first. If you indicate two wells and two rigs, both rigs will be drilled on the same date. </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            <p>Start Date</p>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            <p>First capital expenditure date. </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            <p>&lt;link&gt;</p>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            <p>Link to previous date (optional). Not used in the first line of the schedule. </p>
+                            <p>If selected, drilling of the wells in this line will not begin until the final well in the previous line has been drilled. The first available date after the previous well has been drilled is used automatically. </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            <p>Last Start Date</p>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            <p>First capital expenditure date of the last well in the line. </p>
+                            <p><b>Example</b>: If you indicate Start Date of January 1, 2011 for two wells and one rig, and a Time Between Wells of 30 days, the start date of the last well will be January 31, 2011.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            <p>Time Between Wells (<i>unit</i>)</p>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            <p>The days or months between wells. </p>
+                            <div class="NoteInProcedure">You can change the unit by selecting <b>Days</b> or <b>Months</b> in the bottom right corner of the screen. </div>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            <p>Common Production Start Date</p>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            <p>Date on which all wells in the row will begin producing.</p>
+                            <p>Entering a date overrides the default first production date. See Production Start Date above. </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            <p>COS , COO, Production, and Capital Factors</p>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            <p>Reduces or increases the COS, COO, Production, or Capital Costs for the wells in the line.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Click <b>Add</b>, to add a row, if required. 
+            </li>
+            <li>
+                Select a different source well, if required, by clicking in the <b>Source Well</b> field and selecting a well from the list. 
+            </li>
+            <li>
+                Repeat steps 7 to 9, as required.
+            </li>
+            <li>
+                To view the schedule, click the <b>Timetable</b> tab. 
+            </li>
+        </ol>
+    </body>
+</html>

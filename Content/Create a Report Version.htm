@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Create a Report Version" />
+        <h1>Create a Report Version</h1>
+        <p>Report versions are reports based on a source report and related to it. Report versions are variations of their source and are automatically displayed when the selected entity’s criteria match the report’s criteria.</p>
+        <p>In <MadCap:variable name="General.ProductName" />, some reports have versions built in. For example, the Economic Detail-After Tax report has three versions: Canada, US, and Undefined. When you run reports, you do not need to select the Canadian version when reporting on Canadian entities or the US version when reporting on US entities—<MadCap:variable name="General.ProductName" /> automatically detects the entity’s country and generates the appropriate report. The Undefined version is automatically used for all other countries.</p>
+        <p>With the Report Version Manager, you can create custom versions of economic reports to streamline the reporting process. You can create versions based on country, state or province, regime, regime calculation, or product list. Then when you are reporting on entities with a mix of criteria, you only need to select one report rather than selecting a separate report for each entity. </p>
+        <img src="Resources/Images/image018_002.jpg" />
+        <p>The Economic Detail-After Tax report in the Report Version Manager. The first version (undefined) is used when the country is anything but Canada or the United States.</p>
+        <p>Keep in mind that you can only create report versions for economic reports that are editable in the <b>Report Designer</b>. In the <b>Select/Manage Reports</b> dialog box, editable reports are indicated with this icon: <img alt="rd icon.png" src="Resources/Images/image019.png" width="12" height="14" class="InlineImage" />.</p>
+        <img src="Resources/Images/image021_005.jpg" />
+        <p class="ProcedureIntro">To create a report version in the Report Designer</p>
+        <ol>
+            <li>
+                In the toolbar, click the <b>Select/Manage Reports</b> icon <img src="Resources/Images/image022_001.jpg" class="InlineImage" />.
+            </li>
+            <li>
+                Under <b>Available Reports</b>, select the report you want to create a new version for and click <b>Edit Report</b>.<br />The Report Version Manager is displayed. 
+            </li>
+            <div class="NoteInProcedure">You can only create report versions for Report Designer reports, which have this icon in the report list: <img alt="rd icon.png" src="Resources/Images/image019.png" class="InlineImage" /></div>
+            <li>
+                Click the report version you want to create a version for and click <b>Create Copy</b>.
+            </li>
+            <li>
+                Under Location, select the <b>Local</b> or <b>Global </b>folder. 
+            </li>
+            <li>
+                Select <b>Existing Report</b> and enter a new Version name.
+            </li>
+            <li>
+                Click <b>Save</b>. 
+            </li>
+            <li>
+                In the Report Version Manager, edit the relevant version criteria (Country, State/Province, Regime Name, Regime Calculation, or Product List).
+            </li>
+            <li>
+                Click the version and click <b>Edit</b>. <br />The Report Designer is displayed.
+            </li>
+            <li>
+                Edit the new report and click <b>Save</b>. 
+            </li>
+        </ol>
+        <div class="TipInProcedure"> Click <b>Sort by Priority</b> to display the report versions in the priority in which they will be used. </div>
+        <p>See <MadCap:xref href="Create a Report in the Report Designer.htm#Create_a_Report_in_the_Report_Designer">Create a Report in the Report Designer.</MadCap:xref>.</p>
+    </body>
+</html>

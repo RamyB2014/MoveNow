@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <h1>Create a Calculated Variable</h1>
+        A calculated variable is the result of a static calculation that you create in the Formula Editor. A calculated variable can use entity-level and regime-level inputs. Calculated variables can be used in trigger variables. 
+        <p>This procedure is performed on the <b>Edit</b> tab in the <b>Fiscal Regimes Editor</b>. To open the editor, click the <b>Tools</b> menu, point to <b>Global Project Data</b> and select <b>Fiscal Regimes</b>. </p><p class="ProcedureIntro">To create a calculated variable</p><ol><li>
+                Beneath the input list, click <b>Add</b> and select <b>Calculated Variable</b>. 
+            </li><li>
+                Type a name for the variable and click <b>OK</b>.
+            </li><li>
+                Complete the following fields: 
+            </li><table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0"><col class="TableStyle-TopHeadRowTableInProc-Column-Column1" /><col class="TableStyle-TopHeadRowTableInProc-Column-Column1" /><thead><tr class="TableStyle-TopHeadRowTableInProc-Head-Header1"><th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Selection
+                        </th><th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th></tr></thead><tbody><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Input Style
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Series or single value
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Data type
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Data type
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Unit Type
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Unit Type
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Calc. unit
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Calculation unit
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Result Stream
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Optional. Determines the field in which the results are displayed on reports.
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Report Factor
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            This field is only displayed if you specify a Result Stream. 
+                            The Report factor is applied to the specified Result Stream. Select 1, Working Interest, or Working Interest/Net Revenue Income.
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Custom Result
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Optional. Specify the <MadCap:xref href="Create Custom Results Fields.htm#Create_Custom_Results_Fields">custom result field</MadCap:xref> you want to hold the result data. This field can also be displayed on reports you create in the Report Designer. 
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Custom Factor
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            This field is only displayed if you specify a <b>Custom Result</b>. 
+                            The <b>Custom Factor</b> applies to the specified <b>Custom Result Field</b>. Select 1, Working Interest, or Working Interest/Net Revenue Income. 
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Allocation
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            This field is only displayed when <b>Proportional</b> is selected for<b> Allocation</b>. 
+                            Allocation is available on Ring Fence regimes. A Result stream or Custom result at the ring fence level is allocated back to the entity level. It is meant as an approximation of the relative contribution of any one entity to the ring fence total.
+                            Select one of the following: 
+                            <ul><li><b>Equal Values</b>: The ring fence value is allocated back to child entities equally based on the number of entities.
+                                </li><li><b>Proportional</b>: The ring fence value is allocated back to child entities based on the relative value of a specified basis. See <b>Basis</b>, below.
+                                </li></ul></td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Basis
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            This field is only displayed when <b>Proportional</b> <b>Allocation</b> is selected. 
+                            You can select a default allocation basis from the list or you can select one that you created (in the <b>Allocation Basis</b> folder). 
+                            See <MadCap:xref href="Create an Allocation Basis.htm#Create_an_Allocation_Basis">Create an Allocation Basis </MadCap:xref>. 
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Category
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Optional. The variable is only applied in this production category. 
+                        </td></tr><tr class="TableStyle-TopHeadRowTableInProc-Body-Body1"><td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Subcategory
+                        </td><td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Optional. The variable is only applied in this production subcategory.
+                        </td></tr></tbody></table><li>
+                Click <img src="Resources/Images/image031.png" class="InlineImage" />&#160;next to the <b>Formula</b> field to create the formula for the variable. See <MadCap:xref href="Create Formulas for Regime Variables.htm#Create_Formulas_for_Regime_Variables">Create Formulas for Regime Variables</MadCap:xref>.
+            </li><li>
+                In the <b>Formula Editor</b>, create the formula by moving formula elements to the formula window. 
+            </li><li>
+                Click <b>OK</b>. 
+            </li></ol></body>
+</html>

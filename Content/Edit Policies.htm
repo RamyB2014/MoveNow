@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Edit Policies" />
+        <h1>Edit Policies</h1>
+        <p>A security policy is a permission to perform an action in the project. You can only edit the <b>Edit Entity, View Entity, and Edit Plans</b> policies. The <b>Edit Entity </b>and<b> View Entity </b>policies use custom fields to limit the entities a user can view or edit. See <i>Using Custom Fields for User Security</i>, below. For an example of editing the Edit Plans policy (which does not require the use of custom fields), see Editing the “Edit Plans” Policy Example, below.&#160; </p>
+        <p>Although only one Edit Entity or View Entity policy is displayed on the Policies tab of the Security Setting dialog box, each policy is unique for each user or role it is applied to. Therefore, when you select a policy to edit, you must also select the user or role it is assigned to. </p>
+        <p>You can only edit a policy for a role or a user to which the policy has been assigned <i>directly</i>. You cannot edit a policy if the policy is <i>inherited</i> from a role. </p>
+        <h2>Using Custom Fields for User Security</h2>
+        <p>Custom fields can be used to assign a user <i>view</i> and <i>edit</i> rights to wells. </p>
+        <p class="ProcedureIntro">To create a custom field for user secruity, the administrator of the project (or a user with administrator rights) should: </p>
+        <ol>
+            <li>
+                <MadCap:xref href="Entity Management/Configure Custom Fields.htm#Configure_Custom_Fields">Create Custom fields</MadCap:xref> and select <b>Requires administrative privileges to edit values</b>. 
+            </li>
+            <li>
+                For each well in the project, populate the custom fields on <b>Wells and General Economics | Well Info and Custom Fields</b> with text that can be used to grant <i>view</i> or <i>edit</i> rights to users.
+            </li>
+            <li>
+                In user security, assign roles or users a View Entity or Edit Entity policy and give them rights to view or edit entities that have <b><i>X</i></b> text in custom field<b><i> X</i></b>.
+            </li>
+        </ol>
+        <p>See  (Edit Policies, Create Roles, Assign Roles to Users, and Assign Policies to Users).</p>
+        <h2>Editing the “Edit Entity” Policy Example</h2>
+        <p>Project A has a custom field called Custom Field 1. Some wells in Project A have the text <i>Group 1</i> in Custom Field 1. An administrator can assign users the right to view or edit all wells in the project with Group 1 in Custom Field 1, by assigning them the policy below. </p>
+        <img src="Resources/Images/image002_006.jpg" />
+        <p class="ProcedureIntro">To edit a the Edit Entity policy</p>
+        <ol>
+            <li>
+                From the <b>Administration</b> menu, select <b>Security Settings</b>. 
+            </li>
+            <li>
+                Select the <b>Policies</b> tab. 
+            </li>
+            <li>
+                On the left, select the policy you want to edit. 
+            </li>
+            <li>
+                Under <b>Assigned To</b>, click the user (or role) for whom you want to edit the policy. 
+            </li>
+            <li>
+                Click Edit Policy. 
+            </li>
+            <li>
+                In the <b>Edit Entity Security Policy</b> dialog box, click <img src="Resources/Images/a_image004_006.jpg" class="InlineImage" />&#160;to add a line to the filter. 
+            </li>
+            <li>
+                From the <b>Custom Fields</b> list, select the custom field that contains the text you want to assign to the user or role. 
+            </li>
+            <li>
+                From the custom field text list, select the custom field text you want to assign to the user or role. 
+            </li>
+            <li>
+                If you want to add more custom text fields to the filter, click <img src="Resources/Images/a_image004_006.jpg" class="InlineImage" />.
+            </li>
+            <li>
+                When you are done, click <b>OK</b>. 
+            </li>
+        </ol>
+        <h2>Editing the “Edit Plans” Policy Example</h2>
+        <p>To edit the Edit Plans policy, you do not need to first create custom fields as you do to edit the Edit Entity or View Entity policies. When you edit the Edit Plans policy, all plans in the project are automatically listed in the filter dialog box, as displayed below. You simply have to select the plan you want to allow a user or role to edit. </p>
+        <img src="Resources/Images/image006_005.jpg" />
+        <p class="ProcedureIntro">To edit a the Edit Plans policy</p>
+        <ol>
+            <li>
+                From the Administration menu, select Security Settings.
+            </li>
+            <li>
+                Select the <b>Policies</b> tab. 
+            </li>
+            <li>
+                On the left, select the policy you want to edit. 
+            </li>
+            <li>
+                Under <b>Assigned To</b>, click the user (or role) for whom you want to edit the policy. 
+            </li>
+            <li>
+                Click <b>Edit Policy</b>. 
+            </li>
+            <li>
+                In the <b>Edit Entity Security Policy</b> dialog box, click <img src="Resources/Images/a_image004_006.jpg" class="InlineImage" />&#160;to add a line to the filter. 
+            </li>
+            <li>
+                From the <b>Plans</b> list on the right, select a plan you want to allow a role or user to edit.
+            </li>
+            <li>
+                If you want to add more plans, click <img src="Resources/Images/a_image004_006.jpg" class="InlineImage" />&#160;and select another plan. 
+					</li>
+            <li>
+                When you are done, click <b>OK</b>. 
+            </li>
+        </ol>
+    </body>
+</html>

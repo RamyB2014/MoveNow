@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MoveOutputContentToRoot="false"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  MasterPage="/Content/Resources/MasterPages/Master Aucerna Topic Page.flmsp"
+  ResultsPerPage="10"
+  Skin="/Project/Skins/AucernaMasterHTML5.flskn"
+  ConditionTagExpression="include[Shared.AdminONLY or Shared.AdminUser] exclude[General.Exclude or General.Hide or Shared.BasicONLY or Shared.BasicUser or Shared.InternalOnly or Shared.TechnicalONLY or Shared.TechnicalUser] "
+  DefaultUrl="/Content/index.htm"
+  MasterStylesheetOverride="true"
+  DisableAutoSync="true"
+  ExcludeUnreferencedContent="true"
+  UseLocalBuildSettings="false"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/Master Aucerna Topic Styles.css"
+  GetLatestBeforeCompile="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/DocTeamHub.fldes"
+      Publish="true" />
+  </Destinations>
+</CatapultTarget>

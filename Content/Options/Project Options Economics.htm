@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Project Options: Economics</h1>
+        <h2><a name="Reference_Date"></a>Reference Date</h2>
+        <p>Results are reported from this date. Remaining volumes, both actual and forecasted, will include all values from the start of the month forward. Discounted cash flows are calculated from this date. </p>
+        <h2><a name="Economic_Calculation_Start_Date"></a>Economic Calculation Start Date</h2>
+        <p>Economics are calculated from this date. In an unposted database, the Economic Calculation Start Date and the Reference Date are the same by default, but you can set the Economic Calculation Start Date before the Reference Date (but you can’t set the Economic Calculation Start Date later than the last posted date in a posted database). </p>
+        <h2><a name="Last_Year_for_Monthly_Output"></a>Last Year for Monthly Output</h2>
+        <p>Monthly values are stored in the database and displayed on reports until the end of this year. After this year, annual values are stored and displayed. </p>
+        <p>To store and display all annual values, set the last year for monthly output to the year before the reference date.</p>
+        <div class="Note">Setting this year unnecessarily far in the future can drastically increase your project size and slow economic calculations. </div>
+        <p>When a well terminates during a yearly forecast, the calendar day rate is calculated from the partial year. The current year is not required to be monthly. </p>
+        <h2><a name="Maximum_Life_"></a>Maximum Life </h2>
+        <p>Wells will not be forecast beyond this date, which is 60 years by default. <MadCap:variable name="General.ProductName" /> can predict for a period of 200 years.</p>
+        <h2>Enable Abandonment Capital</h2>
+        <p>If enabled in the Project Options, the Abandonment Capital textbox is visible on <b>Economics | General</b>. </p>
+        <h2>Enable Salvage Capital</h2>
+        <p>If enabled in the Project Options, the Salvage Capital textbox is visible on <b>Economics | General</b>.</p>
+        <h2>Apply Variable Op Costs to Raw Gas Volumes</h2>
+        <p><b>Enabled</b>: When variable operating costs are entered for gas wells, the Apply to Raw Gas checkbox on <b>Economics | Prices &amp; Costs | Op Costs/Other Revenue</b> is automatically selected. </p>
+        <p><b>Disabled</b>: When variable operating costs are entered for gas wells, the Apply to Raw Gas checkbox on <b>Economics | Prices &amp; Costs | Op Costs/Other Revenue</b> is not automatically selected.</p>
+        <p class="Note"><b>Note:</b> Enabling or disabling this option after variable operating costs have been added to gas wells does not alter the state of the <b>Apply to Raw Gas</b> checkbox. It also does not alter any of the variable op cost values.</p>
+        <h2><a name="Discounting_Settings"></a>Discounting Settings</h2>
+        <p>These are the discount rates displayed on economic reports. Any report showing a single discount rate displays the rate entered in the middle text box (discount rate 3). Discount Rates are calculated from the Reference Date. </p>
+        <p><b>Discount mid-month</b>: Always discount economic streams at mid-month.</p>
+        <p><b>Discount mid-period</b>: Discount economic streams at mid-month until the last period of monthly output and then switch to mid-year discounting.</p>
+        <h2>Capital Actuals</h2>
+        <p><b>Run economics on forecast only</b>: Economics are run only on forecasted capital costs. </p>
+        <p><b>Run economics on blended costs</b>: Economics are run on forecasted and actual capital costs (imported from AFENav or another source). See <MadCap:xref href="../Aucerna Execute Integration/Run Economics on Blended Capital Costs.htm#Run_Economics_on_Blended_Capital_Costs">Run Economics on Blended Capital Costs</MadCap:xref>. </p>
+        <h2><a name="EnableEconLimit"></a>Enable Economic Limit</h2>
+        <p>If enabled, wells are terminated when economic results become negative.</p>
+        <p>If enabled in the Project Options, the Apply Economic Limit checkbox is displayed on <b>Economics | General</b> and enabled for all wells by default. You can disable it for each well. </p>
+        <h2><a name="CalculationType"></a>Calculation Type</h2>
+        <p>The selected calculation type is used to determine when the economic limit is reached.</p>
+        <p>If Before Tax Cash Flow is selected, uneconomic development cases are terminated and therefore do not appear in results. For entities with a developed status (PDP, PD, PPDP, PPD, PPPDP, PPPD), abandonment capital is not included in the BTCF calculation for economic limit. However for undeveloped cases, abandonment costs are included in the economic limit calculation. This enables PUD and PNP cases to correctly include abandonment and salvage while maximizing DP cash flow cases. </p>
+        <h2><a name="Discounting"></a>Discounting</h2>
+        <p>The selected discounting rate is automatically used to determine the economic limit when a new well is created.</p>
+        <h2><a name="Allow"></a>Allow Negative Wedge Results</h2>
+        <p>If enabled, the wedge calculation result remains as is, even if it is considered uneconomic. If you allow negative wedges, then TP is the difference between the wedge and PDP even if it is uneconomic on a cumulative cash flow basis.</p>
+        <p>If disabled, the wedge calculation is ignored if it is considered uneconomic. The result is set to 0 and a report is not displayed. If negative wedges are not allowed, the uneconomic wedge is removed and the TP case falls back to PDP.</p>
+    </body>
+</html>

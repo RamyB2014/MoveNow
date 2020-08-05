@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Merge Projects" />
+        <h1>Merge Projects</h1>
+        <p>Merging <MadCap:variable name="General.ProductName" /> projects can involve exporting data (using an XML file) from two or more projects, importing that data into a project that already has data, or importing that data into an empty <MadCap:variable name="General.ProductName" /> project. </p>
+        <p class="ProcedureIntro">To merge <MadCap:variable name="General.ProductName" /> projects</p>
+        <ol>
+            <li>
+                Export data from the project you want to merge by going to the <b>File</b> menu and selecting <b>Export</b> &gt; <b>File</b>. 
+            </li>
+            <li>
+                In the <b>Export</b> dialog box, determine the Entity Data, Price Decks, Advanced Options, and Project Data you want to export. &gt;
+            </li>
+            <div class="CautionInProcedure">The items you select might exist in the other projects you intend to merge and the selections might conflict with each other. See the <i>Entity Hierarchy</i>, <i>Project Options</i>, <i>Price Decks</i>, <i>Companies</i>, and <i>Entity Names</i> sections below for more details. </div>
+            <li>
+                Save the exported file as an XML file. 
+            </li>
+            <li>
+                Repeat steps 1-3 for any other files you intend to merge. 
+            </li>
+            <li>
+                Either open a project that already has data or create a new, empty project to serve as the destination for the data you exported in steps 1-4. 
+            </li>
+            <li>
+                Import the XML file you created in steps 1-3 by going to the <b>File</b> menu and selecting <b>Import</b> &gt; <b>File</b>. 
+            </li>
+            <li>
+                Browse to the first file and click <b>Open</b>. 
+            </li>
+            <li>
+                If you need to edit User or Project Options click <b>Edit</b>.
+            </li>
+            <li>
+                Click <b>Next</b> to finish the import.
+            </li>
+            <li>
+                Import any other files into the merged project. 
+            </li>
+        </ol>
+        <div class="Note"> If the imported files contain conflicting data, data in the last imported file will overwrite data from the previously imported files. </div>
+        <p>See <MadCap:xref href="../Export Project Data.htm#Export_Project_Data">Export Project Data</MadCap:xref> for more details on export behavior. </p>
+        <p>When merging projects, there are several factors you need to consider, some of which might involve editing the data before exporting it. </p>
+        <h2>Entity Hierarchies</h2>
+        <p>If the hierarchies in the projects to be merged are edited versions of the Default hierarchy, when you import the XML files into your new project, the hierarchy of the last imported file is applied to the project. Other Default hierarchies are not imported. </p>
+        <p>If the hierarchies in the projects to be merged are custom hierarchies (not edited versions of the Default hierarchy), all <i>Project</i> hierarchies are imported into the new project. <i>User</i> hierarchies are not included in exports and not imported into new projects. </p>
+        <p>If the projects to be merged have different hierarchies, but you want all the wells to fit into the same hierarchy, you will have to edit one or both hierarchies and any Custom Fields used to create them before exporting them. </p>
+        <p>See <MadCap:xref href="../Entity Management/Create or Edit an Entity Hierarchy.htm#Create_or_Edit_an_Entity_Hierarchy">Create or Edit an Entity Hierarchy</MadCap:xref>.</p>
+        <h2>Project Options</h2>
+        <p>If the Project Options are not the same in the projects to be merged, the results in the merged project might be different than they were in the original projects. </p>
+        <p>Before merging projects, determine which Project Options you want to use in the merged project and then use one of the following approaches: </p>
+        <ul class="DoubleSpace">
+            <li>
+                Configure the project options in the destination (new) project before importing any data and ensure Project Options are <i>not</i> included in any of the exported files. 
+            </li>
+            <li>
+                Determine which of the projects to be merged has the Project Options you want to use. Include the Project Options when exporting that project’s data, but do not include Project Options for any other exports. 
+            </li>
+        </ul>
+        <div class="Caution">When Project Options are included in all exported projects, the Project Options in the file imported last will overwrite the previously imported version. </div>
+        <h2>Price Decks</h2>
+        <p>Determine which price decks you want to use in the merged project. When exporting data from the projects you intend to merge, only select the price decks you intend to use. Ensure you activate the correct price deck in the merged project. </p>
+        <div class="Caution"> If you merge files that have price decks with the same names, but different prices, the price deck imported last will overwrite the previously imported version. </div>
+        <h2>Companies</h2>
+        <p>If the projects you intend to merge contain different companies, consider whether you want those companies added to the entities in the other projects once they are merged. </p>
+        <p>By default, companies are always included in new interests. Therefore, if you import new wells into a project that contains Company A, that company will automatically be added to the Interests of the new entities. To prevent companies from being added to other wells, go to the <b>Companies</b> dialog box (<b>Tools</b> &gt; <b>Global Project Data</b> &gt; <b>Companies</b>) in all the files to be merged and deselect <b>Include in new entity interest</b></p>
+        <p>See <MadCap:xref href="../Test/Add a Company to the Project.htm#Add_a_Company_to_the_Project">Add a Company to the Project</MadCap:xref>. </p>
+        <h2>Entity Names</h2>
+        <p>If the projects to be merged have entities with the same names, the data of the project imported last will overwrite all previously imported data. </p>
+        <p>If any project has any renamed entities that originally had the same name as the entities in any of the other projects to be merged, <MadCap:variable name="General.ProductName" /> will interpret those renamed wells as being the same wells (because renamed wells retain their globally unique identifier, which you cannot view or edit). The entities imported last will overwrite any previously imported entities. </p>
+        <p>See <MadCap:xref href="../Entity Management/Rename an Entity.htm#Rename_an_Entity">Rename an Entity</MadCap:xref>.</p>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Specify a Change Record Sequence</h1>
+        <p>The change record sequence is used to define the following:</p>
+        <ul class="DoubleSpace">
+            <li>The order of the automated reconciliation calculation. Each calculation is net of the preceding step in the sequence.</li>
+            <li>The order in which the results are reported on the Waterfall chart on Review | Waterfall.</li>
+            <li>The change record categories used for each change type. You do this by mapping data areas to change record categories (see the example, below).</li>
+        </ul>
+        <p>The default change record sequence is determined by the project country (in Project Options). You can simply use the default sequence or change it to meet your specific reporting requirements. You can also set sequences for different jurisdictions.</p>
+        <p>In the Change Record Sequence dialog box, you must map data areas to a Change Record Category or leave them unmapped (Improved Recovery, for example) in which case ARR will only assign that Change Record Category via a Change Reason.</p>
+        <h2>Example</h2>
+        <p>In the example below, the sequence is built using the default <MadCap:variable name="General.ProductName" /> Change Record Categories and Summary Types.</p>
+        <p>You can create more Summary Types or Change Record Categories. See <MadCap:xref href="Create or Edit Change Record Categories or Summary Types.htm">Create or Edit Change Record Categories or Summary Types</MadCap:xref>.</p>
+        <p>Under Technical Revisions, changes to Declines, Plant Gas Properties or a change in shared calculations will result in Change Records with a Change Record Category of Technical Revision because all three input areas are mapped to that category.</p>
+        <p>The Change Record Category Extensions and Improved Recovery is not mapped to any inputs. This means that you should only expect change records with a Change Record Category of Improved Recovery to be created through a Change Reason of the same type, or by manually using the Balance function. It also means all Extensions and Improved Recovery records will be first in the sequence for charting/reporting.</p>
+        <img src="Resources/Images/changerecordseq.png" class="thumbnail" />
+        <p class="ThumbnailImageCaption" MadCap:autonum="Click image to expand or minimize.">&#160;</p>
+        <h2>Input Areas Descriptions</h2>
+        <p>See descriptions of the input areas below.</p>
+        <ul class="DoubleSpace">
+            <li><b>Reference date</b>: Applies the reference date of the evaluation. This will normally also change the discount date, thus changing BTCF NPV numbers.</li>
+            <li><b>Prices</b>: Applies both entity-level price data (price set, parent stream prices, differentials, and price overrides), as well as any changes to the price deck.</li>
+            <li><b>Operating costs</b>: Applies any modifications to operating cost definitions and any entity op costs.</li>
+            <li><b>Capital costs</b>: Applies any modifications to capital cost definitions and any entity cap costs.</li>
+            <li><b>General Economics</b>: Applies general economic data (COO/COS, abandonment, etc.). Excludes manual termination dates in the current period. Includes certain project options also. Cam to provide complete list.</li>
+            <li><b>Interests</b>: Applies any interest changes not captured in Ownership Increase or Ownership Decrease (e.g., sliding scales, tract/pooling factors, reversions, etc).</li>
+            <li><b>Ownership increase</b>: Applies new interests where a current-period start date is set, or where WI or NRI inputs increase versus prior period. Recommend to capture as acquisition.</li>
+            <li><b>Ownership decrease</b>: Applies interests where a current-period end date is set, or where WI or NRI inputs decrease versus prior period. Recommend to capture as disposition.</li>
+            <li><b>Manual termination</b>: Applies manual termination date changes where the new value is within the evaluation period (between posted date and reference date). Recommend to capture as disposition.</li>
+            <li><b>Regimes/royalties</b>: Applies any modified fiscal regime or Canadian royalty inputs. Also applies any relevant global project data (regime models, meter stations, facilities, custom result fields, etc).</li>
+            <li><b>Production</b>: Applies any new production history to the case (may not have an impact depending on the history/forecast overlap project option). Best captured as production variance.</li>
+            <li><b>Declines</b>: Applies any changes to the declines/wellhead data. Also applies new product and ratio definitions).</li>
+            <li><b>Plant gas properties</b>: Applies any to the plant gas properties (master gas analysis, gas losses, liquids extractions). Also applies new sour gas extraction limits from project options.</li>
+            <li><b>Shared calculation membership</b>: Applies the addition/removal of any wells to/from a shared calculation (CTE or ring fence).</li>
+        </ul>
+        <p class="ProcedureIntro">To specify a Change Record Sequence</p>
+        <ol>
+            <li>Go to <b>Tools</b> &gt; <b>Global Project Data</b> &gt; <b>Change Record Categories</b>.</li>
+            <li>Click <b>Change Record Sequence</b>.</li>
+            <li>Select the appropriate Jurisdiction.</li>
+            <li>Do one of the following:</li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col style="width: 359px;" class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            To
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Do
+ this
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            To reorder the summary types, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Place your mouse over the section and drag it
+ to a new location. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            To add a data area, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Click Add
+ Area.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            To delete a data area, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Click the X next to the area.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            To change the change record category mapped
+ to a data area, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Select a different change record category
+ from the list. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Specify that a Change Reason be used for a
+ summary type instead of mapping to entity inputs, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Click Unmapped
+  next to the Summary Type. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table> </ol>
+        <ol MadCap:continue="true">
+            <li>Click <b>OK</b>. </li>
+        </ol>
+    </body>
+</html>

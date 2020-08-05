@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTable.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Copy Entity Data" />
+        <h1>Copy Entity Data</h1>
+        <p>The Input Copier enables you to copy data from one entity to others in several reserves categories or from one reserves category to another in the same entity. </p>
+        <p>Technical and economic data is only copied to reserves categories that already have data. Data is not copied to empty reserves categories even if you select them. You can override this behavior and copy data to empty reserves categories by selecting Copy data to target reserves categories that have no data (see the procedure below).&#160; </p>
+        <p>In previous versions of <MadCap:variable name="General.ProductName" />, the copy behavior described above only applied to economic data (technical data was always copied to empty reserves categories). In the current version of <MadCap:variable name="General.ProductName" />, this behavior applies to both technical and economic data. </p>
+        <div class="Note">A Project Start date on the source Reserves Category is not copied using the Input Copier.</div>
+        <p class="ProcedureIntro">To copy data</p>
+        <ol class="Procedure">
+            <li>
+                From the Explorer, select the source well, reserves plan, and reserves category. 
+            </li>
+            <li>
+                From the <b>Tools</b> menu, select <b>Input Copier</b>.
+            </li>
+            <li>
+                Select an Items to Copy option: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                            Behaviour
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                            Resolved
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                            Copies data (whether input override or inherited) from the source to the same plans and reserves categories in the destination entities.
+                            <b>Note: </b>The override/inherited state from the source well replaces the state on destination well(s).
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                            Direct
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                            Copies input overrides that are entered directly on the source plan and reserves category (not inherited data) to the destination. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Specify the Destination Entities.
+            </li>
+            <div class="TipInProcedure"> Filtering to the destination wells before opening the Input Copier causes only those wells to appear under the Destination Entities. </div>
+            <li>
+                Specify the <b>Destination Reserves Categories</b> and <b>Plans</b> (only available if you selected <b>Direct</b> in Step 3).
+            </li>
+            <div class="TipInProcedure">You can select all <b>Reserves Categories</b>, but data will only be copied to categories that already have data. Data is not copied to empty reserves categories. However, you can copy data to empty reserves categories in step7, if required. </div>
+            <li>
+                Select the <b>Items to Copy</b>. 
+            </li>
+            <div class="TipInProcedure">Black items exist in the Source. Grey items do not exist in the Source.&#160; </div>
+            <li>
+               If required, select <b>Copy data to target reserves categories that have no inputs</b>.<br />This option copies data to empty reserves categories. 
+            </li>
+            <li>
+                Click <b>OK</b> to copy. 
+            </li>
+        </ol>
+        <h2>Copy Liquid Production</h2>
+        <p>When copying liquid production ratios and efficiencies, data is copied to the destination well regardless of whether the source or destination has a Plant Gas Analysis. Copying ratios always creates a product stream where there is gas production. Copying efficiencies only creates a product stream in destination wells that have a Plant Gas Analysis.</p>
+    </body>
+</html>

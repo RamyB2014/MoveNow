@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Theoretical Yield" />
+        <h1>Theoretical Yield</h1>
+        <p>Theoretical Yield is displayed on <b>Predictions | Data | Plant</b>. It is based on the Inlet Gas Analysis and is a plant-based value. There is no Theoretical Yield in Sales mode because plant efficiencies are not valid in this mode.</p>
+        <p>Theoretical Yield is expressed in terms of the gas stream you are entering ratios on.</p>
+        <p>The theoretical yield is the amount of product that would be recovered assuming a recovery factor of 100%. <MadCap:variable name="General.ProductName" /> uses the following product factors when calculating Theoretical Yield:</p>
+        <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Item
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                        Product Factor 
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Ethane (C2)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        6.35
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Propane (C3)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        6.54
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Butane (C4)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        7.62
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        Pentane (C5+)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                        9.6
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The product factors are based on industry standards. The formula for Theoretical Yields is as follows:</p>
+        <table style="border-collapse: collapse;border-left: medium none;border-top: medium none;border-right: medium none;border-bottom: medium none;mc-table-style: url('Resources/TableStyles/TopHeadRowTable.css');" border="1" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <colgroup>
+                <col />
+            </colgroup>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td style="border-top: windowtext 1pt solid;padding-left: 2.9pt;padding-top: 2.9pt;padding-right: 2.9pt;width: 328.5pt;padding-bottom: 2.9pt;border-right: windowtext 1pt solid;background: #dbe5f1;vertical-align: top;border-left: windowtext 1pt solid;border-bottom: windowtext 1pt solid;" class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                        Raw Yield = %Vol * Product Factor * (1-Surface Loss)<br />(Note that Yield is a plant-based value so yield expressed as raw gas needs to consider surface loss)
+                        Inlet Yield = %Vol * Product Factor
+                        Example
+                        Volume % for C2 = 7.27 (obtained from Master Gas Analysis)
+                        Product Factor for C2 = 6.35
+                        Theoretical Yield = 7.27 x 6.35 = 46.1645 bbl/MMcf
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

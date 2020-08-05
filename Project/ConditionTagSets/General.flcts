@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="Exclude"
+    BackgroundColor="#95a5a6" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Hide"
+    Comment="Tagged content won't render in any builds" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="NeedsLink"
+    Comment="Used to find items that require links" />
+  <ConditionTag
+    BackgroundColor="#b6f3b6"
+    Name="CodeBlock"
+    Comment="Used to identify code blocks for library hook up." />
+</CatapultConditionTagSet>

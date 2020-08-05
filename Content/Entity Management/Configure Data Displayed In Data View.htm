@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Configure Data Displayed In Data View" />
+        <h1>Configure Data Displayed In Data View</h1>
+        <p>Data View is ideal for auditing data input because it can display the data from a large number of wells in a grid format, which makes it apparent when data is missing or when data has been entered where it shouldn’t have been.</p>
+        <p>To help verify that required inputs have been entered or identify where inputs are missing or have been entered by mistake, you can select one of the following three display modes for the tab’s rows:</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Selection
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                        Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Inputs Only
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        Displays only rows with input. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Show Gaps
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        Displays all rows that have inputs in any entity. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        All
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                        Displays all rows. 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>For example, if your project should only include capital costs in the Common reserves category and you want to confirm that capital costs have not been entered in any other reserves category, under Rows, you can click Reserves Category and select Show Gaps. If capital costs have only been entered in Common, only the Common row will be displayed for any entity, as displayed below. </p>
+        <img src="../Resources/Images/a_image015_001.jpg" />
+        <p>Show Gaps is selected under Reserves Category. Costs have only been entered in Common. </p>
+        <p>However, if capital costs have been entered in any other reserves category in any entity, that reserves category row will be displayed for all entities, indicating that there is an entity with a capital cost in that reserves category, as displayed below. </p>
+        <img src="../Resources/Images/image017_005.jpg" />
+        <p>Show Gaps is selected under Reserves Category. Costs on one entity have been entered in Common and PDP, but the PDP row is displayed for all entities. </p>
+    </body>
+</html>

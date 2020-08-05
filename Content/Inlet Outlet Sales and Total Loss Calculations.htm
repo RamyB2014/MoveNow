@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Inlet, Outlet, Sales, and Total Loss Calculations" />
+        <h1>Inlet, Outlet, Sales, and Total Loss Calculations</h1>
+        <p>The Inlet Gas Volume, Outlet Gas Volume, Sales Gas Volume, and Total Loss displayed on <b>Predictions | Data</b> are calculated as shown below: </p>
+        <ul class="DoubleSpace">
+            <li>
+                Inlet Gas Volume = Raw Gas * (1 – Surface Loss)
+            </li>
+            <li>
+                Outlet Gas Volume = Plant Inlet * (1 – Processing Loss)
+            </li>
+            <li>
+                Sales Gas Volume= Plant Outlet * (1 – Fuel Loss)
+            </li>
+            <li>
+                Total Loss = 1 – (Total Sales/Total Raw)
+            </li>
+        </ul>
+        <h2>Enter Surface, Process, or Fuel Loss on the Plant Tab</h2>
+        <h3>Enter Surface Loss</h3>
+        <p>You can enter Surface Loss at three levels: the project-level default, well-level default, and well-level monthly. See the table below for a description of each surface loss type and where to enter the value. </p>
+        <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Surface Loss Type
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Location
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                        Behaviour
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Project default 
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1"><b>Tools &gt; Options &gt; Project Options</b>
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        All wells in the project use this value. You can override the value on each well. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Well Default
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1"><b>Predictions | Data | Plant</b>, in the blue <b>Default</b> row of the Surface Loss column
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        Overrides the project default. 
+                        The value is applied to all months in the forecast. You can override the monthly value by entering a value in the data grid. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        Monthly
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1"><b>Predictions | Data | Plant</b>, in the Surface Loss column
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                        Overrides the well default. 
+                        When you enter a value for a month, that value is applied to subsequent months in the forecast (but you can also override them). 
+                        The entered value is displayed with a grey background to indicate it is an override. 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Enter Process Loss or Fuel Loss</h3>
+        <p>You can enter Process Loss or Fuel Loss at two levels: the well-level default and well-level monthly. See the table below for a description of each process loss type and where to enter the value.</p>
+        <p>Process Loss is automatically calculated when you enter a volume, rate, efficiency, or ratio for any NGL product. You can override the calculated number. </p>
+        <div class="Note"> You can only enter <b>Process Loss</b> on the <b>Plant</b> tab when you select the <b>Raw</b> or <b>Inlet</b> input modes. See <MadCap:xref href="Select an Input Mode on the Plant Tab.htm#Select_an_Input_Mode_on_the_Plant_Tab">Select an Input Mode on the Plant Tab</MadCap:xref>. </div>
+        <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Process or Fuel Loss Type
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Location
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                        Behaviour
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Well Default
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1"><b>Predictions | Data | Plant</b>, in the blue <b>Default</b> row of the Process Loss or Fuel Loss columns
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        The value is applied to all months in the forecast. You can override the value by entering a value in the data grid.
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        Monthly
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1"><b>Predictions | Data | Plant</b>, in the Process Loss or Fuel Loss columns 
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                        Overrides the well default. 
+                        When you enter a value for a month, that value is applied to subsequent months in the forecast (but you can also override them). 
+                        The entered value is displayed with a grey background to indicate it is an override.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3><a name="DefaultPocessLoss"></a>Default Process Loss with CO2 and H2S</h3>
+        <p>H2S and CO2 are removed from the gas stream according to the following logic:</p>
+        <ul class="DoubleSpace">
+            <li>
+                If CO2 &lt;= [the <MadCap:xref href="Options/Project Options General.htm#CO2" target="_popup">CO2 Threshold</MadCap:xref> set in project options], then the CO2 is left in the gas stream.
+            </li>
+            <li>
+                If CO2 &gt; [the <MadCap:xref href="Options/Project Options General.htm#CO2Allowable" target="_popup">CO2 Allowable</MadCap:xref> set in project options], then CO2 is removed from the gas stream, down to CO2 Allowable, resulting in a process loss.
+            </li>
+            <li>
+                If H2S &gt; 0, then all of the H2S is removed from the gas stream, resulting in a process loss. 
+            </li>
+        </ul>
+        <h3>Enter Volumes, Rates, Ratios or Efficiencies on the Plant Tab</h3>
+        <p>To enter Natural Gas Liquid (C2-C5+), NGL or Condensate data, such as monthly volume, calendar day rate, or ratio, go to <b>Predictions |Data | Plant</b>. </p>
+        <p>For Ratios or Efficiencies, you can enter a Default or Monthly value. For Volumes or Rates you can only enter Monthly values. </p>
+        <h3>Entering or Changing a Ratio or Efficiency</h3>
+        <ul class="DoubleSpace">
+            <li>
+                In the grid view of dates and product yields, enter a rate, volume, ratio or efficiency at any date to adjust the yield. Only one type of override can exist for any product. In other words, you cannot enter ratios for one year, and then volumes for the next year. 
+            </li>
+            <li>
+                When you enter a rate, volume, or ratio, the cell background turns grey to indicate an entered value.
+            </li>
+            <li>
+                When you enter a rate, the volume is automatically calculated and displayed with a grey background. (The opposite is true when you enter a volume.) The calculated ratio or volume is displayed in grey text to indicate it is based on the entered rate or volume. 
+            </li>
+            <li>
+                When you enter a ratio, the value is automatically applied to all subsequent months. (You can still edit values for the subsequent months.) Volumes and rates are automatically calculated and displayed in grey text to indicate they are based on the entered ratio. 
+            </li>
+            <li>
+                Process Loss and Energy Content are automatically recalculated, but they can be overridden by entering values. To enter an NGL or Condensate volume, rate, or ratio, one of these columns must be in view, as they cannot be calculated using an Efficiency.
+            </li>
+        </ul>
+    </body>
+</html>

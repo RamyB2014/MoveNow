@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-131937354-4"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-131937354-4');
+		</script>
+
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/Master Aucerna Home Page Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <div class="footer center">
+                <div class="home-master-page-footer">
+                    <div>
+                        <img class="HomePage" src="../Images/Assets/Icons/SocialMedia/SM-gray.png" />
+                        <p>Follow&#160;<MadCap:variable name="General.CompanyName" /></p>
+                        <table style="width: 100%;">
+                            <col />
+                            <col />
+                            <col />
+                            <col />
+                            <tbody>
+                                <tr>
+                                    <td><a href="[%=General.Facebook%]" target="_blank"><img class="HomePage" src="../Images/Assets/Icons/SocialMedia/FB-gray.png" /></a>
+                                    </td>
+                                    <td><a href="[%=General.Twitter%]" target="_blank"><img class="HomePage" src="../Images/Assets/Icons/SocialMedia/Twitter-gray.png" /></a>
+                                    </td>
+                                    <td><a href="[%=General.LinkedIn%]" target="_blank"><img class="HomePage" src="../Images/Assets/Icons/SocialMedia/LI-gray.png" /></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div><a href="https://aucerna.com/products/enersight/" target="_blank"><img class="HomePage" src="../Images/Assets/Logos/Aucerna Home Page Footer Company Logo.png" /></a>
+                    </div>
+                    <div><a href="mailto:support@aucernna.com?subject=enersight Support Request" target="_blank"><img class="HomePage" src="../Images/Assets/Icons/MainIcons/Contact-gray.png" /></a>
+                        <p>Email us at: <a href="mailto:support@aucerna.com?subject=enersight Support Request" target="_blank">support@aucerna.com</a> </p>
+                        <p>Or contact one of the <a href="https://aucerna.com/contact-us/" target="_blank">Global  Offices</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

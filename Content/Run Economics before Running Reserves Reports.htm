@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Run Economics before Running Reserves Reports" />
+        <h1>Run Economics before Running Reserves Reports</h1>
+        <p>Economic data from all relevant reserves categories must be current to produce accurate results in any reserves report. </p>
+        <p>If economic data is not current when you run a reserves report, <MadCap:variable name="General.ProductName" /> runs economics automatically when you run the report. However, if you want to run reserves economics before running the reserves report, you must run the appropriate jurisdiction scenario on the <b>Reports</b> tab or in the Batch Manager for the entities you want to report on.&#160; </p>
+        <p>If you run the jurisdiction prior to running reserves reports, the reports automatically detect this and will not run it again, resulting in faster display of the report. </p>
+        <div class="Note"> Running the <i>Default Scenario</i> does not necessarily generate the economic results required to run reserves reports.</div>
+        <p class="ProcedureIntro">To run economics in the Batch Manager before running reserves reports</p>
+        <ol class="Procedure">
+            <li>
+                Click the <b>Batch Manager</b> icon <img src="Resources/Images/image054_001.png" class="InlineImage" />.
+            </li>
+            <li>
+                In the <b>Batch Manager</b>, click the <b>Entities</b> tab.
+            </li>
+            <li>
+                Under Entity Selection Mode, click <b>Quick Selection</b>. 
+            </li>
+            <li>
+                Under <b>Entities to report</b>, select the entities and/or folders you want run. 
+            </li>
+            <li>
+                Under <b>Reserves categories</b>, select the reserves categories you want to report on. 
+            </li>
+            <li>
+                On the <b>Scenarios</b> tab, select jurisdiction you want to run. 
+            </li>
+            <li>
+                Do one of the following: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" style="width: 93px;" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            To
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Go to
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Save the batch for future use
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Step 8.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Run the batch
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Step 9.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Click <b>Save as Batch</b>, enter a name, and click <b>Save</b>. <br />The created batch is selected in the batches list. 
+            </li>
+            <li>
+                Click <b>Run</b>. 
+            </li>
+        </ol>
+        <p>Once you have saved the batch, in the future you can simply select it from the batch list and run it without having to create it again. For more details, see <MadCap:xref href="Create and Run a Batch.htm#Create_and_Run_a_Batch">Create and Run a Batch</MadCap:xref>. (For more details on running an existing batch, scroll down to “To run an existing batch”.)</p>
+        <p>You can also calculate economics from anywhere in <MadCap:variable name="General.ProductName" />, without generating reports, by clicking the <b>Calculate Economics</b> button in the toolbar (<img src="Resources/Images/image075_002.jpg" class="InlineImage" />). See <MadCap:xref href="Run Economics.htm#Run_Economics">Run Economics</MadCap:xref>. </p>
+    </body>
+</html>

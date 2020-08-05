@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Spreadsheet Creation Guidelines" />
+        <h1>Spreadsheet Creation Guidelines</h1>
+        <p>Whether you are using an existing spreadsheet or creating a new spreadsheet based on a spreadsheet import template, there are several critical factors to consider: </p>
+        <ul class="DoubleSpace">
+            <li>
+                If you are creating your own spreadsheet, create column headings using <MadCap:variable name="General.ProductName" /> terminology. When you open the spreadsheet in the Spreadsheet Import tool, <MadCap:variable name="General.ProductName" /> will attempt to detect the type of data you are importing and configure the import column headings. However you should still confirm that column headings are correctly configured before importing.
+            </li>
+            <li>
+                Create Sheets to hold different sets of data rather than creating separate files. Creating Sheets will enable you to create import tasks more efficiently because you can work from a single file rather than using several files. 
+            </li>
+            <li>
+                Group data for the same well together. For example, if you have capital costs for Well 1 on three dates, create three consecutive rows for Well 1. There can be no intervening rows of data. 
+            </li>
+            <li>
+                Organize data in the order it should be entered in the user interface. This is important in cases where entering a value causes another value to be recalculated. When in doubt, first try entering values in the user interface to determine the order required to achieve the desired results. The importance of order is also relevant when importing several import tasks at the same time. See <MadCap:xref href="Create Spreadsheet Import Tasks.htm#Create_Spreadsheet_Import_Tasks">Create Spreadsheet Import Tasks</MadCap:xref>. 
+            </li>
+        </ul>
+        <h2>Tips</h2>
+        <ul class="DoubleSpace">
+            <li>
+                To exclude data in the spreadsheet from the import without deleting it, hide the columns or rows.
+            </li>
+            <li>
+                <MadCap:xref href="Generate a Spreadsheet Import Template.htm#Generate_a_Spreadsheet_Import_Template">Generate a spreadsheet import template</MadCap:xref> by clicking <img src="Resources/Images/image014.png" class="InlineImage" />&#160;in the Spreadsheet Import tool (after selecting a Mapping type). 
+            </li>
+        </ul>
+        <h2>Warnings </h2>
+        <ul class="DoubleSpace">
+            <li>
+                Importing empty columns or rows for fields that already have data in your project will overwrite the existing data with a null value. 
+            </li>
+            <li>
+                The Import Operations (Merge, Replace, and Replace All) in the Spreadsheet Import tool affect whether project data is overwritten or deleted. The Import Operations behavior depends on the data mapping type you are working with. Before selecting an Import Operation, carefully read the tool tip for each operation by placing your mouse pointer over the operation.
+            </li>
+        </ul>
+    </body>
+</html>

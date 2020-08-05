@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Rename an Entity" />
+        <h1>Rename an Entity</h1>
+        <p>When you rename an entity, keep in mind that: </p>
+        <ul class="DoubleSpace">
+            <li style="margin-left: 0pt;text-indent: 0pt;">Entity names are not case sensitive. Therefore, a name such as <b>NEW WELL</b> cannot be used if the name <b>New Well</b> is already in use. </li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Renamed entities retain their globally unique identifier. Data associated with the well does not change when you rename it. <MadCap:variable name="General.ProductName" /> will continue to treat the renamed well as if it was the original well. This behaviour can affect the merging of projects. See <MadCap:xref href="../Importing and Exporting/Merge Projects.htm#Merge_Projects">Merge Projects</MadCap:xref> for more details. </li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">You can use the name of a deleted entity, but doing so links the renamed entity with the deleted entity’s reserve reconciliation records (applies only to wells and only in a posted database).</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">The deleted entity’s Vendor ID remains linked to the renamed entity unless you select <b>Delete associated Vendor IDs</b> in the <b>Rename Entity</b> dialog box. Using the correct vendor ID is required for PPDM production updates. For more information, see <MadCap:xref href="../Update Production/Map Data Vendor IDs.htm#Map_Data_Vendor_IDs">Map Data Vendor IDs.</MadCap:xref></li>
+        </ul>
+        <h2>Rename a Single Entity</h2>
+        <p class="ProcedureIntro">To rename a single entity</p>
+        <ol class="Procedure">
+            <li>
+                In the Entity Explorer, right-click the entity you want to rename and click <b>Rename Entity</b>. 
+            </li>
+            <li>
+                Enter a new name.
+            </li>
+            <li>
+                Select <b>Delete</b> <b>associated Vendor IDs</b>, if required, and click <b>OK</b>.
+            </li>
+        </ol>
+        <h2>Rename Several Entities</h2>
+        <p class="ProcedureIntro">To rename several entities</p>
+        <ol class="Procedure">
+            <li>
+                From the Entity menu, select <b>Rename Entities</b>. 
+            </li>
+            <li>
+                In the <b>Batch Rename</b> dialog box, enter the Old UWI and the New UWI for all entities you want to rename. You can also import a .txt or .csv file by clicking <b>Import</b>. 
+            </li>
+            <li>
+                Select <b>Delete</b> <b>associated Vendor IDs</b>, if required, and click <b>OK</b>.
+            </li>
+        </ol>
+    </body>
+</html>

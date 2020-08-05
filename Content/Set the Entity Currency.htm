@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Set the Entity Currency" />
+        <h1>Set the Entity Currency</h1>
+        <p>The entity currency is the currency assigned to the entity. It can be set independently of the project currency and its country’s currency. By default, the currency assigned to an entity without a specified country is the <MadCap:xref href="Set the Project Currency.htm#Set_the_Project_Currency">project currency</MadCap:xref>. </p>
+        <p>If you specify a country for an entity, the entity currency is set to the <MadCap:xref href="Set the Country Currency.htm#Set_the_Country_Currency">country currency</MadCap:xref> by default. For example, if the entity is in Canada and the country currency is Canadian dollars, the entity’s currency becomes <b>Default (Canadian dollars)</b>, as shown below.</p>
+        <p class="Caution">If an entity`s currency equals <b>Default (<i>currency</i>)</b>, it inherits the country currency automatically. Therefore, if you change the country currency, all entities in that country using <b>Default (<i>currency</i>)</b> will inherit the new currency. If you set the entity currency to any currency other than <b>Default (<i>currency</i>)</b>, the link between the entity currency and the country currency is broken and edits to the country currency will not affect the entity currency, as shown below. </p>
+        <img src="Resources/Images/a_image006_003.jpg" width="477" height="303" />
+        <p>In this example, the entity currency is <b>Default (Canadian dollars)</b> because the country currency for Canada is set to Canadian dollars. </p>
+        <img src="Resources/Images/a_image008_002.jpg" width="486" height="308" />
+        <p>In this example, the entity currency is still Canadian dollars, but it is no longer set as the default. Therefore, if the currency assigned to Canada (country currency) is changed, the entity currency will not change. </p>
+        <p class="ProcedureIntro">To set the entity currency</p>
+        <ol>
+            <li>
+                In the Entity Explorer, right-click the entity you want to edit. 
+            </li>
+            <li>
+                Select <b>Edit Entity</b>. 
+            </li>
+            <li>
+                Select the currency from the Currency list and click <b>OK</b>.
+            </li>
+        </ol>
+    </body>
+</html>

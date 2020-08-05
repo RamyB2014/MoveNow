@@ -1,0 +1,1857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="Home"
+    Link="/Content/index.htm"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Support.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Getting Started with Value Navigator">
+    <TocEntry
+      Title="Hardware and Software Requirements"
+      Link="/Content/Getting Started with Value Navigator/Hardware and Software Requirements.htm" />
+    <TocEntry
+      Title="Performance Tips"
+      Link="/Content/Getting Started with Value Navigator/Performance Tips.htm" />
+    <TocEntry
+      Title="Upgrading to Value Navigator 2018"
+      Link="/Content/Upgrading to Value Navigator 2017.htm" />
+    <TocEntry
+      Title="Licensing">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Licensing Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Activate a License"
+        Link="/Content/Getting Started with Value Navigator/Activate a License.htm" />
+      <TocEntry
+        Title="Work Offline"
+        Link="/Content/Getting Started with Value Navigator/Work Offline.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Aucerna Contact Information"
+      Link="/Content/Getting Started with Value Navigator/Aucerna Contact Information.htm"></TocEntry>
+    <TocEntry
+      Title="Training"
+      Link="/Content/Getting Started with Value Navigator/Training.htm" />
+    <TocEntry
+      Title="Value Navigator Web Resources">
+      <TocEntry
+        Title="Price Files"
+        Link="/Content/Getting Started with Value Navigator/Price Files.htm" />
+      <TocEntry
+        Title="Known Issues"
+        Link="/Content/Getting Started with Value Navigator/Known Issues.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Release Notes">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Release Notes/2018 Release Notes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Release Notes/2017 V2 Release Notes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Release Notes/2017 1.2 Release Notes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Release Notes/2017 1.1 Release Notes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Release Notes/2017 V1 Release Notes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Create Convert and Open Projects">
+    <TocEntry
+      Title="Open a Project"
+      Link="/Content/Create, Convert and Open Projects/Open a Project.htm" />
+    <TocEntry
+      Title="Open a Project as a Copy"
+      Link="/Content/Create, Convert and Open Projects/Open a Project as a Copy.htm" />
+    <TocEntry
+      Title="Create a Project"
+      Link="/Content/Create, Convert and Open Projects/Create a Project.htm">
+      <TocEntry
+        Title="Create an Empty Project File"
+        Link="/Content/Create, Convert and Open Projects/Create an Empty Project File.htm" />
+      <TocEntry
+        Title="Create an Empty Oracle Project"
+        Link="/Content/Create, Convert and Open Projects/Create an Empty Oracle Project.htm" />
+      <TocEntry
+        Title="Create an Empty SQL Server Project"
+        Link="/Content/Create, Convert and Open Projects/Create an Empty SQL Server Project.htm" />
+      <TocEntry
+        Title="Create a Project File from a Production Data File"
+        Link="/Content/Create, Convert and Open Projects/Create a Project File from a Production Data File.htm" />
+      <TocEntry
+        Title="Create an Oracle Project from a Production Data File"
+        Link="/Content/Create, Convert and Open Projects/Create an Oracle Project from a Production Data File.htm" />
+      <TocEntry
+        Title="Create a SQL Server Project from a Production Data File"
+        Link="/Content/Create, Convert and Open Projects/Create a SQL Server Project from a Production Data File.htm" />
+      <TocEntry
+        Title="Recreate a Project Connection File"
+        Link="/Content/Create, Convert and Open Projects/Recreate a Project Connection File.htm" />
+      <TocEntry
+        Title="Remove the Password from a Project Connection File"
+        Link="/Content/Create, Convert and Open Projects/Remove the Password from a Project Connection File.htm" />
+      <TocEntry
+        Title="Set the Current Month"
+        Link="/Content/Create, Convert and Open Projects/Set the Current Month.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Options">
+    <TocEntry
+      Title="User Options">
+      <TocEntry
+        Title="User Options General"
+        Link="/Content/Options/User Options General.htm" />
+      <TocEntry
+        Title="User Options File Locations"
+        Link="/Content/Options/User Options File Locations.htm" />
+      <TocEntry
+        Title="User Options Fit Settings"
+        Link="/Content/Options/User Options Fit Settings.htm" />
+      <TocEntry
+        Title="User Options Product Specific"
+        Link="/Content/Options/User Options Product Specific.htm" />
+      <TocEntry
+        Title="User Options Units"
+        Link="/Content/Options/User Options Units.htm" />
+      <TocEntry
+        Title="User Options Connection Settings"
+        Link="/Content/Options/User Options Connection Settings.htm" />
+      <TocEntry
+        Title="User Options Import Parameters"
+        Link="/Content/Options/User Options Import Parameters.htm" />
+      <TocEntry
+        Title="User Options External Data Settings"
+        Link="/Content/Options/User Options External Data Settings.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/User Options Data Sources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Project Options">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options General.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options Company Logo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options Report Titles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options Report Headers and Footers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options Economics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options Royalties and Taxes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options External Project Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options Reserves.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Options/Project Options SIIMP Conversion Factors.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Customize the User Interface">
+    <TocEntry
+      Title="Customize Predictions Declines Fields"
+      Link="/Content/Customize the User Interface/Customize Predictions Declines Fields.htm" />
+    <TocEntry
+      Title="Move the SummaryProperties Window or Entity Explorer"
+      Link="/Content/Customize the User Interface/Move the SummaryProperties Window or Entity Explorer.htm" />
+    <TocEntry
+      Title="Pin the Explorer or SummaryProperties Window"
+      Link="/Content/Customize the User Interface/Pin the Explorer or SummaryProperties Window.htm" />
+    <TocEntry
+      Title="Restore Default Layout"
+      Link="/Content/Customize the User Interface/Restore Default Layout.htm" />
+    <TocEntry
+      Title="Rename the Default Current Options Scenario"
+      Link="/Content/Customize the User Interface/Rename the Default Current Options Scenario.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Update Production">
+    <TocEntry
+      Title="Production Update Overview"
+      Link="/Content/Update Production/Production Update Overview.htm" />
+    <TocEntry
+      Title="Update Wells Using an External Data Source"
+      Link="/Content/Update Production/Update Wells Using an External Data Source.htm" />
+    <TocEntry
+      Title="Update a Subset of Wells Using a Well List txt file"
+      Link="/Content/Update Production/Update a Subset of Wells Using a Well List txt file.htm" />
+    <TocEntry
+      Title="Update Well Production Using a Production Data File"
+      Link="/Content/Update Well Production Using a Production Data File.htm" />
+    <TocEntry
+      Title="Schedule a Production Update"
+      Link="/Content/Update Production/Schedule a Production Update.htm" />
+    <TocEntry
+      Title="Update Well Production with the Spreadsheet Import Tool"
+      Link="/Content/Update Production/Update Well Production with the Spreadsheet Import Tool.htm" />
+    <TocEntry
+      Title="Map Data Vendor IDs"
+      Link="/Content/Update Production/Map Data Vendor IDs.htm" />
+    <TocEntry
+      Title="Map API Numbers to Wells"
+      Link="/Content/Update Production/Map API Numbers to Wells.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Entity Management">
+    <TocEntry
+      Title="Using the Data View"
+      Link="/Content/Entity Management/Using the Data View.htm">
+      <TocEntry
+        Title="Switch between the Entity View and Data View"
+        Link="/Content/Entity Management/Switch between the Entity View and Data View.htm" />
+      <TocEntry
+        Title="Create and Configure Tabs in Data View"
+        Link="/Content/Entity Management/Create and Configure Tabs in Data View.htm" />
+      <TocEntry
+        Title="Rename a Tab in Data View"
+        Link="/Content/Entity Management/Rename a Tab in Data View.htm" />
+      <TocEntry
+        Title="Delete Tabs in Data View"
+        Link="/Content/Entity Management/Delete Tabs in Data View.htm" />
+      <TocEntry
+        Title="Save a Tab Layout as a Template in Data View"
+        Link="/Content/Entity Management/Save a Tab Layout as a Template in Data View.htm" />
+      <TocEntry
+        Title="Apply a Layout Template to a Tab in Data View"
+        Link="/Content/Entity Management/Apply a Layout Template to a Tab in Data View.htm" />
+      <TocEntry
+        Title="Filter Data Grid Column Values"
+        Link="/Content/Entity Management/Filter Data Grid Column Values.htm" />
+      <TocEntry
+        Title="Filter Dates in Data View"
+        Link="/Content/Entity Management/Filter Dates in Data View.htm" />
+      <TocEntry
+        Title="Edit and Validate Data in Data View"
+        Link="/Content/Entity Management/Edit and Validate Data in Data View.htm">
+        <TocEntry
+          Title="Data Display in Data View vs Entity View"
+          Link="/Content/Entity Management/Data Display in Data View vs Entity View.htm" />
+        <TocEntry
+          Title="Edit Data in Data View and How it Affects Entity Views"
+          Link="/Content/Entity Management/Edit Data in Data View and How it Affects Entity Views.htm" />
+        <TocEntry
+          Title="Configure Data Displayed In Data View"
+          Link="/Content/Entity Management/Configure Data Displayed In Data View.htm" />
+        <TocEntry
+          Title="Sort Data in Data View"
+          Link="/Content/Entity Management/Sort Data in Data View.htm" />
+        <TocEntry
+          Title="Save Data in Data Views"
+          Link="/Content/Entity Management/Save Data in Data Views.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Defer Grid Updating in Data View"
+        Link="/Content/Entity Management/Defer Grid Updating in Data View.htm" />
+      <TocEntry
+        Title="Export a Data View Grid to Excel"
+        Link="/Content/Entity Management/Export a Data View Grid to Excel.htm" />
+      <TocEntry
+        Title="Display Entities Selected in Data View in the Entity Explorer"
+        Link="/Content/Entity Management/Display Entities Selected in Data View in the Entity Explorer.htm" />
+      <TocEntry
+        Title="Show Columns on the Well Views Tab"
+        Link="/Content/Entity Management/Show Columns on the Well Views Tab.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Understanding the Common Reserves Category"
+      Link="/Content/Entity Management/Understanding the Common Reserves Category.htm">
+      <TocEntry
+        Title="Override Inherited Values"
+        Link="/Content/Entity Management/Override Inherited Values.htm" />
+      <TocEntry
+        Title="Reset Overridden Values"
+        Link="/Content/Entity Management/Reset Overridden Values.htm" />
+      <TocEntry
+        Title="Common Reserves Category Behaviour in New Projects"
+        Link="/Content/Entity Management/Common Reserves Category Behaviour in New Projects.htm" />
+      <TocEntry
+        Title="Common Reserves Category Behaviour in Upgraded Projects"
+        Link="/Content/Entity Management/Common Reserves Category Behaviour in Upgraded Projects.htm" />
+      <TocEntry
+        Title="Copy Reserves Category Input Values within a Well"
+        Link="/Content/Entity Management/Copy Reserves Category Input Values within a Well.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="View and Organize Entities"
+      Link="/Content/View and Organize Entities.htm">
+      <TocEntry
+        Title="Change Measurement Units"
+        Link="/Content/Entity Management/Change Measurement Units.htm" />
+      <TocEntry
+        Title="Create or Edit an Entity Hierarchy"
+        Link="/Content/Entity Management/Create or Edit an Entity Hierarchy.htm" />
+      <TocEntry
+        Title="Configure Custom Fields"
+        Link="/Content/Entity Management/Configure Custom Fields.htm" />
+      <TocEntry
+        Title="Configure Daily Pressure Fields"
+        Link="/Content/Entity Management/Configure Daily Pressure Fields.htm" />
+      <TocEntry
+        Title="Play through Wells"
+        Link="/Content/Play through Wells.htm" />
+      <TocEntry
+        Title="Adjust Play Speed"
+        Link="/Content/Entity Management/Adjust Play Speed.htm" />
+      <TocEntry
+        Title="View Entity Relationships"
+        Link="/Content/Entity Management/View Entity Relationships.htm" />
+      <TocEntry
+        Title="View Data Sources"
+        Link="/Content/Entity Management/View Data Sources.htm" />
+      <TocEntry
+        Title="View Inputs"
+        Link="/Content/Entity Management/View Inputs.htm" />
+      <TocEntry
+        Title="View Entity History"
+        Link="/Content/Entity Management/View Entity History.htm" />
+      <TocEntry
+        Title="Use the Summary Properties and Inputs Windows"
+        Link="/Content/Entity Management/Use the Summary Properties and Inputs Windows.htm" />
+      <TocEntry
+        Title="Designate Entities as In Reserves or Out Of Reserves"
+        Link="/Content/Entity Management/Designate Entities as In Reserves or Out Of Reserves.htm" />
+      <TocEntry
+        Title="Use Back and Forward Buttons"
+        Link="/Content/Entity Management/Use Back and Forward Buttons.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Create and Edit Wells"
+      Link="/Content/Create and Edit Wells.htm">
+      <TocEntry
+        Title="Create a Well"
+        Link="/Content/Entity Management/Create a Well.htm" />
+      <TocEntry
+        Title="Copy an Entity"
+        Link="/Content/Entity Management/Copy an Entity.htm" />
+      <TocEntry
+        Title="Copy Entity Data"
+        Link="/Content/Entity Management/Copy Entity Data.htm" />
+      <TocEntry
+        Title="Edit Entity Information"
+        Link="/Content/Entity Management/Edit Entity Information.htm" />
+      <TocEntry
+        Title="Manage Entity Data"
+        Link="/Content/Entity Management/Manage Entity Data.htm" />
+      <TocEntry
+        Title="Delete Entities"
+        Link="/Content/Entity Management/Delete Entities.htm" />
+      <TocEntry
+        Title="View Deleted Wells"
+        Link="/Content/View Deleted Wells.htm" />
+      <TocEntry
+        Title="Rename an Entity"
+        Link="/Content/Entity Management/Rename an Entity.htm" />
+      <TocEntry
+        Title="Add Comments to an Entity"
+        Link="/Content/Entity Management/Add Comments to an Entity.htm" />
+      <TocEntry
+        Title="Link Documents to an Entity"
+        Link="/Content/Entity Management/Link Documents to an Entity.htm" />
+      <TocEntry
+        Title="Adjust Entity Dates"
+        Link="/Content/Entity Management/Adjust Entity Dates.htm" />
+      <TocEntry
+        Title="Export Wells"
+        Link="/Content/Entity Management/Export Wells.htm" />
+      <TocEntry
+        Title="Import Wells"
+        Link="/Content/Entity Management/Import Wells.htm" />
+      <TocEntry
+        Title="Add Entities To"
+        Link="/Content/Entity Management/Add Entities To.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Groups and Rollups"
+      Link="/Content/Groups and Rollups.htm">
+      <TocEntry
+        Title="About Groups"
+        Link="/Content/Test/About Groups.htm">
+        <TocEntry
+          Title="Differences between Groups and Rollups"
+          Link="/Content/Differences between Groups and Rollups.htm" />
+        <TocEntry
+          Title="Create a Group"
+          Link="/Content/Entity Management/Create a Group.htm" />
+        <TocEntry
+          Title="Create Groups on the Map"
+          Link="/Content/Entity Management/Create Groups on the Map.htm" />
+        <TocEntry
+          Title="Add Entities to a Group"
+          Link="/Content/Entity Management/Add Entities to a Group.htm" />
+        <TocEntry
+          Title="Remove Entities from a Group"
+          Link="/Content/Entity Management/Remove Entities from a Group.htm" />
+        <TocEntry
+          Title="Edit a Group Forecast"
+          Link="/Content/Entity Management/Edit a Group Forecast.htm" />
+        <TocEntry
+          Title="Recalculate a Group Forecast"
+          Link="/Content/Entity Management/Recalculate a Group Forecast.htm" />
+        <TocEntry
+          Title="Batch Recalculate Group Forecasts"
+          Link="/Content/Entity Management/Batch Recalculate Group Forecasts.htm" />
+        <TocEntry
+          Title="Manage Groups and Rollups"
+          Link="/Content/Entity Management/Manage Groups and Rollups.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="About Rollups"
+        Link="/Content/Test/About Rollups.htm">
+        <TocEntry
+          Title="Create a Working Interest Rollup"
+          Link="/Content/Create a Working Interest Rollup.htm" />
+        <TocEntry
+          Title="Create a Rollup"
+          Link="/Content/Entity Management/Create a Rollup.htm" />
+        <TocEntry
+          Title="Create a Temporary Rollup"
+          Link="/Content/Entity Management/Create a Temporary Rollup.htm" />
+        <TocEntry
+          Title="Delete a Rollup"
+          Link="/Content/Entity Management/Delete a Rollup.htm" />
+        <TocEntry
+          Title="Remove Wells from a Rollup"
+          Link="/Content/Entity Management/Remove Wells from a Rollup.htm" />
+        <TocEntry
+          Title="Add Wells to a Rollup"
+          Link="/Content/Entity Management/Add Wells to a Rollup.htm" />
+        <TocEntry
+          Title="Copy a Rollup"
+          Link="/Content/Entity Management/Copy a Rollup.htm" />
+        <TocEntry
+          Title="Create Entities"
+          Link="/Content/Entity Management/Create Entities.htm" />
+        <TocEntry
+          Title="Create or Edit Entities"
+          Link="/Content/Entity Management/Create or Edit Entities.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Plans"
+      Link="/Content/Plans.htm">
+      <TocEntry
+        Title="Create a Plan"
+        Link="/Content/Create a Plan.htm" />
+      <TocEntry
+        Title="Delete a Plan"
+        Link="/Content/Delete a Plan.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Secure Plans.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Edit Plans"
+        Link="/Content/Edit Plans.htm" />
+      <TocEntry
+        Title="Merge Plans"
+        Link="/Content/Merge Plans.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Sandbox Plan.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Compare Plans"
+        Link="/Content/Compare Plans.htm" />
+      <TocEntry
+        Title="Remove Inputs"
+        Link="/Content/Remove Inputs.htm" />
+      <TocEntry
+        Title="Import and Export Plans"
+        Link="/Content/Import and Export Plans.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Schedules"
+      Link="/Content/Schedules.htm">
+      <TocEntry
+        Title="Create a Schedule"
+        Link="/Content/Create a Schedule.htm" />
+      <TocEntry
+        Title="Add a Constraint to a Schedule"
+        Link="/Content/Test/Add a Constraint to a Schedule.htm" />
+      <TocEntry
+        Title="Add Entities to a Schedule"
+        Link="/Content/Test/Add Entities to a Schedule.htm" />
+      <TocEntry
+        Title="Add or Adjust the Project Start Date"
+        Link="/Content/Test/Add or Adjust the Project Start Date.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Calculated Plans"
+      Link="/Content/Calculated Plans.htm">
+      <TocEntry
+        Title="Create a Calculated Plan"
+        Link="/Content/Create a Calculated Plan.htm" />
+      <TocEntry
+        Title="View Calculated Plans Results"
+        Link="/Content/View Calculated Plans Results.htm" />
+      <TocEntry
+        Title="Import and Export Calculated Plans"
+        Link="/Content/Import and Export Calculated Plans.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Archive Data"
+      Link="/Content/Test/Archive Data.htm">
+      <TocEntry
+        Title="Create an Archive"
+        Link="/Content/Create an Archive.htm" />
+      <TocEntry
+        Title="Edit an Archive"
+        Link="/Content/Edit an Archive.htm" />
+      <TocEntry
+        Title="Compare Archives"
+        Link="/Content/Compare Archives.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Products"
+      Link="/Content/Products.htm">
+      <TocEntry
+        Title="Create a Custom Product"
+        Link="/Content/Create a Custom Product.htm" />
+      <TocEntry
+        Title="Delete a Custom Product"
+        Link="/Content/Delete a Custom Product.htm" />
+      <TocEntry
+        Title="Remove a Custom Product from a Product List"
+        Link="/Content/Remove a Custom Product from a Product List.htm" />
+      <TocEntry
+        Title="Delete a Product List"
+        Link="/Content/Delete a Product List.htm" />
+      <TocEntry
+        Title="Assign an Import Code to a Product"
+        Link="/Content/Assign an Import Code to a Product.htm" />
+      <TocEntry
+        Title="Include Custom Products in Reserves"
+        Link="/Content/Include Custom Products in Reserves.htm" />
+      <TocEntry
+        Title="Add a Product to an Entity"
+        Link="/Content/Test/Add a Product to an Entity.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Bulk Well Generator"
+      Link="/Content/Bulk Well Generator.htm">
+      <TocEntry
+        Title="Create a Bulk Well Schedule"
+        Link="/Content/Create a Bulk Well Schedule.htm" />
+      <TocEntry
+        Title="Update a Bulk Well Schedule"
+        Link="/Content/Update a Bulk Well Schedule.htm" />
+      <TocEntry
+        Title="Copy a Bulk Well Schedule"
+        Link="/Content/Copy a Bulk Well Schedule.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Common Termination Entity"
+      Link="/Content/Common Termination Entity.htm">
+      <TocEntry
+        Title="Filter to Wells or Organize the Wells by Field"
+        Link="/Content/Filter to Wells or Organize the Wells by Field.htm" />
+      <TocEntry
+        Title="Create a Cost Entity"
+        Link="/Content/Create a Cost Entity.htm" />
+      <TocEntry
+        Title="Create a Common Termination Entity"
+        Link="/Content/Create a Common Termination Entity.htm" />
+      <TocEntry
+        Title="Add a Well to a Common Termination Entity"
+        Link="/Content/Test/Add a Well to a Common Termination Entity.htm" />
+      <TocEntry
+        Title="Remove an Entity from a Common Termination Entity"
+        Link="/Content/Remove an Entity from a Common Termination Entity.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Ring Fencing"
+      Link="/Content/Ring Fencing.htm">
+      <TocEntry
+        Title="Create a Ring Fence Entity"
+        Link="/Content/Create a Ring Fence Entity.htm" />
+      <TocEntry
+        Title="Add Entities to a Ring Fence Entity"
+        Link="/Content/Test/Add Entities to a Ring Fence Entity.htm" />
+      <TocEntry
+        Title="Remove Entities from a Ring Fence Entity"
+        Link="/Content/Remove Entities from a Ring Fence Entity.htm" />
+      <TocEntry
+        Title="View Ring Fence Entities in the Explorer"
+        Link="/Content/View Ring Fence Entities in the Explorer.htm" />
+      <TocEntry
+        Title="Delete a Ring Fence Entity"
+        Link="/Content/Delete a Ring Fence Entity.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Importing and Exporting">
+    <TocEntry
+      Title="Merge Projects"
+      Link="/Content/Importing and Exporting/Merge Projects.htm" />
+    <TocEntry
+      Title="Export Data"
+      Link="/Content/Importing and Exporting/Export Data.htm">
+      <TocEntry
+        Title="Export Project Data"
+        Link="/Content/Export Project Data.htm" />
+      <TocEntry
+        Title="Export a Well List"
+        Link="/Content/Importing and Exporting/Export a Well List.htm" />
+      <TocEntry
+        Title="Export Project Options"
+        Link="/Content/Importing and Exporting/Export Project Options.htm" />
+      <TocEntry
+        Title="Export User Options"
+        Link="/Content/Importing and Exporting/Export User Options.htm" />
+      <TocEntry
+        Title="Export Security Data"
+        Link="/Content/Importing and Exporting/Export Security Data.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Import Production Data"
+      Link="/Content/Import Production Data.htm">
+      <TocEntry
+        Title="Import Wells from a Well List text file"
+        Link="/Content/Import Wells from a Well List text file.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Daily Data"
+      Link="/Content/Daily Data.htm">
+      <TocEntry
+        Title="Import Daily Data"
+        Link="/Content/Import Daily Data.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Import Data"
+      Link="/Content/Import Data.htm">
+      <TocEntry
+        Title="Configure an External Data Connection"
+        Link="/Content/Configure an External Data Connection.htm" />
+      <TocEntry
+        Title="Import Project Data"
+        Link="/Content/Import Project Data.htm" />
+      <TocEntry
+        Title="Import Project and User Options"
+        Link="/Content/Import Project and User Options.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Spreadsheet Import"
+      Link="/Content/Spreadsheet Import.htm">
+      <TocEntry
+        Title="Import Spreadsheet Data"
+        Link="/Content/Import Spreadsheet Data.htm" />
+      <TocEntry
+        Title="Generate a Spreadsheet Import Template"
+        Link="/Content/Generate a Spreadsheet Import Template.htm" />
+      <TocEntry
+        Title="Spreadsheet Creation Guidelines"
+        Link="/Content/Spreadsheet Creation Guidelines.htm" />
+      <TocEntry
+        Title="Create Spreadsheet Import Tasks"
+        Link="/Content/Create Spreadsheet Import Tasks.htm" />
+      <TocEntry
+        Title="Open and Edit Spreadsheet Import Spreadsheets"
+        Link="/Content/Open and Edit Spreadsheet Import Spreadsheets.htm" />
+      <TocEntry
+        Title="Use Proxy Names for Spreadsheet Import"
+        Link="/Content/Use Proxy Names for Spreadsheet Import.htm" />
+      <TocEntry
+        Title="Use Vendor IDs in the Spreadsheet Import"
+        Link="/Content/Use Vendor IDs in the Spreadsheet Import.htm" />
+      <TocEntry
+        Title="Validate Spreadsheet Import Data"
+        Link="/Content/Validate Spreadsheet Import Data.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Forecasting">
+    <TocEntry
+      Title="Decline Analysis"
+      Link="/Content/Decline Analysis.htm">
+      <TocEntry
+        Title="Understanding Declines"
+        Link="/Content/Understanding Declines.htm" />
+      <TocEntry
+        Title="Choosing a Decline Type"
+        Link="/Content/Choosing a Decline Type.htm" />
+      <TocEntry
+        Title="Effective and Nominal Rates"
+        Link="/Content/Effective and Nominal Rates.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Create Multiple Forecasts on Predictions Workspace"
+      Link="/Content/Create Multiple Forecasts on Predictions Workspace.htm">
+      <TocEntry
+        Title="Create a Decline on Predictions Workspace"
+        Link="/Content/Create a Decline on Predictions Workspace.htm" />
+      <TocEntry
+        Title="Edit a Decline on Predictions Workspace"
+        Link="/Content/Edit a Decline on Predictions Workspace.htm" />
+      <TocEntry
+        Title="Set a Variance Baseline for Remaining Gas or Oil on Predictions Workspace"
+        Link="/Content/Set a Variance Baseline for Remaining Gas or Oil on Predictions Workspace.htm" />
+      <TocEntry
+        Title="View Best Fit Forecasts on Predictions Workspace"
+        Link="/Content/View Best Fit Forecasts on Predictions Workspace.htm" />
+      <TocEntry
+        Title="Apply a Forecast to a Reserves Category and Plan"
+        Link="/Content/Test/Apply a Forecast to a Reserves Category and Plan.htm" />
+      <TocEntry
+        Title="Apply Workspace Forecasts"
+        Link="/Content/Test/Apply Workspace Forecasts.htm" />
+      <TocEntry
+        Title="Create and Manage Forecast Names"
+        Link="/Content/Create and Manage Forecast Names.htm" />
+      <TocEntry
+        Title="Filter Declines on Predictions Workspace"
+        Link="/Content/Filter Declines on Predictions Workspace.htm" />
+      <TocEntry
+        Title="View Archived Forecasts in the Decline Workspace"
+        Link="/Content/View Archived Forecasts in the Decline Workspace.htm" />
+      <TocEntry
+        Title="Clear Workspace Forecasts"
+        Link="/Content/Clear Workspace Forecasts.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Create and Edit Declines"
+      Link="/Content/Create and Edit Declines.htm">
+      <TocEntry
+        Title="Decline Editing Hotkey Mode"
+        Link="/Content/Decline Editing Hotkey Mode.htm" />
+      <TocEntry
+        Title="Calculate a 1WOR Forecast"
+        Link="/Content/Calculate a 1WOR Forecast.htm" />
+      <TocEntry
+        Title="Enter a Manual Forecast"
+        Link="/Content/Enter a Manual Forecast.htm" />
+      <TocEntry
+        Title="Enter Decline Parameters on Predictions Declines"
+        Link="/Content/Enter Decline Parameters on Predictions Declines.htm" />
+      <TocEntry
+        Title="Add a Default Decline to a Well"
+        Link="/Content/Add a Default Decline to a Well.htm" />
+      <TocEntry
+        Title="Create an Incremental Forecast"
+        Link="/Content/Create an Incremental Forecast.htm" />
+      <TocEntry
+        Title="Calculate Decline Parameters"
+        Link="/Content/Calculate Decline Parameters.htm" />
+      <TocEntry
+        Title="Decline Errors and Warnings"
+        Link="/Content/Decline Errors and Warnings.htm" />
+      <TocEntry
+        Title="Draw a Decline"
+        Link="/Content/Draw a Decline.htm" />
+      <TocEntry
+        Title="Draw a Profile"
+        Link="/Content/Draw a Profile.htm" />
+      <TocEntry
+        Title="Add a Transition to a Decline"
+        Link="/Content/Test/Add a Transition to a Decline.htm" />
+      <TocEntry
+        Title="Link a Decline to a PZ or Volumetric Analysis"
+        Link="/Content/Link a Decline to a PZ or Volumetric Analysis.htm" />
+      <TocEntry
+        Title="Apply PZ or Volumetrics Volumes"
+        Link="/Content/Test/Apply PZ or Volumetrics Volumes.htm" />
+      <TocEntry
+        Title="Best Fit or Refit Wells"
+        Link="/Content/Best Fit or Refit Wells.htm" />
+      <TocEntry
+        Title="Best Fit or Refit a Decline from a Point"
+        Link="/Content/Best Fit or Refit a Decline from a Point.htm" />
+      <TocEntry
+        Title="Best Fit or Refit a Decline from a Selection"
+        Link="/Content/Best Fit or Refit a Decline from a Selection.htm" />
+      <TocEntry
+        Title="Set the Start of Forecast"
+        Link="/Content/Set the Start of Forecast.htm" />
+      <TocEntry
+        Title="Set to Current"
+        Link="/Content/Set to Current.htm" />
+      <TocEntry
+        Title="Adjust the Decline Qi"
+        Link="/Content/Test/Adjust the Decline Qi.htm" />
+      <TocEntry
+        Title="Edit OnTime"
+        Link="/Content/Edit OnTime.htm" />
+      <TocEntry
+        Title="Convert Oil and Condensate Wells"
+        Link="/Content/Convert Oil and Condensate Wells.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Perform a Gas Pool Material Balance"
+      Link="/Content/Perform a Gas Pool Material Balance.htm">
+      <TocEntry
+        Title="Gas Pool Material Balance Procedure"
+        Link="/Content/Gas Pool Material Balance Procedure.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Perform a Volumetric Analysis"
+      Link="/Content/Perform a Volumetric Analysis.htm">
+      <TocEntry
+        Title="Calculate Water Saturation"
+        Link="/Content/Calculate Water Saturation.htm" />
+      <TocEntry
+        Title="Calculate Z Factor"
+        Link="/Content/Calculate Z Factor.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Type Wells"
+      Link="/Content/Type Wells.htm">
+      <TocEntry
+        Title="About Type Wells"
+        Link="/Content/Test/About Type Wells.htm" />
+      <TocEntry
+        Title="Create a Type Well"
+        Link="/Content/Create a Type Well.htm" />
+      <TocEntry
+        Title="Use a Type Well to Create Related Type Wells"
+        Link="/Content/Use a Type Well to Create Related Type Wells.htm" />
+      <TocEntry
+        Title="Edit a Type Well"
+        Link="/Content/Edit a Type Well.htm">
+        <TocEntry
+          Title="Edit Type Well Options"
+          Link="/Content/Edit Type Well Options.htm" />
+        <TocEntry
+          Title="Normalize a Type Well Curve to Peak Rates"
+          Link="/Content/Normalize a Type Well Curve to Peak Rates.htm" />
+        <TocEntry
+          Title="Change Type Well Plot Method"
+          Link="/Content/Change Type Well Plot Method.htm" />
+        <TocEntry
+          Title="Add a Well to a Type Well"
+          Link="/Content/Test/Add a Well to a Type Well.htm" />
+        <TocEntry
+          Title="Exclude a Well from a Type Well"
+          Link="/Content/Exclude a Well from a Type Well.htm" />
+        <TocEntry
+          Title="Remove Wells from a Type Well"
+          Link="/Content/Remove Wells from a Type Well.htm" />
+        <TocEntry
+          Title="Recalculate a Type Well"
+          Link="/Content/Recalculate a Type Well.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Use a Type Well to Create Other Wells"
+        Link="/Content/Use a Type Well to Create Other Wells.htm">
+        <TocEntry
+          Title="Create a Well Using a Type Well"
+          Link="/Content/Create a Well Using a Type Well.htm" />
+        <TocEntry
+          Title="Apply a Type Curve to your Current Well"
+          Link="/Content/Test/Apply a Type Curve to your Current Well.htm" />
+        <TocEntry
+          Title="View Wells Linked to a Type Well"
+          Link="/Content/View Wells Linked to a Type Well.htm" />
+        <TocEntry
+          Title="Remove a Type Curve from a Well"
+          Link="/Content/Remove a Type Curve from a Well.htm" />
+        <TocEntry
+          Title="Batch Apply a Type Curve to Several Wells"
+          Link="/Content/Batch Apply a Type Curve to Several Wells.htm" />
+        <TocEntry
+          Title="Batch Remove a Type Curve from Several Wells"
+          Link="/Content/Batch Remove a Type Curve from Several Wells.htm" />
+        <TocEntry
+          Title="Update a Well Linked to a Type Well"
+          Link="/Content/Update a Well Linked to a Type Well.htm" />
+        <TocEntry
+          Title="Find and Update Wells Linked to a Type Well"
+          Link="/Content/Find and Update Wells Linked to a Type Well.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Enter and Edit Plant Data"
+      Link="/Content/Enter and Edit Plant Data.htm">
+      <TocEntry
+        Title="Select an Input Mode on the Plant Tab"
+        Link="/Content/Select an Input Mode on the Plant Tab.htm" />
+      <TocEntry
+        Title="Modify the Inlet or Outlet Gas Analysis on the Plant Tab"
+        Link="/Content/Modify the Inlet or Outlet Gas Analysis on the Plant Tab.htm" />
+      <TocEntry
+        Title="Theoretical Yield"
+        Link="/Content/Theoretical Yield.htm" />
+      <TocEntry
+        Title="Select Data to View on Predictions Data Plant"
+        Link="/Content/Select Data to View on Predictions Data Plant.htm" />
+      <TocEntry
+        Title="Inlet Outlet Sales and Total Loss Calculations"
+        Link="/Content/Inlet Outlet Sales and Total Loss Calculations.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Enter Process Loss or Fuel Loss.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Enter Surface Loss.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Enter Volumes, Rates, Ratios, or Effiiciencies on the Plant Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Energy Content"
+        Link="/Content/Energy Content.htm" />
+      <TocEntry
+        Title="Add a Gas Analysis"
+        Link="/Content/Test/Add a Gas Analysis.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Entering Economics">
+    <TocEntry
+      Title="Enter General Economic Data"
+      Link="/Content/Enter General Economic Data.htm">
+      <TocEntry
+        Title="Enter a Manual Termination Date"
+        Link="/Content/Enter a Manual Termination Date.htm" />
+      <TocEntry
+        Title="Apply an Economic Limit"
+        Link="/Content/Test/Apply an Economic Limit.htm" />
+      <TocEntry
+        Title="Enter Chance of Success and Chance of Occurrence"
+        Link="/Content/Enter Chance of Success and Chance of Occurrence.htm" />
+      <TocEntry
+        Title="Enter Abandonment and Salvage Delay"
+        Link="/Content/Enter Abandonment and Salvage Delay.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Enter Prices and Costs"
+      Link="/Content/Enter Prices and Costs.htm">
+      <TocEntry
+        Title="Create Custom Capital or Operating Costs"
+        Link="/Content/Create Custom Capital or Operating Costs.htm" />
+      <TocEntry
+        Title="Use Manual Prices for an Entity"
+        Link="/Content/Use Manual Prices for an Entity.htm" />
+      <TocEntry
+        Title="Enter a Price Differential for an Entity"
+        Link="/Content/Enter a Price Differential for an Entity.htm" />
+      <TocEntry
+        Title="Escalate Prices"
+        Link="/Content/Escalate Prices.htm" />
+      <TocEntry
+        Title="Apply a Price Set to an Entity"
+        Link="/Content/Test/Apply a Price Set to an Entity.htm" />
+      <TocEntry
+        Title="Enter Capital Costs"
+        Link="/Content/Enter Capital Costs.htm" />
+      <TocEntry
+        Title="Capital Cost Allowance CCA Classes"
+        Link="/Content/Capital Cost Allowance CCA Classes.htm" />
+      <TocEntry
+        Title="Enter Operating Costs"
+        Link="/Content/Enter Operating Costs.htm" />
+      <TocEntry
+        Title="Escalate Operating Costs"
+        Link="/Content/Escalate Operating Costs.htm" />
+      <TocEntry
+        Title="Enter Facility Costs"
+        Link="/Content/Enter Facility Costs.htm" />
+      <TocEntry
+        Title="Enter Capital Spent before the Economic Calculation Start Date"
+        Link="/Content/Enter Capital Spent before the Economic Calculation Start Date.htm" />
+      <TocEntry
+        Title="Enter Abandonment and Salvage Costs"
+        Link="/Content/Enter Abandonment and Salvage Costs.htm" />
+      <TocEntry
+        Title="Enter Allowances"
+        Link="/Content/Enter Allowances.htm" />
+      <TocEntry
+        Title="Entering Allowances for Capital and Operating Costs"
+        Link="/Content/Enter Allowances for Capital and Operating Costs.htm" />
+      <TocEntry
+        Title="Select Meter Stations"
+        Link="/Content/Select Meter Stations.htm" />
+      <TocEntry
+        Title="Edit Meter Stations"
+        Link="/Content/Edit Meter Stations.htm" />
+      <TocEntry
+        Title="Edit Facilities"
+        Link="/Content/Edit Facilities.htm" />
+      <TocEntry
+        Title="Enter Incremental Costs"
+        Link="/Content/Enter Incremental Costs.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Set Up Interests and Royalties"
+      Link="/Content/Set Up Interests and Royalties.htm">
+      <TocEntry
+        Title="Enter a Working Interest"
+        Link="/Content/Enter a Working Interest.htm" />
+      <TocEntry
+        Title="Enter Sliding Scale Royalties"
+        Link="/Content/Enter Sliding Scale Royalties.htm" />
+      <TocEntry
+        Title="Enter Freehold Royalties Payable or Receivable"
+        Link="/Content/Enter Freehold Royalties Payable or Receivable.htm" />
+      <TocEntry
+        Title="Enter Royalty Interests Receivable"
+        Link="/Content/Enter Royalty Interests Receivable.htm" />
+      <TocEntry
+        Title="Enter Burdens Payable"
+        Link="/Content/Enter Burdens Payable.htm" />
+      <TocEntry
+        Title="Enter a MinMax Payable on Crown Equivalent"
+        Link="/Content/Enter a MinMax Payable on Crown Equivalent.htm" />
+      <TocEntry
+        Title="Enter Factors"
+        Link="/Content/Enter Factors.htm" />
+      <TocEntry
+        Title="Enter a Payout Reversion or Incentive Balance and Effective Date"
+        Link="/Content/Enter a Payout Reversion or Incentive Balance and Effective Date.htm" />
+      <TocEntry
+        Title="Enter Reversions"
+        Link="/Content/Enter Reversions.htm" />
+      <TocEntry
+        Title="Enter Manual Royalties"
+        Link="/Content/Enter Manual Royalties.htm" />
+      <TocEntry
+        Title="Add a Company to the Project"
+        Link="/Content/Test/Add a Company to the Project.htm" />
+      <TocEntry
+        Title="Add Company Interests to an Entity"
+        Link="/Content/Test/Add Company Interests to an Entity.htm" />
+      <TocEntry
+        Title="Select a Production Category"
+        Link="/Content/Select a Production Category.htm" />
+      <TocEntry
+        Title="Enter GCI Depth"
+        Link="/Content/Enter GCI Depth.htm" />
+      <TocEntry
+        Title="Enter Measured Depth or True Vertical Depth"
+        Link="/Content/Enter Measured Depth or True Vertical Depth.htm" />
+      <TocEntry
+        Title="Select Incentives"
+        Link="/Content/Select Incentives.htm" />
+      <TocEntry
+        Title="Select a Mineral Owner"
+        Link="/Content/Select a Mineral Owner.htm" />
+      <TocEntry
+        Title="Select Oil Royalty Type"
+        Link="/Content/Select Oil Royalty Type.htm" />
+      <TocEntry
+        Title="Enter Balances and Factors"
+        Link="/Content/Enter Balances and Factors.htm" />
+      <TocEntry
+        Title="Enter Modernized Royalty Framework MRF Parameters"
+        Link="/Content/Enter Modernized Royalty Framework MRF Parameters.htm" />
+      <TocEntry
+        Title="Enter Alberta Capital Cost Index ACCI"
+        Link="/Content/Enter Alberta Capital Cost Index ACCI.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Enter US Interests"
+      Link="/Content/Enter US Interests.htm">
+      <TocEntry
+        Title="Scenario 1 Simple Lessor Royalty Exists"
+        Link="/Content/Scenario 1 Simple Lessor Royalty Exists.htm" />
+      <TocEntry
+        Title="Scenario 2 Lessor and Overriding Royalty Exist"
+        Link="/Content/Scenario 2 Lessor and Overriding Royalty Exist.htm" />
+      <TocEntry
+        Title="Scenario 3 Lessor and Overriding Royalty Exist WI is less than 100"
+        Link="/Content/Scenario 3 Lessor and Overriding Royalty Exist WI is less than 100.htm" />
+      <TocEntry
+        Title="Scenario 4 Overriding Royalty Receivable with 0 WI"
+        Link="/Content/Scenario 4 Overriding Royalty Receivable with 0 WI.htm" />
+      <TocEntry
+        Title="Enter Ad Valorem"
+        Link="/Content/Enter Ad Valorem.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Create Fiscal Regimes">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Fiscal Regime Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Create a Fiscal Regime"
+      Link="/Content/Create a Fiscal Regime.htm" />
+    <TocEntry
+      Title="Add Entitylevel Regime Inputs"
+      Link="/Content/Test/Add Entitylevel Regime Inputs.htm" />
+    <TocEntry
+      Title="Add Regimelevel Inputs"
+      Link="/Content/Test/Add Regimelevel Inputs.htm" />
+    <TocEntry
+      Title="Add Variables to a Fiscal Regime">
+      <TocEntry
+        Title="Create a Calculated Variable"
+        Link="/Content/Create a Calculated Variable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Create a Trigger Variable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Create an Allocation Basis.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Create Formulas for Regime Variables"
+      Link="/Content/Create Formulas for Regime Variables.htm" />
+    <TocEntry
+      Title="Create Custom Results Fields"
+      Link="/Content/Create Custom Results Fields.htm" />
+    <TocEntry
+      Title="Preview Regime Output"
+      Link="/Content/Preview Regime Output.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Prices and Currencies">
+    <TocEntry
+      Title="Manage Price Decks"
+      Link="/Content/Manage Price Decks.htm">
+      <TocEntry
+        Title="Import and Export Price Decks"
+        Link="/Content/Import and Export Price Decks.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Create and Edit Price Decks"
+      Link="/Content/Create and Edit Price Decks.htm">
+      <TocEntry
+        Title="Create a Price Deck"
+        Link="/Content/Create a Price Deck.htm" />
+      <TocEntry
+        Title="Select a Price Deck"
+        Link="/Content/Select a Price Deck.htm" />
+      <TocEntry
+        Title="Create a Stream Price"
+        Link="/Content/Create a Stream Price.htm" />
+      <TocEntry
+        Title="Delete a Stream Price"
+        Link="/Content/Delete a Stream Price.htm" />
+      <TocEntry
+        Title="Create a Price Set"
+        Link="/Content/Create a Price Set.htm" />
+      <TocEntry
+        Title="Delete a Price Set"
+        Link="/Content/Delete a Price Set.htm" />
+      <TocEntry
+        Title="Edit Exchange Rates"
+        Link="/Content/Edit Exchange Rates.htm" />
+      <TocEntry
+        Title="Edit Inflation"
+        Link="/Content/Edit Inflation.htm" />
+      <TocEntry
+        Title="Use Flat Prices"
+        Link="/Content/Use Flat Prices.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Countries and Currencies">
+    <TocEntry
+      Title="Add a Country"
+      Link="/Content/Add a Country.htm" />
+    <TocEntry
+      Title="Add a Province or State"
+      Link="/Content/Test/Add a Province or State.htm" />
+    <TocEntry
+      Title="Set the Default Country"
+      Link="/Content/Set the Default Country.htm" />
+    <TocEntry
+      Title="Set the Default Province or State"
+      Link="/Content/Set the Default Province or State.htm" />
+    <TocEntry
+      Title="Add a Currency"
+      Link="/Content/Add a Currency.htm" />
+    <TocEntry
+      Title="Set the Project Currency"
+      Link="/Content/Set the Project Currency.htm" />
+    <TocEntry
+      Title="Set the Country Currency"
+      Link="/Content/Set the Country Currency.htm" />
+    <TocEntry
+      Title="Set the Entity Currency"
+      Link="/Content/Set the Entity Currency.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Graphing">
+    <TocEntry
+      Title="Use Graphs"
+      Link="/Content/Use Graphs.htm">
+      <TocEntry
+        Title="Resize a Graph"
+        Link="/Content/Resize a Graph.htm" />
+      <TocEntry
+        Title="Zoom on a Graph"
+        Link="/Content/Zoom on a Graph.htm" />
+      <TocEntry
+        Title="Select a Graph"
+        Link="/Content/Select a Graph.htm" />
+      <TocEntry
+        Title="Print a Graph"
+        Link="/Content/Print a Graph.htm" />
+      <TocEntry
+        Title="Export a Graph"
+        Link="/Content/Export a Graph.htm" />
+      <TocEntry
+        Title="Copy a Graph"
+        Link="/Content/Copy a Graph.htm" />
+      <TocEntry
+        Title="Use Data Point Tracking"
+        Link="/Content/Use Data Point Tracking.htm" />
+      <TocEntry
+        Title="View Recent Graphs"
+        Link="/Content/View Recent Graphs.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Annotate Graphs"
+      Link="/Content/Test/Annotate Graphs.htm">
+      <TocEntry
+        Title="Add Graph Comments"
+        Link="/Content/Test/Add Graph Comments.htm" />
+      <TocEntry
+        Title="Edit Graph Comments"
+        Link="/Content/Edit Graph Comments.htm" />
+      <TocEntry
+        Title="Move Graph Comments"
+        Link="/Content/Move Graph Comments.htm" />
+      <TocEntry
+        Title="Change Graph Comment Size"
+        Link="/Content/Change Graph Comment Size.htm" />
+      <TocEntry
+        Title="Delete Graph Comments"
+        Link="/Content/Delete Graph Comments.htm" />
+      <TocEntry
+        Title="View Graph Comments"
+        Link="/Content/View Graph Comments.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Create and Edit Graphs"
+      Link="/Content/Create and Edit Graphs.htm">
+      <TocEntry
+        Title="Create a New Graph"
+        Link="/Content/Create a New Graph.htm" />
+      <TocEntry
+        Title="Create a Graph Version"
+        Link="/Content/Create a Graph Version.htm" />
+      <TocEntry
+        Title="Create a Graph Copy"
+        Link="/Content/Create a Graph Copy.htm" />
+      <TocEntry
+        Title="Edit Graphs"
+        Link="/Content/Edit Graphs.htm" />
+      <TocEntry
+        Title="Show or Hide History after the Start of Forecast"
+        Link="/Content/Show or Hide History after the Start of Forecast.htm" />
+      <TocEntry
+        Title="Show or Hide Volumetric or PZ Recoverable on Graphs"
+        Link="/Content/Show or Hide Volumetric or PZ Recoverable on Graphs.htm" />
+      <TocEntry
+        Title="Customize Axis Scaling"
+        Link="/Content/Customize Axis Scaling.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Filter Entities">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Filtering Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Flag and Filter Entities"
+      Link="/Content/Flag and Filter Entities.htm" />
+    <TocEntry
+      Title="Clear Flags"
+      Link="/Content/Clear Flags.htm" />
+    <TocEntry
+      Title="Create a Filter Query"
+      Link="/Content/Create a Filter Query.htm" />
+    <TocEntry
+      Title="Filter to a Selection of Entities"
+      Link="/Content/Filter to a Selection of Entities.htm" />
+    <TocEntry
+      Title="Filter to a UWI List"
+      Link="/Content/Filter to a UWI List.htm" />
+    <TocEntry
+      Title="Clear Filters"
+      Link="/Content/Clear Filters.htm" />
+    <TocEntry
+      Title="Find Entities"
+      Link="/Content/Find Entities.htm" />
+    <TocEntry
+      Title="Validate a Well List"
+      Link="/Content/Validate a Well List.htm" />
+    <TocEntry
+      Title="Filter to Entities with Data in the Current Plan"
+      Link="/Content/Filter to Entities with Data in the Current Plan.htm" />
+    <TocEntry
+      Title="Filter to InReserves Entities"
+      Link="/Content/Filter to InReserves Entities.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Generate Reports">
+    <TocEntry
+      Title="Run Economics"
+      Link="/Content/Run Economics.htm" />
+    <TocEntry
+      Title="Configure Reports">
+      <TocEntry
+        Title="Change Report Titles"
+        Link="/Content/Change Report Titles.htm" />
+      <TocEntry
+        Title="Add or Remove a Company Logo to Reports"
+        Link="/Content/Test/Add or Remove a Company Logo to Reports.htm" />
+      <TocEntry
+        Title="Change Report Headers and Footers"
+        Link="/Content/Change Report Headers and Footers.htm" />
+      <TocEntry
+        Title="Change NPV Discount Rates in Reports"
+        Link="/Content/Change NPV Discount Rates in Reports.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Reports Tab">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Generate Reports on the Reports Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Print Reports"
+        Link="/Content/Print Reports.htm" />
+      <TocEntry
+        Title="Export Reports"
+        Link="/Content/Export Reports.htm" />
+      <TocEntry
+        Title="Enable or Disable Unit Scaling on Reports"
+        Link="/Content/Enable or Disable Unit Scaling on Reports.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Enable or Disable Auto-run on the Reports Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Report Designer"
+      Link="/Content/Create and Edit Reports.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Report Designer Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Create a New Report"
+        Link="/Content/Create a New Report.htm" />
+      <TocEntry
+        Title="Create a Report Version"
+        Link="/Content/Create a Report Version.htm" />
+      <TocEntry
+        Title="Create a Report Copy"
+        Link="/Content/Create a Report Copy.htm" />
+      <TocEntry
+        Title="Creating a Report Version vs Creating a Report Copy"
+        Link="/Content/Creating a Report Version vs Creating a Report Copy.htm" />
+      <TocEntry
+        Title="Create a Report in the Report Designer"
+        Link="/Content/Create a Report in the Report Designer.htm" />
+      <TocEntry
+        Title="Add a Formula to a Report in the Report Designer"
+        Link="/Content/Add a Formula to a Report in the Report Designer.htm" />
+      <TocEntry
+        Title="Add Reserves Categories to Report Designer Reports"
+        Link="/Content/Test/Add Reserves Categories to Report Designer Reports.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Specify Hierarchy Levels in the Report Designer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Compare Results">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Compare Results Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Compare Economic Results between Entities"
+        Link="/Content/Compare Economic Results between Entities.htm" />
+      <TocEntry
+        Title="Compare Economic Results within One Entity"
+        Link="/Content/Compare Economic Results within One Entity.htm" />
+      <TocEntry
+        Title="Set a Variance Baseline on the Comparison Tab"
+        Link="/Content/Set a Variance Baseline on the Comparison Tab.htm" />
+      <TocEntry
+        Title="Pin Entities to the List on Comparison Economic"
+        Link="/Content/Pin Entities to the List on Comparison Economic.htm" />
+      <TocEntry
+        Title="Filter to Pinned Rows on Comparison Economic"
+        Link="/Content/Filter to Pinned Rows on Comparison Economic.htm" />
+      <TocEntry
+        Title="Run the Budget Report on Comparison Economic"
+        Link="/Content/Run the Budget Report on Comparison Economic.htm" />
+      <TocEntry
+        Title="Compare Entities on Comparison Technical"
+        Link="/Content/Compare Entities on Comparison Technical.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Use the Batch Manager">
+      <TocEntry
+        Title="Create and Run a Batch"
+        Link="/Content/Create and Run a Batch.htm" />
+      <TocEntry
+        Title="Create and Run a Scenario"
+        Link="/Content/Create and Run a Scenario.htm" />
+      <TocEntry
+        Title="Create a Report List"
+        Link="/Content/Create a Report List.htm" />
+      <TocEntry
+        Title="Organize the Report Tree"
+        Link="/Content/Organize the Report Tree.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Generate Change Management Reports">
+      <TocEntry
+        Title="Reserves Variance Report"
+        Link="/Content/Reserves Variance Report.htm" />
+      <TocEntry
+        Title="Change Record Summary"
+        Link="/Content/Change Record Summary.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Generate Reserves Reports"
+      Link="/Content/Generate Reserves Reports.htm">
+      <TocEntry
+        Title="Run Economics before Running Reserves Reports"
+        Link="/Content/Run Economics before Running Reserves Reports.htm" />
+      <TocEntry
+        Title="Verify Balance Report"
+        Link="/Content/Verify Balance Report.htm" />
+      <TocEntry
+        Title="Reserves Reports"
+        Link="/Content/Reserves Reports.htm" />
+      <TocEntry
+        Title="NI 51101 Reports"
+        Link="/Content/NI 51101 Reports.htm" />
+      <TocEntry
+        Title="Hierarchy Volume Reconciliation Report"
+        Link="/Content/Hierarchy Volume Reconciliation Report.htm" />
+      <TocEntry
+        Title="Calculation Date Adjustment Report"
+        Link="/Content/Calculation Date Adjustment Report.htm" />
+      <TocEntry
+        Title="Post Reserves"
+        Link="/Content/Post Reserves.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Breakeven Analysis">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Break-even Analysis Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Run the Breakeven Analysis"
+        Link="/Content/Run the Breakeven Analysis.htm" />
+      <TocEntry
+        Title="Breakeven Analysis Behaviour"
+        Link="/Content/Breakeven Analysis Behaviour.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="The Cross Plot Report">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Cross Plot Report Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Generate the Cross Plot Report"
+        Link="/Content/Generate the Cross Plot Report.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Incremental Reports"
+      Link="/Content/Generate the Incremental Reports.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Incremental Report Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Generate the Incremental Production Report"
+        Link="/Content/Generate the Incremental Production Report.htm" />
+      <TocEntry
+        Title="Generate the Incremental Production Variance Report"
+        Link="/Content/Generate the Incremental Production Variance Report.htm" />
+      <TocEntry
+        Title="Generate the Incremental Capital Report"
+        Link="/Content/Generate the Incremental Capital Report.htm" />
+      <TocEntry
+        Title="Generate the Incremental Capital Variance Report"
+        Link="/Content/Generate the Incremental Capital Variance Report.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Custom Reporter">
+    <TocEntry
+      Title="Add Fields and Formulas to Custom Table Report Objects"
+      Link="/Content/Custom Reporter/Add Fields and Formulas to custom table reports.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Add Fields and Formulas to Custom Graph Reports"
+      Link="/Content/Custom Reporter/Add Fields and Formulas to custom graph reports.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Add Filters to Custom Graph Reports"
+      Link="/Content/Custom Reporter/Add Filters to Custom Graph.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Add Filters to Custom Table Reports"
+      Link="/Content/Custom Reporter/Add Filters to Custom Table.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Add Objects to a Report"
+      Link="/Content/Custom Reporter/Add Objects to a Report.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Apply a Sort Order to Grouped Fields in Custom Table Reports"
+      Link="/Content/Custom Reporter/Apply a Sort Order to Grouped.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Create a Custom Graph Report: Overview"
+      Link="/Content/Custom Reporter/Create a Custom Graph Report.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Create a Custom Table Report: Overview"
+      Link="/Content/Custom Reporter/Create a Custom Table Report.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Custom Reporter"
+      Link="/Content/Custom Reporter/Custom Reporter.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Format Custom Graph Reports"
+      Link="/Content/Custom Reporter/Format Custom Graph Reports.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Format Custom Table Report Properties"
+      Link="/Content/Custom Reporter/Format Custom Table Report.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Format Custom Table Report Columns"
+      Link="/Content/Custom Reporter/Format Custom Table Report_1.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Group Fields in Custom Graph Reports"
+      Link="/Content/Custom Reporter/Group Fields in Custom Graph.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Group Fields in Custom Table Reports"
+      Link="/Content/Custom Reporter/Group Fields in Custom Table.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Insert Rows in a Custom Table Report"
+      Link="/Content/Custom Reporter/Insert Rows in a Custom Table.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Nest Group Fields in Custom Table Reports"
+      Link="/Content/Custom Reporter/Nest Group Fields in Custom.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Nest Group Fields in Custom Graph Reports"
+      Link="/Content/Custom Reporter/Nest Group Fields in Custom_1.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Select Totals in Custom Table Reports"
+      Link="/Content/Custom Reporter/Select Totals in Custom Table.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Summarize Grouped Fields in Custom Table Reports"
+      Link="/Content/Custom Reporter/Summarize Grouped Fields in.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Summarize Groups in Custom Graph Reports"
+      Link="/Content/Custom Reporter/Summarize Groups in Custom.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Use the Map">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Map Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Map Coordinates"
+      Link="/Content/Map Coordinates.htm" />
+    <TocEntry
+      Title="Map Toolbar"
+      Link="/Content/Map Toolbar.htm" />
+    <TocEntry
+      Title="Map Shortcut Keys"
+      Link="/Content/Map Shortcut Keys.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Zoom.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Pan to Location.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Refresh the Map"
+      Link="/Content/Refresh the Map.htm" />
+    <TocEntry
+      Title="Print the Map"
+      Link="/Content/Print the Map.htm" />
+    <TocEntry
+      Title="Display or Hide the Map Legend"
+      Link="/Content/Display or Hide the Map Legend.htm" />
+    <TocEntry
+      Title="Create Entities on the Map" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Create a Well on the Map.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Create a Group on the Map.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="View Entities on the Map"
+      Link="/Content/View Entities on the Map.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/View Entities on the Map.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Edit Entity Display Options on the Map"
+        Link="/Content/Edit Entity Display Options on the Map.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/View Relationships for Grouped Entities on the Map.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Use Data Visualization"
+        Link="/Content/Use Data Visualization.htm" />
+      <TocEntry
+        Title="Filter to Selected Entities on the Map"
+        Link="/Content/Filter to Selected Entities on the Map.htm" />
+      <TocEntry
+        Title="View Horizontal Deviation on the Map"
+        Link="/Content/View Horizontal Deviation on the Map.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Use Map Layers">
+      <TocEntry
+        Title="Add a Shapefile"
+        Link="/Content/Add a Shapefile.htm" />
+      <TocEntry
+        Title="Select Street Satellite or Terrain Layers"
+        Link="/Content/Select Street Satellite or Terrain Layers.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Manage Map Grids">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Map Grids Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Enable or Disable the Map Grid"
+        Link="/Content/Enable or Disable the Map Grid.htm" />
+      <TocEntry
+        Title="Display or Hide the Map Grid"
+        Link="/Content/Display or Hide the Map Grid.htm" />
+      <TocEntry
+        Title="Update Map Grids"
+        Link="/Content/Update Map Grids.htm" />
+      <TocEntry
+        Title="Enable or Disable Automatic Map Grid Updates"
+        Link="/Content/Enable or Disable Automatic Map Grid Updates.htm" />
+      <TocEntry
+        Title="Enforce Size Limit of Map Grid Cache"
+        Link="/Content/Enforce Size Limit of Map Grid Cache.htm" />
+      <TocEntry
+        Title="Clear Map Grid Cache"
+        Link="/Content/Clear Map Grid Cache.htm" />
+      <TocEntry
+        Title="Specify the Map Grid Source"
+        Link="/Content/Specify the Map Grid Source.htm" />
+      <TocEntry
+        Title="Specify an Alternate Map Grid Cache Folder"
+        Link="/Content/Specify an Alternate Map Grid Cache Folder.htm" />
+      <TocEntry
+        Title="Specify a Shared Cache for the Map Grid"
+        Link="/Content/Specify a Shared Cache for the Map Grid.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Administration">
+    <TocEntry
+      Title="Export Security Settings"
+      Link="/Content/Export Security Settings.htm" />
+    <TocEntry
+      Title="Show Current Users"
+      Link="/Content/Show Current Users.htm" />
+    <TocEntry
+      Title="View Locked Entities"
+      Link="/Content/View Locked Entities.htm" />
+    <TocEntry
+      Title="End a User Session"
+      Link="/Content/End a User Session.htm" />
+    <TocEntry
+      Title="Lock or Unlock a Project"
+      Link="/Content/Lock or Unlock a Project.htm" />
+    <TocEntry
+      Title="View Project or Security History"
+      Link="/Content/View Project or Security History.htm" />
+    <TocEntry
+      Title="Recalculate Cached Forecasts"
+      Link="/Content/Recalculate Cached Forecasts.htm" />
+    <TocEntry
+      Title="Gather Database Statistics"
+      Link="/Content/Gather Database Statistics.htm" />
+    <TocEntry
+      Title="Clear All Economic Output"
+      Link="/Content/Clear All Economic Output.htm" />
+    <TocEntry
+      Title="Truncate Daily Data"
+      Link="/Content/Truncate Daily Data.htm" />
+    <TocEntry
+      Title="Convert OilCondensate"
+      Link="/Content/Convert OilCondensate.htm" />
+    <TocEntry
+      Title="Delete Capital Actuals"
+      Link="/Content/Delete Capital Actuals.htm" />
+    <TocEntry
+      Title="Compact Project File"
+      Link="/Content/Compact Project File.htm" />
+    <TocEntry
+      Title="Manage License Usage"
+      Link="/Content/Manage License Usage.htm" />
+    <TocEntry
+      Title="Configure User Security">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/User Security Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Create Users"
+        Link="/Content/Create Users.htm" />
+      <TocEntry
+        Title="Import Users from an Active Directory"
+        Link="/Content/Import Users from an Active Directory.htm" />
+      <TocEntry
+        Title="Change a Password"
+        Link="/Content/Change a Password.htm" />
+      <TocEntry
+        Title="Edit Policies"
+        Link="/Content/Edit Policies.htm" />
+      <TocEntry
+        Title="Create Roles"
+        Link="/Content/Create Roles.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Assign Policies to Users and Roles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Assign Roles to Users"
+        Link="/Content/Assign Roles to Users.htm" />
+      <TocEntry
+        Title="Remove a User"
+        Link="/Content/Remove a User.htm" />
+      <TocEntry
+        Title="Remove a Security Role"
+        Link="/Content/Remove a Security Role.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Reserves Management">
+    <TocEntry
+      Title="Jurisdictions"
+      Link="/Content/Jurisdictions.htm">
+      <TocEntry
+        Title="Create Jurisdictions"
+        Link="/Content/Create Jurisdictions.htm" />
+      <TocEntry
+        Title="Exclude Entities from Jurisdictions"
+        Link="/Content/Exclude Entities from Jurisdictions.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Manage Reserves Data"
+      Link="/Content/Manage Reserves Data.htm">
+      <TocEntry
+        Title="Copy Reserves Category Data and Advanced Copy"
+        Link="/Content/Copy Reserves Category Data and Advanced Copy.htm" />
+      <TocEntry
+        Title="Delete Reserves Category Data"
+        Link="/Content/Delete Reserves Category Data.htm" />
+      <TocEntry
+        Title="Copy Reserves Plan Data"
+        Link="/Content/Copy Reserves Plan Data.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Transfer Reserves Category Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Review Change Records Overview"
+      Link="/Content/Review Change Records Overview.htm">
+      <TocEntry
+        Title="Balance Entities"
+        Link="/Content/Balance Entities.htm" />
+      <TocEntry
+        Title="Delete Change Records"
+        Link="/Content/Delete Change Records.htm" />
+      <TocEntry
+        Title="Create or Edit Change Record Categories or Summary Types"
+        Link="/Content/Create or Edit Change Record Categories or Summary Types.htm" />
+      <TocEntry
+        Title="Compare and Promote Reserves Plans"
+        Link="/Content/Compare and Promote Reserves Plans.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Automated Reserves Reconciliation">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Automated Reserves Reconciliation Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Using Automated Reserves Reconciliation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Enable Automated Reserves Reconciliation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Specify a Change Reason on Wells.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Specify a Change Record Sequence.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Auto Reconcile Wells.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/View the Waterfall Chart.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Reporting on Reserves Categories">
+    <TocEntry
+      Title="Reserves Categories Calculations"
+      Link="/Content/Reserves Management/Reserves Categories Calculations.htm" />
+    <TocEntry
+      Title="Reserves Categories Example"
+      Link="/Content/Reserves Management/Reserves Categories Example.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Aucerna Execute Integration">
+    <TocEntry
+      Title="Configure AFE Execute and Val Nav Integration"
+      Link="/Content/Aucerna Execute Integration/Configure AFE Execute and Val Nav Integration.htm" />
+    <TocEntry
+      Title="Add a Custom Field to AFE Execute for Val Nav Integration"
+      Link="/Content/Aucerna Execute Integration/Add a Custom Field to AFE Execute for Val Nav Integration.htm" />
+    <TocEntry
+      Title="Connect to an AFE Execute Database"
+      Link="/Content/Aucerna Execute Integration/Connect to an AFE Execute Database.htm" />
+    <TocEntry
+      Title="ImportUpdate Actual Costs from AFE Execute"
+      Link="/Content/Aucerna Execute Integration/ImportUpdate Actual Costs from AFE Execute.htm" />
+    <TocEntry
+      Title="Run Economics on Blended Capital Costs"
+      Link="/Content/Aucerna Execute Integration/Run Economics on Blended Capital Costs.htm" />
+    <TocEntry
+      Title="View AFEs Associated with an Entity"
+      Link="/Content/View AFEs Associated with an Entity.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Calculations">
+    <TocEntry
+      Title="New Entry" />
+  </TocEntry>
+  <TocEntry
+    Title="Appendices">
+    <TocEntry
+      Title="Keyboard Shortcuts"
+      Link="/Content/Aucerna Execute Integration/Keyboard Shortcuts.htm" />
+    <TocEntry
+      Title="Security Policies"
+      Link="/Content/Aucerna Execute Integration/Security Policies.htm" />
+  </TocEntry>
+</CatapultToc>

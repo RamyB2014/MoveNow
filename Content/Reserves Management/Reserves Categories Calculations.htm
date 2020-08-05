@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Reserves Categories Calculations" />
+        <h1>Reserves Categories Calculations</h1>
+        <p>The following chart explains how <MadCap:variable name="General.ProductName" /> handles the input and calculation of data that is entered against our nine reserves categories. </p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Major Categories
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Minor Categories
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Forecasting Reserves
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                        Entering Economic Parameters
+                    </th>
+                    <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                        Economics Reports
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 14.4pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td rowspan="3" class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P (Proved)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        DP (Develop Producing)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P-DP
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P-DP
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        P-DP
+                    </td>
+                </tr>
+                <tr style="height: 14.4pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        NP (Not Producing)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P-DP) + (P-NP)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P-DP) + (P-NP)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        (P-NP) - (P-DP) = P-NP Wedge
+                    </td>
+                </tr>
+                <tr style="height: 28.15pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        UD (Undeveloped)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P-DP) + (P-NP) + (P-UD)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P-DP) + (P-NP) + (P-UD)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        (P-UD) - (P-NP) or (P-UD) - (P-DP) if no P-NP = P-UD Wedge
+                    </td>
+                </tr>
+                <tr style="height: 14.4pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td rowspan="3" class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P + P (Proved + Probable)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        DP (Develop Producing)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P+P-DP
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P+P-DP
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        P+P-DP
+                    </td>
+                </tr>
+                <tr style="height: 26.85pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        NP (Not Producing)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P+P-DP) + (P+P-NP)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P+P-DP) + (P+P-NP)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        (P+P-NP) - (P+P-DP) = P+P-NP Wedge
+                    </td>
+                </tr>
+                <tr style="height: 40.6pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        UD (Undeveloped)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P+P-DP) + (P+P-NP) + (P+P-UD)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P+P-DP) + (P+P-NP) + (P+P-UD)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        (P+P-UD) - (P+P-NP) or (P+P-UD) - (P+P-DP) if no P+P-NP = P+P-UD Wedge
+                    </td>
+                </tr>
+                <tr style="height: 14.4pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td rowspan="3" class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P + P + P (Proved + Probable + Possible)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        DP (Develop Producing)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P+P+P-DP
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        P+P+P-DP
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        P+P+P-DP
+                    </td>
+                </tr>
+                <tr style="height: 26.85pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        NP (Not Producing)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P+P+P-DP) + &#160;(P+P+P-NP)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P+P+P-DP) + &#160;(P+P+P-NP)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        (P+P+P-NP) - (P+P+P-DP) = P+P+P-NP Wedge
+                    </td>
+                </tr>
+                <tr style="height: 53pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        UD (Undeveloped)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P+P+P-DP) + (P+P+P-NP) + (P+P+P-UD)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        (P+P+P-DP) + (P+P+P-NP) &#160;+ (P+P+P-UD)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        (P+P+P-UD) - (P+P+P-NP) or (P+P+P-UD) - (P+P+P-DP) if no P+P+P-NP = P+P+P-UD Wedge
+                    </td>
+                </tr>
+                <tr style="height: 26.85pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td rowspan="3" class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Prob. Add. (Probable Additional)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        DP (Develop Producing)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Do Not Enter, Model Calculates Automatically
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Do Not Enter, Model Calculates Automatically
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        (P + P-DP) - (P-DP)
+                    </td>
+                </tr>
+                <tr style="height: 19pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        NP (Not Producing)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Do Not Enter, Model Calculates Automatically
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Do Not Enter, Model Calculates Automatically
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        P + P-NP Wedge - P-NP Wedge
+                    </td>
+                </tr>
+                <tr style="height: 26.85pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        UD (Undeveloped)
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Do Not Enter, Model Calculates Automatically
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                        Do Not Enter, Model Calculates Automatically
+                    </td>
+                    <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                        P + P-UD Wedge - P-UD Wedge
+                    </td>
+                </tr>
+                <tr style="height: 39.25pt;" class="TableStyle-TopHeadRowTable-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        Poss. Add. (Possible Additional)
+                    </td>
+                    <td colspan="2" class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                        Wedge between Possible and Probable
+                    </td>
+                    <td colspan="2" class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

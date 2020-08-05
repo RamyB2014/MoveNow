@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Post Reserves" />
+        <h1>Post Reserves</h1>
+        <p>Reserves Reconciliation is performed at the top level of the entity hierarchy on proved and probable reserves estimates in the Accepted reserves plan. The current value is equivalent to the opening balance plus the sum of all changes for all balanced entities. The opening balance for the next reporting period is the current value less any value realized during the past reporting period.</p>
+        <p>Economic cases are evaluated for all entities in the Accepted reserves plan. Unless all entities are balanced in all Proved and Proved + Probable reserves categories, the reserves reconciliation will not proceed. If any entity or any reserves category is not balanced, the Verify Balance Report will display which entities are not balanced.</p>
+        <p>Prior to posting the database, generate a report on Company Share, Net, or Company Share and Net. Once the database is posted, the Economic Calculation Date will be revised to the Reference Date and values in this report will not be reproducible without a copy of the database retained before posting.</p>
+        <p>Economic data from all relevant reserves categories must be current to produce accurate results. If economic data is not current when you run a reserves report, <MadCap:variable name="General.ProductName" /> runs economics automatically when you run the report. However, if you want to run reserves economics before running the reserves report, you must run the <i>Reserves Options Scenario</i> on the <b>Reports</b> tab or in the Batch Manager for the entities you want to report on. If you run the <i>Reserves Options Scenario</i> prior to running reserves reports, the reports automatically detect this and will not run it again, resulting in faster display of the report. Running the <i>Default Scenario</i> does not necessarily generate the economic results required to run reserves reports.</p>
+        <p>See <MadCap:xref href="Run Economics before Running Reserves Reports.htm#Run_Economics_before_Running_Reserves_Reports">Run Economics before Running Reserves Reports</MadCap:xref>.</p>
+        <p class="ProcedureIntro">To post reserves</p>
+        <ol>
+            <li>
+                From the <b>Reserves</b> menu, select <b>Post Reserves</b>.
+            </li>
+            <li>
+                Select the jurisdictions.
+            </li>
+            <li>
+                Select the report options and click <b>Generate Report</b> to generate the Reconciliation of Reserves report. 
+            </li>
+            <li>
+                Close the Print Preview.
+            </li>
+            <li>
+                In the <b>Post Reserves</b> dialog box, enter the previous post date in the From field. 
+            </li>
+            <li>
+                Click <b>Post Reserves</b>. 
+            </li>
+        </ol>
+        <div class="Note">In previous versions of <MadCap:variable name="General.ProductName" />, the calculation date moved forward after posting reserves. In the current version, the calculation date does not move forward after posting. </div>
+    </body>
+</html>

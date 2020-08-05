@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:concept term="User Options" />
+        <MadCap:keyword term="User Options: Fit Settings" />
+        <h1>User Options: Fit Settings</h1>
+        <h2>Inclining or Shallow Decline Transition (Oil and Gas)</h2>
+        <p>These options limit the length of inclining or very shallow forecasts. Inclining forecasts and shallow forecasts (defined by the value entered in Minimum Decline) are limited to the number of months entered in Incline period duration and Flat period duration. After the duration, a new exponential decline segment is started at the rate entered in Default nominal slope. See <MadCap:xref href="User Options Product Specific.htm#User_Options_Product_Specific">User Option: Product Specific</MadCap:xref>. </p>
+        <h2>Date Range for Fitting</h2>
+        <p>These options control how <MadCap:variable name="General.ProductName" /> auto-forecasts wells. </p>
+        <ul class="DoubleSpace">
+            <li><b>All data</b>: <MadCap:variable name="General.ProductName" /> automatically determines how much production history is needed to calculate a decline for each well. 
+            </li>
+            <li><b>Recent</b>: <MadCap:variable name="General.ProductName" /> only goes back the entered number of months from the <MadCap:xref href="../Create, Convert and Open Projects/Set the Current Month.htm#Set_the_Current_Month" target="_popup">Current Month</MadCap:xref> and calculates a decline using that history.
+            </li>
+            <li><b>Start of current fit to end of history</b>: The fit is based on data from the beginning of the current fit to the end of production history. 
+            </li>
+            <li><b>Fit decline trends within the date range</b>: When selected, <MadCap:variable name="General.ProductName" /> looks for individual trends within the specified range. Trends are prioritized based on how recent they are and how much data they conform to.
+            </li>
+            <li><b>Only show the backfit on graphs when there is no auto fit source</b>: If enabled, the backfit is not displayed on wells that have an auto fit source. On wells with manual declines, the backfit will be displayed. 
+				            </li>
+        </ul>
+    </body>
+</html>

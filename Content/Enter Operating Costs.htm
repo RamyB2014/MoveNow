@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Enter Operating Costs" />
+        <h1>Enter Operating Costs</h1>
+        <p>Operating costs are entered on <b>Economics | Prices &amp; Costs | Operating Costs</b>. When you enter operating costs, enter the gross amount. The working interest share is calculated according to the percentage entered for <b>Operating Cost Interest</b> on <b>Economics | Interests &amp; Royalties</b>. See <MadCap:xref href="Enter a Working Interest.htm#Enter_a_Working_Interest">Enter a Working Interest</MadCap:xref>. </p>
+        <p>Inflation is applied to each cost according to the operating cost inflation rate entered in the Price Deck Editor. The default inflation rate is zero. See <MadCap:xref href="Edit Inflation.htm#Edit_Inflation">Edit Inflation</MadCap:xref>.</p>
+        <div class="Note">When entering operating costs on shut-in wells, you must enter the costs as an <MadCap:xref href="Entity Management/Override Inherited Values.htm#Override_Inherited_Values" target="_popup">override</MadCap:xref> in any reserves category other than <MadCap:xref href="Entity Management/Understanding the Common Reserves Category.htm#Understanding_the_Common_Reserves_Category" target="_popup">Common</MadCap:xref> and change the <b>Cost Type</b> to <b>Cost/Time</b>. When operating costs are entered in Common or inherited from Common on shut-in wells, the costs are not calculated and do not appear in reports. </div>
+        <p class="ProcedureIntro">To enter operating costs</p>
+        <ol>
+            <li>
+                Go to <b>Economics | Prices &amp; Costs | Operating Costs</b> and click <b>Add Costs</b>. 
+            </li>
+            <li>
+                Move the costs you want to add from the <b>Available Costs</b> window to the <b>Selected Costs</b> window by double-clicking them. 
+            </li>
+            <li>
+                Click <b>OK</b>.
+            </li>
+            <li>
+                Select or enter the following information in the column header: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                         Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Prevent Inflation
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Prevents the calculation of <MadCap:xref href="Edit Inflation.htm#Edit_Inflation">operating cost inflation</MadCap:xref>. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Escalation % (annual)
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Escalates the cost by the percentage you enter. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Cost Type
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Cost/Well/Time</b>: (fixed op costs only) For each well in the well count, the cost value is applied per time period (per day, month, or year).
+                            <b>Cost/Time</b>: (fixed op costs only) Regardless of the number of wells, applies the cost value per time period.
+                            <b>Cost/Volume</b>: (variable op costs only) Cost is applied per volume of associated product.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Unit
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Select a daily, monthly or annual unit. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                In each cost column, enter the gross amount of each cost next to the appropriate date.
+            </li>
+        </ol>
+        <div class="Note">If a cost category name is appended by (GCA) it is used to calculate GCA allowance.</div>
+        <h2>Tips</h2>
+        <ul>
+            <li>
+               You can change the date display under Display Mode, in the bottom right corner of the screen. 
+            </li>
+            <li>
+                You can copy costs to other wells using the <MadCap:xref href="Entity Management/Copy Entity Data.htm#Copy_Entity_Data">Input Copier</MadCap:xref>. 
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment="All technical documentation (release notes, installation, IT department) should be tagged with this condition"
+    Name="TechnicalUser"
+    BackgroundColor="#fbff00"
+    OriginalName="TechnicalUser" />
+  <ConditionTag
+    Comment="Content flagged with this condition is applicable to administrative users"
+    Name="AdminUser"
+    BackgroundColor="#ef0f23" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="BasicUser"
+    Comment="Content flagged with this condition is applicable to basic users" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="AdminONLY"
+    Comment="Content flagged with this condition WILL ONLY APPEAR in the admin target."
+    OriginalName="AdminONLY" />
+  <ConditionTag
+    BackgroundColor="#2da00e"
+    Name="BasicONLY"
+    Comment="Content flagged with this condition WILL ONLY APPEAR in the basic target"
+    OriginalName="BasicONLY" />
+  <ConditionTag
+    BackgroundColor="#fff300"
+    Name="TechnicalONLY"
+    Comment="Content flagged with this condition WILL ONLY APPEAR in the technical target"
+    OriginalName="TechnicalONLY" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="InternalOnly"
+    Comment="Content flagged with this condition is only included with internal-only targets" />
+</CatapultConditionTagSet>

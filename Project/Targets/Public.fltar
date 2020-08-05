@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MoveOutputContentToRoot="false"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  ResultsPerPage="10"
+  ConditionTagExpression="include[Shared.BasicONLY or Shared.BasicUser] exclude[General.Exclude or General.Hide or Shared.AdminONLY or Shared.AdminUser or Shared.InternalOnly or Shared.TechnicalONLY or Shared.TechnicalUser] "
+  MasterStylesheetOverride="true"
+  DisableAutoSync="true"
+  ExcludeUnreferencedContent="true"
+  GetLatestBeforeCompile="true"
+  MasterPage="/Content/Resources/MasterPages/Master Aucerna Topic Page.flmsp"
+  MasterStylesheet="/Content/Resources/Stylesheets/Master Aucerna Topic Styles.css"
+  Skin="/Project/Skins/AucernaMasterHTML5.flskn"
+  DefaultUrl="/Content/index.htm">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/PublicStaging.fldes"
+      Publish="true" />
+  </Destinations>
+</CatapultTarget>

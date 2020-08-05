@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Create a Cost Entity" />
+        <h1>Create a Cost Entity</h1>
+        <p class="ProcedureIntro">To create a cost entity</p>
+        <ol>
+            <li>
+                In the Entity Explorer, right click, point to <b>Create</b> and select <b>Oil Well</b> or <b>Gas Well</b> (it doesn’t matter which you choose). 
+            </li>
+            <li>
+                In the Well Information dialog box, complete the fields below. 
+            </li>
+            <div class="NoteInProcedure">The fields below are the minimum fields required to create a cost entity. Complete additional fields as required. </div>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Tab
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Field
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td rowspan="7" class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Well Properties
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Display Name
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Name displayed in the Entity Explorer.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Field 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Field 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Pool
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Pool
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Country
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Select the country. See <MadCap:xref href="Add a Country.htm#Add_a_Country">Add a Country</MadCap:xref>. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            State/Province
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Select the Province or State. See <MadCap:xref href="Test/Add a Province or State.htm#Add_a_Province_or_State">Add a Province or State</MadCap:xref>. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Well Type
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Select <b>Cost Entity</b>. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Entity Currency
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Select the currency for economic calculations. See <MadCap:xref href="Add a Currency.htm#Add_a_Currency">Add a Currency</MadCap:xref>. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+               Select the cost entity in the Entity Explorer and go to <b>Economics | Prices &amp; Costs | Capital Costs</b> to add capital costs. See <MadCap:xref href="Enter Capital Costs.htm#Enter_Capital_Costs">Enter Capital Costs</MadCap:xref>.
+            </li>
+            <li>
+               Go to <b>Economics | Prices &amp; Costs | Operating Costs</b> to add operating costs. See <MadCap:xref href="Enter Operating Costs.htm#Enter_Operating_Costs">Enter Operating Costs</MadCap:xref>. Only add fixed operating costs to a cost entity. 
+            </li>
+            <div class="NoteInProcedure"> Cost entity costs inherited from another reserves category or plan are not included in economic calculations. Only costs entered directly in the reserves category and plan are included. </div>
+            <li>
+                For all operating costs, change the <b>Cost Type</b> to <b>Cost/Time</b>. 
+            </li>
+        </ol>
+    </body>
+</html>

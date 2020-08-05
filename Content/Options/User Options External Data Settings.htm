@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:concept term="User Options" />
+        <MadCap:keyword term="User Options: External Data Settings" />
+        <h1>User Options: External Data Settings </h1>
+        <p>The PPDM Import options are used when you import production data. When you update well production using IHS or GeoLogic data, a dialog box with the PPDM Import options is displayed. You can change the options for the current import, but the options will not be saved for the next import. To change the import options permanently, edit them in the User Options. </p>
+        <h2>Data to Import</h2>
+        <p>When importing data from an external source, only the selected data types are imported. </p>
+        <h2>Monthly Import Options</h2>
+        <h3>Import All Production History</h3>
+        <p>Imports all production history. </p>
+        <h3>Import (number) Months of Production History</h3>
+        <p>Selecting a number imports that number of months of production history, going back in time from the <MadCap:xref href="../Create, Convert and Open Projects/Set the Current Month.htm#Set_the_Current_Month" target="_popup">Current Month</MadCap:xref>. </p>
+        <h3>Import All Available Production for New Wells</h3>
+        <p>If enabled, this setting causes all production history for new wells to be imported, regardless of the number selected for <b>Import (number) Months of Production History.</b></p>
+        <p>New wells are:</p>
+        <ul class="DoubleSpace">
+            <li>
+                Wells contained in a well list used during a PPDM import (see <MadCap:xref href="../Import Wells from a Well List text file.htm#Import_Wells_from_a_Well_List_text_file">Import Wells from a Well List</MadCap:xref>) 
+            </li>
+            <li>
+                Wells in the project with no production history. If <MadCap:variable name="General.ProductName" /> matches the UWI of a well in your project to a UWI in IHS or GeoLogic, it will import the well’s production history. 
+				            </li>
+        </ul>
+        <h3>Import Production History to End of (date)</h3>
+        <p>Imports production history to the end of the specified date.</p>
+        <h3>Depths</h3>
+        <p>This option controls the import of three depths simultaneously: GCI Depth (gross completion interval), Measured Depth, and True Vertical Depth.</p>
+        <p><b>Do not import</b>: Depths are not imported.</p>
+        <p><b>Import if missing</b>: Depths are only imported if they are missing. </p>
+        <p><b>Import always (overwrite)</b>: Depths are always imported and overwrite any existing depths in the project. </p>
+        <h2>Daily Import Options</h2>
+        <h3>Import All Production History</h3>
+        <p>Imports all production history. </p>
+        <h3>Import (number) Days of Production History</h3>
+        <p>Selecting a number imports that number of days of production history, going back in time from the <MadCap:xref href="../Create, Convert and Open Projects/Set the Current Month.htm#Set_the_Current_Month" target="_popup">Current Month</MadCap:xref>. </p>
+        <h3>Import All Available Production for New Wells</h3>
+        <p>If enabled, this setting causes all production history for new wells to be imported, regardless of the number selected for <b>Import (number) Months of Production History.</b></p>
+        <p>New wells are wells in the project with no production history. If <MadCap:variable name="General.ProductName" /> matches the UWI of a well in your project to a UWI in the imported data, it will import the well’s production history. </p>
+        <h3>Import Production History to End of (date)</h3>
+        <p>Imports production history to the end of the specified date.</p>
+    </body>
+</html>

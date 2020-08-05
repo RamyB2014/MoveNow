@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:concept term="User Options" />
+        <MadCap:keyword term="User Options: Import Parameters" />
+        <h1>User Options: Import Parameters </h1>
+        <h2><a name="Import_Latitude/Longitude"></a>Import Latitude/Longitude</h2>
+        <p>If enabled, all valid UWIDs will have the existing latitude and longitude (including zeros) populated with values from the data source.</p>
+        <p>If disabled, existing values remain as-is. For values of zero, <MadCap:variable name="General.ProductName" /> calculates the values, based on valid UWIDs.</p>
+        <h2><a name="Recalculate_Depths_for_Groups_on_Import"></a>Recalculate Depths for Groups on Import</h2>
+        <p>Recalculates GCI, Measured Depth, and True Vertical Depth for all groups that have children updated on an import.</p>
+        <h2>Set “Use” Flag for New Gas Analyses on Import</h2>
+        <p>If enabled, imported gas analyses will be marked as <b>Use</b> on <b>Predictions | Gas Analysis</b>. </p>
+        <h2>Remove Production History when Absent from Data Source or File Import</h2>
+        <p>If enabled, production history is removed from existing wells in your project if there is no corresponding history in the production import file or PPDM source.</p>
+        <p>For example, if you used a spreadsheet to import history for January and then update the well with a production data file or PPDM source and the file or PPDM source does not contain history for January, the January history is deleted. </p>
+        <h2><a name="Max_Shut-in_Months"></a>Max Shut-in Months</h2>
+        <p>If the number of months between the last production date and the Current Month exceeds the number entered in max Shut In Months, the wells are considered shut in. Shut-in wells are not auto-forecasted on import and do not receive an economic case when economics are run. By Default, shut-in wells do not receive data copied to them from the Economic Input Copier. </p>
+        <div class="Note">This setting is also used when performing a best fit. </div>
+        <h2><a name="Generate_Forecast_from_Last_Production_Month"></a>Generate Forecast from Last Production Month</h2>
+        <p>If this option is enabled, all wells in the project are forecasted from their last month of production. If this option is disabled, all wells are forecasted from the Current Month. If a well’s last month of production is prior to the project’s current month, but within the maximum shut-in months, there will be a gap between the last month of production and the start of the forecast. </p>
+        <p>This setting affects how the current month is set. See <MadCap:xref href="../Create, Convert and Open Projects/Set the Current Month.htm#Set_the_Current_Month">Set the Current Month</MadCap:xref>. </p>
+        <p>Enabling this option is recommended when a project contains U.S. wells, where there is a large difference between each well’s last month of production.</p>
+        <div class="Note">This setting is also used when performing a best fit. </div>
+        <h2><a name="Generate_Auto-forecast_on_Import_"></a>Generate Auto-forecast on Import </h2>
+        <p>Creates auto-forecasts for imported wells, when selected.</p>
+        <h2><a name="Set_Start_of_Forecast_on_Import"></a>Set Start of Forecast on Import</h2>
+        <p>When this option is enabled, the start of all forecasts is moved to the end of the last production month. When this option is disabled, new production history is appended to the wells in the project, but the start of all forecasts is not moved. Therefore, the new production history and the forecast will overlap. </p>
+        <h2><a name="Recalculate_Constant_On-time_on_Import"></a>Recalculate Constant On-time on Import</h2>
+        <p>When this option is enabled, On-time is recalculated based on the most recent six months of new production history being appended. Disabling this option keeps the current On-time of the wells in the project. </p>
+        <h2><a name="Recalculate_Ratios_on_Import"></a>Recalculate Ratios on Import</h2>
+        <p>When this option is enabled, GOR, OGR, and WGR are recalculated based on the new production history being appended. Disabling this option keeps the current GOR, OGR, and WGR of the wells in the project. </p>
+    </body>
+</html>

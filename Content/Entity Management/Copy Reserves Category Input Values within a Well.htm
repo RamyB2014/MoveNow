@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Copy Reserves Category Input Values within a Well" />
+        <h1>Copy Reserves Category Input Values within a Well </h1>
+        <p>The Data Manager enables you to copy values for specific tabs from one reserves category to another within a well. You can do this for several wells simultaneously. </p>
+        <h2>Copy Behavior</h2>
+        <p>Technical and economic data is only copied to reserves categories that already have data. Data is not copied to empty reserves categories even if you select them. You can override this behavior and copy data to empty reserves categories by selecting Copy data to target reserves categories that have no data (see the procedure below).&#160; </p>
+        <p>In previous versions of <MadCap:variable name="General.ProductName" />, the copy behavior described above only applied to economic data (technical data was always copied to empty reserves categories). In the current version of <MadCap:variable name="General.ProductName" />, this behavior applies to both technical and economic data. </p>
+        <h2>Advanced or Basic Copy</h2>
+        <p>You can select Advanced or Basic copy functionality from the context menu or in the Data Manager dialog box. Basic copy functionality enables you to copy technical data, economic data or both, but you cannot specify which technical or economic items to copy. You must copy all items or none. The advanced copy functionality enables you specify exactly which technical or economic items you want to copy. </p>
+        <p class="ProcedureIntro">To copy values from one reserves category to another</p>
+        <ol>
+            <li>
+                In the Entity Explorer, select the entity, entities or folder containing the wells you want to manage. 
+            </li>
+            <li>
+                From the Entity menu, select <b>Data Manager</b>. 
+            </li>
+            <div class="NoteInProcedure"> You can also access the Data Manager from the Summary window: Right-click and select <b>Copy Reserves Category </b>(to access basic copy functionality) or <b>Advanced Copy</b> (to access advanced copy functionality). </div>
+            <li>
+                In the <b>Data Manager</b> dialog box, select <b>Copy</b> or <b>Advanced Copy</b>, if required. 
+            </li>
+            <li>
+                Select the <b>Source Reserves Category</b>. If you are using basic copy, the currently selected reserves category is the source. If you are using advanced copy, select a reserves category from the Reserves Category list.
+            </li>
+            <li>
+                Under Destinations, select the <b>Destination Reserves Categories</b>.
+            </li>
+            <li>
+                Select or deselect <b>Apply</b> to children of groups. 
+            </li>
+            <li>
+               Select the Items to <b>Copy</b>.
+            </li>
+            <li>
+                If you are using Advanced Copy, for each Cost, Interest, and Price Differential you select under <b>Items to Copy</b>, select an option from the Options column. The table below describes costs, but the descriptions also apply to interests and price differentials.
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Behaviour
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Replace All
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            All costs in the destination entity are deleted. 
+                            Selected costs are copied to the destination entity. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Replace Selected
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            All costs in the destination entity that match the selected costs are deleted. 
+                            Selected costs are copied to the destination entity.
+                            Other costs in the destination entity are retained. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Append New
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            All costs in the destination entity are retained. 
+                            All selected costs are copied to the destination entity. 
+                            New costs that correspond to existing costs are appended with a modified name (a number is added to the new cost name). This function enables you to copy duplicate costs. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Select any of the following options, as required (advanced copy only): 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Copy data to target reserves categories that have no inputs
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Forces the copying of data to empty reserves categories.&#160; 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Delete copied items from source
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Deletes selected items from the source reserves category. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Delete copied items from all non-Common reserves categories
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Only enabled if Common is selected as the destination reserves category. 
+                            All data for the selected <b>Items to Copy</b> are deleted from all reserves categories other than Common. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Click <b>OK</b>. 
+            </li>
+        </ol>
+    </body>
+</html>

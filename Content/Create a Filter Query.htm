@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Create a Filter Query" />
+        <h1>Create a Filter Query</h1>
+        <p>Filters are used to find wells that meet a criterion or set of criteria. </p>
+        <p>When using the filter dialog box: </p>
+        <ul class="DoubleSpace">
+            <li>
+                You can use an asterisk (*) as a wild card. For example, if you are searching for wells in the Gull Lake Basal Cantuar pool, but can’t remember the full name, you can enter <b>Pool + Like + Gull Lake*</b>. 
+            </li>
+            <li>
+                Some fields require filter keys for accurate results. For example, a filter which specifies <b>Decline=True</b> will return all wells with declines regardless of Reserve Category or Reserve Plan. Therefore, to return all wells that have a decline in the Working Copy of PUD, you must use the Reserve Category and Reserve Plan keys (<b>Decline=True AND Reserve Category=PUD AND Reserve Plan=Working</b>.) For this reason, filter keys are automatically displayed when you select a search field that requires them. 
+            </li>
+            <li>
+                If you create entities or edit entity properties that affect the filter results, the results are not automatically updated. Use the <b>Reapply Filter</b> button (<img src="Resources/Images/a_image004_005.jpg" class="InlineImage" />) to update the results. 
+            </li>
+        </ul>
+        <div class="Note"> When a filter is applied to the project, the <b>Filter Well List</b> icon is red <img src="Resources/Images/image001_003.png" class="InlineImage" />. </div>
+        <p class="Procedure">To create a filter query</p>
+        <ol>
+            <li>
+                On the Standard toolbar click <img src="Resources/Images/a_image012_001.jpg" class="InlineImage" />. 
+            </li>
+            <li>
+                In the <b>Filter</b> dialog box, click <img src="Resources/Images/a_image014_002.jpg" class="InlineImage" />&#160;to add a line to the query. 
+            </li>
+            <li>
+                In the new query line, select a field, operator, and value. 
+            </li>
+            <li>
+                Perform the following, as required:
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            To
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Do this
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="height: 6.35pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            To
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Do this
+                        </td>
+                    </tr>
+                    <tr style="height: 6.35pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Add another line to the query, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Click <img src="Resources/Images/a_image014_002.jpg" class="InlineImage" />.
+                        </td>
+                    </tr>
+                    <tr style="height: 5.45pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Add a nested filter, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Click <img src="Resources/Images/image016_002.jpg" class="InlineImage" />.
+                        </td>
+                    </tr>
+                    <tr style="height: 5.45pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Change the join type to <b>and</b>,
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Select <b>Match all of the items</b>.
+                        </td>
+                    </tr>
+                    <tr style="height: 5.45pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Change the join type to <b>or,</b>
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Select <b>Match any of the items</b>.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                If you have selected a search field that displays filter keys, select the appropriate operators and values for each key before adding another line or applying the filter.
+            </li>
+            <li>
+                Perform one of the following, as required:
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            To 
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Do this
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="height: 0.95pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Save a new filter (or a modified filter with the original name) *
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Click <b>Save</b>. 
+                        </td>
+                    </tr>
+                    <tr style="height: 0.95pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Save a modified filter with a new name 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Click <b>Save As</b>. Enter a name and click <b>OK</b>. 
+                        </td>
+                    </tr>
+                    <tr style="height: 8.15pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Apply the query and close the filter 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Click <b>OK</b>. 
+                        </td>
+                    </tr>
+                    <tr style="height: 0.95pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Apply the query without closing the filter dialog box 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Click <b>Apply</b>. 
+                        </td>
+                    </tr>
+                    <tr style="height: 0.95pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Clear the current filter query
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Click <b>Clear Active Filter</b>. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </ol>
+        <div class="Note">If you modify a previously-saved filter and click <b>Save</b>, the original filter is overwritten. </div>
+    </body>
+</html>

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Best Fit or Refit Wells" />
+        <h1>Best Fit or Refit Wells</h1>
+        <p>When you best fit or refit a well, <MadCap:variable name="General.ProductName" /> determines how much history to use in calculating the decline. To best fit or refit a well from a point in history or from a selection of history, see <MadCap:xref href="Best Fit or Refit a Decline from a Point.htm#Best_Fit_or_Refit_a_Decline_from_a_Point">Best Fit or Refit a Decline from a Point</MadCap:xref> or <MadCap:xref href="Best Fit or Refit a Decline from a Selection.htm#Best_Fit_or_Refit_a_Decline_from_a_Selection">Best Fit or Refit a Decline from a Selection</MadCap:xref>. </p>
+        <p>When you best fit a well, <MadCap:variable name="General.ProductName" /> determines whether the decline should be hyperbolic, harmonic or exponential. When you refit a well, <MadCap:variable name="General.ProductName" /> maintains the well’s current decline type. </p>
+        <p>To best fit or refit all the wells in your project, select the highest level folder in the Entity Explorer and follow the procedure below. If you only want to best fit some wells, select the wells individually or select the folder level that contains them or filter to them first.</p>
+        <div class="Note"> Declines are created in reserves categories in accordance with the decline parameters specified for each category in your <MadCap:xref href="Options/User Options Product Specific.htm#User_Options_Product_Specific" target="_popup">User Options: Product Specific</MadCap:xref>. For example, selecting All Developed Producing in the Best Fit Options (below) will only create a decline in those reserves categories if you have entered decline parameters for them in the User Options. You can access the User Options by clicking the button in the bottom left corner of the Best Fit/Refit dialog box or by selecting <b>Options</b> from the <b>Tools</b> menu. </div>
+        <p class="ProcedureIntro">To best fit or refit wells </p>
+        <ol>
+            <li>
+                In the entity explorer, select the entity or the folder level that contains the wells you want to best fit or refit. 
+            </li>
+            <li>
+                Do one of the following: 
+            <ul class="IndentTightList"><li>
+                On the <b>Predictions</b> menu, click <b>Best Fit or Refit</b></li><li>
+                Click <img src="Resources/Images/image053.jpg" class="InlineImage" />&#160;on <b>Predictions | Declines</b> and click <b>Best Fit </b>or<b> Refit</b></li></ul></li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                In the <b>Best Fit/Refit</b> dialog box, select the appropriate options, below.
+            </li>
+        </ol>
+        <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                        Option
+                    </th>
+                    <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                        Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td colspan="2" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Date Range for Fitting</b>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Data
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><MadCap:variable name="General.ProductName" /> automatically determines how much production history is needed to calculate a decline for each well.
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Recent
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><MadCap:variable name="General.ProductName" /> only goes back the entered number of months in production history and calculates a decline using that history.
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Start of current fit to end of history
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        The fit is based on data from the beginning of the current fit to the end of production history.
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Fit decline trends within the date range
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        When selected, <MadCap:variable name="General.ProductName" /> looks for individual trends within the specified range. Trends are prioritized based on how recent they are and how much data they conform to.
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td colspan="2" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Exponent Options</b>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Find the best exponent based on user options
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        The exponent is determined using your <MadCap:xref href="Options/User Options Product Specific.htm#User_Options_Product_Specific">User Options: Product Specific</MadCap:xref>. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Keep the current exponent type
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Maintains the well’s current exponent type. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Keep the current exponent value
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Maintains the well’s current exponent value.
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Fit using the exponent value of
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Assigns the exponent the specified value. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td colspan="2" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><![CDATA[
+                        ]]><span class="BoldForUI">Fit Options
+</span><![CDATA[                    ]]></td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Create or replace only the specified products
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Only wells with the products selected under <b>Products to Fit</b> will have a best fit decline added. 
+                        <b>Wells with decline</b>: Decline is replaced. 
+                        <b>Wells without decline</b>: Decline is created. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Only fit the specified products if decline exists
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Only wells with a decline and the products selected under <b>Products to Fit</b> will have a best fit decline added.
+                        <b>Wells with decline</b>: Decline is replaced. 
+                        <b>Wells without decline</b>: No change. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Fit specified products; remove unchecked products
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        All selected wells are affected.
+                        Wells with the products selected under <b>Products to Fit</b>: 
+                        <b>Wells with decline</b>: Decline is replaced. 
+                        <b>Wells without decline</b>: Decline is created.
+                        Wells with the products <b><i>not</i></b> selected under <b>Products to Fit</b> will have their declines removed. 
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td colspan="2" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Special Fitting Methods*</b>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Use special fitting when N &gt;
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Special fitting is used when N is greater than the specified value. 
+                    </td>
+                </tr>
+                <tr style="height: 13.15pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td rowspan="3" class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Methods to use
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Power Law<br /></b>q = q<span class="subscriptChar">i</span>&#160; exp (-d<span class="subscriptChar">∞</span> t-d<span class="subscriptChar">i</span>&#160; t<span class="superChar">n</span>), where d<span class="subscriptChar">i</span>= d<span class="subscriptChar">1</span>⁄n
+                    </td>
+                </tr>
+                <tr style="height: 27.5pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Stretched</b>
+                        <br />q = q<span class="subscriptChar">i</span> exp[-(t⁄t)<span class="superChar">n</span> ] = q<span class="subscriptChar">i</span>&#160; exp(-d<span class="subscriptChar">i</span>&#160; t<span class="superChar">n</span>), where d<span class="subscriptChar">i</span>=d<span class="subscriptChar">1</span>⁄n
+                    </td>
+                </tr>
+                <tr style="height: 15.65pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Duong</b>
+                        <br />q = q_<span class="subscriptChar">1</span> t<span class="subscriptChar">D</span>+ q<span class="subscriptChar">∞</span></td>
+                </tr>
+                <tr style="height: 15.65pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td colspan="2" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>*Note on Special Fitting Methods</b>
+                        
+                        If <MadCap:variable name="General.ProductName" /> cannot find a fit for the method you selected, it falls back to other fit methods as described below: 
+                        <ul><li>
+                                Duong and Stretched fall back to Arps
+                            </li><li>
+                                Power Law Loss Ration falls back to Stretched then to Arps
+                            </li></ul></td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Set d-infinity
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Use this option to specify the d infinity term that is used in the Power Law Loss Ratio fitting instead of allowing <MadCap:variable name="General.ProductName" /> to automatically calculate it when determining the fit. You can set this term for oil and gas separately. 
+                        The default values are specified in <b>User Options &gt; Fit Settings &gt; Product Specific &gt; Minimum nominal Df (Proved)</b>.
+                        The unit (Nominal/Eff.Sec./Eff.Tan.) is specified in <b>User Options &gt; General &gt; Decline display settings</b>.
+                    </td>
+                </tr>
+                <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td colspan="2" class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1"><b>Fit Target</b>
+                    </td>
+                </tr>
+                <tr style="height: 1.3pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Name
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Name for the forecast in the Decline Workspace. 
+                    </td>
+                </tr>
+                <tr style="height: 1.3pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Current reserves category
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Creates the decline in the currently selected reserves category. 
+                    </td>
+                </tr>
+                <tr style="height: 1.3pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        All Developed Producing
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Creates the decline in PDP, P+PDP, and P+P+PDP. 
+                    </td>
+                </tr>
+                <tr style="height: 1.3pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                        Create in Decline Workspace
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                        Selecting this option creates a decline in the Decline Workspace, in the fit class specified below. 
+                        Assign each Best Fit a name so you can compare them in the Decline Workspace. 
+                        See <MadCap:xref href="Create Multiple Forecasts on Predictions Workspace.htm#Create_Multiple_Forecasts_on_Predictions__Workspace">Create Multiple Forecasts on Predictions </MadCap:xref>. 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true" class="Procedure">
+            <li>
+                Confirm the <b>Entity Count</b> to ensure you are best fitting or refitting the correct number of entities. 
+            </li>
+            <li>
+                Click <b>OK</b>.
+            </li>
+        </ol>
+    </body>
+</html>

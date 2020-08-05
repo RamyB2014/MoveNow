@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Map Data Vendor IDs" />
+        <h1>Map Data Vendor IDs</h1>
+        <p>The Vendor IDs dialog box is used to map data vendor well IDs to wells in your project. Mapping data vendor IDs to wells enables the following: </p>
+        <ul>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Updating wells from multiple data vendors even though each vendor may have a different ID for the same well, </li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Using custom names for wells even though data vendors do not recognize those names </li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Matching well codes in daily data with UWIDs in a project </li>
+        </ul>
+        <p>When a well is first imported into a <MadCap:variable name="General.ProductName" /> project, its UWID (Unique Well Identifier) or API Field ID is used as the UWID for the project. However, you can assign other IDs used by different data vendors to that well in the Vendor IDs dialog box. Once another data vendor’s ID has been assigned to a well, the well can be updated from that source. </p>
+        <div class="Note">An entity’s Vendor ID or API is displayed in the Properties Window (under Identification) in the bottom left of the screen when you select the <b>Properties</b> tab. </div>
+        <p>Daily data sources do not contain well codes instead of UWIDs. Before importing daily production, you must map the codes and the well UWIDs. </p>
+        <div class="Note">To map a new vendor ID to a well</div>
+        <ol>
+            <li>
+                In the Entity Explorer select the entity or folder level of entities you want to add vendor IDs to. 
+            </li>
+            <li>
+                From the <b>Administration</b> menu, select <b>Vendor IDs</b>. The Vendor IDs dialog box displays the current entity or all entities in the folder selected in the Explorer. &gt;
+            </li>
+            <li>
+                If the vendor you want to use is not displayed in the Vendor IDs dialog box, right-click in any column header to display the Show Columns dialog box. 
+            </li>
+            <li>
+                Select the vendors you want to use for mapping and click <b>OK</b>. 
+            </li>
+            <li>
+                Enter the vendor IDs in the appropriate row and column. 
+            </li>
+            <li>
+                Click <b>OK</b>.
+            </li>
+        </ol>
+    </body>
+</html>

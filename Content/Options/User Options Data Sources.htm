@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="User Options" />User Options Data Sources</h1>
+        <p>Before you can import data from IHS, GeoLogic, a corporate data hub (for daily data or AFENav) you must set up a connection. See <MadCap:xref href="../Configure an External Data Connection.htm#Configure_an_External_Data_Connection">Configure an External Data Connection</MadCap:xref>. </p>
+        <h2>Advanced Settings</h2>
+        <h3>Data Source</h3>
+        <ul class="DoubleSpace">
+            <li>
+                By default, IHS, GeoLogic, Daily Data, and Actual Capital Costs (AFENav) are available as data sources
+            </li>
+            <li>
+                To configure a different source, select either of the options and customise the connection
+            </li>
+        </ul>
+        <h3>Connection Information</h3>
+        <ul class="DoubleSpace">
+            <li>
+                Create a data link file and browse to its location
+            </li>
+        </ul>
+        <h3>Tables</h3>
+        <ul class="DoubleSpace">
+            <li>
+                The fixed list of tables that <MadCap:variable name="General.ProductName" /> looks for to complete a data update
+            </li>
+            <li>
+                Required tables cannot be deselected
+            </li>
+        </ul>
+        <h3>Alias</h3>
+        <ul class="DoubleSpace">
+            <li>
+                View/table name in the data source that corresponds to the Table name
+            </li>
+            <li>
+                Defaults to PPDM 3.7 IHS or GeoLogic view names
+            </li>
+        </ul>
+        <h3>Query</h3>
+        <ul class="DoubleSpace">
+            <li>
+                Optional textbox to enter a custom query that generates the required columns from a proprietary data source
+            </li>
+        </ul>
+        <h3>Columns</h3>
+        <ul class="DoubleSpace">
+            <li>
+                Columns and data types expected in each table/view available to select in a PPDM update
+            </li>
+            <li>
+                Required fields cannot be deselected
+            </li>
+        </ul>
+        <p>To create views from a data source other than IHS or GeoLogic, create a query that selects the expected columns from a data source and save it in the Query textbox in the dialogue. </p>
+    </body>
+</html>

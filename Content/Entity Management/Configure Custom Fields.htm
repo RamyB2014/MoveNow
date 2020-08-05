@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <MadCap:keyword term="Configure Custom Fields" />
+        <h1>Configure Custom Fields</h1>
+        <p>Custom Fields are displayed in the Data View on the Wells and General Economics tab. </p>
+        <p>Custom Fields are used to label wells with text, dates or numbers. You can then use the custom fields to: </p>
+        <ul class="DoubleSpace">
+            <li>
+                <p>Identify new wells imported into a project (using the Import Tag, below)</p>
+            </li>
+            <li>
+                <p>Modify the Entity Hierarchy (see <MadCap:xref href="Create or Edit an Entity Hierarchy.htm#Create_or_Edit_an_Entity_Hierarchy">Create or Edit an Entity Hierarchy</MadCap:xref>)</p>
+            </li>
+            <li>
+                <p>Filter to wells (see <MadCap:xref href="../Create a Filter Query.htm#Create_a_Filter_Query">Create a Filter Query</MadCap:xref>)</p>
+            </li>
+            <li>
+                <p>Assign View and Edit rights to users (see <i>Using Custom Fields for User Security</i>, below).</p>
+            </li>
+            <li>
+                <p>Specify an IP rate that you can select on the Cross Plot Report</p>
+            </li>
+            <li>
+                <p>Enter a working interest factor for working interest roll ups</p>
+            </li>
+        </ul>
+        <p class="ProcedureIntro">To create a custom field</p>
+        <ol>
+            <li>
+                Do one of the following: 
+            <ul class="IndentTightList"><li>
+                On the <b>Wells and General Economics </b>tab (in the <b>Data View)</b>, click <b>Edit Custom Fields</b>. 
+            </li><li>
+                In the <b>Tools</b> menu, point to <b>Global Project Data</b> and click <b>Custom Fields</b>. 
+            </li></ul></li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                In the <b>Custom Fields</b> dialog box, click <b>Add</b> in the bottom left corner. (The Custom Fields dialog box is also accessible from the <b>Tools menu &gt; Global Project Data &gt; Custom Fields</b>.)
+            </li>
+            <li>
+                Type a Name for the custom field and select a <b>Field Type</b> (Text, Date Number). 
+            </li>
+            <li>
+                Click <b>OK</b>. 
+            </li>
+            <li>
+               If you are creating the field for user security, select <b>Requires administrative privileges to edit values</b>.
+            </li>
+            <li>
+                To add selectable values for the custom field, click <b>Add</b> beneath the Definition area of the <b>Custom Fields</b> dialog box. 
+            </li>
+            <li>
+                Type a Value and click <b>OK</b>. 
+            </li>
+            <li>
+               Repeat steps 5-7 to add more selectable values, if required. 
+            </li>
+            <div class="NoteInProcedure">If the project contains text values in the custom field already, the “update list values” option can be used to automatically populate the text values into the list of selectable values. </div>
+            <li>
+                Under <b>Select Default List Value for New Entities</b>, select the value you want to use as the default for new entities, if required. 
+            </li>
+            <li>
+                Click <b>OK</b>. 
+            </li>
+        </ol>
+        <p>The list of selectable text values can be enforced, by selecting Enforce List Validation. If this option is selected, the user must select a value and cannot enter free text. </p>
+        <p>You can assign a Unit Type (length, area, mass, etc.) to the values in numeric custom fields. You can also specify which units to use (meters, kilometers, miles, or feet, for example) for metric and imperial measurements. </p>
+        <p>To export custom fields for use in another project, see <MadCap:xref href="../Export Project Data.htm#Export_Project_Data">Export Project Data</MadCap:xref>. </p>
+        <p>To import custom fields exported from another project, see <MadCap:xref href="../Import Project Data.htm#Import_Project_Data">Import Project Data</MadCap:xref>. </p>
+    </body>
+</html>

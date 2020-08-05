@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="Resources/TableStyles/TopHeadRowTable.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Create and Run a Scenario" />
+        <h1>Create and Run a Scenario</h1>
+        <p>Scenarios can be run on entities or folders to compare the results when variables are altered. For example, the Economics Summary report could be run on a potential acquisition using three different price decks to see how the rate of return is affected by the different prices. </p>
+        <p>The following variables can be adjusted when running scenarios: </p>
+        <ul class="DoubleSpace">
+            <li style="margin-left: 0pt;text-indent: 0pt;">Abandonment Capital</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Economic Limit</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Use escalating price</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Saskatchewan Capital Surcharge</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Price Deck </li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Capital costs</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Operating costs</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Price Template</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Chance of Success</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Chance of Occurrence</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Price Factor</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Operating Cost Factor </li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Capital Cost Factor</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Production Factor </li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Companies</li>
+        </ul>
+        <p class="ProcedureIntro">To create and run a scenario </p>
+        <ol>
+            <li>
+                Do one of the following: 
+            <ul class="IndentTightList"><li>
+                In the <b>Tools</b> menu, point to <b>Global Project Data</b>, and click <b>Scenarios</b>.
+            </li><li>
+                On the <b>Scenarios</b> tab of the <b>Batch Manager</b>, click <b>Edit</b> <b>Scenarios</b>. 
+            </li><li>
+                Click <b>Scenarios</b> on the <b>Reports</b> tab. 
+            </li></ul></li>
+        </ol>
+        <ol start="2">
+            <li>
+                In the <b>Scenarios</b> dialog box, click <b>Add</b>. 
+            </li>
+            <li>
+                Enter a name and click <b>OK</b>. 
+            </li>
+            <li>
+                Under Scenario visibility, select one of the following options: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                            Project scenario
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                            The scenario is part of the project and is available to all users. &#160;
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                            User Scenario
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                            The scenario is only available to the user who created it, in the current project.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Under <b>Scenario parameters</b>, select one of the following options: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTable.css');" class="TableStyle-TopHeadRowTable" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTable-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTable-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTable-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTable-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyE-Column1-Body1">
+                            Shared
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyD-Column1-Body1">
+                            The scenario is applied to all plans. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTable-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTable-BodyB-Column1-Body1">
+                            Per plan
+                        </td>
+                        <td class="TableStyle-TopHeadRowTable-BodyA-Column1-Body1">
+                            The scenario is only applied to the specified reserves plan or plan. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                If you selected <b>Per Plan</b>, select the reserves plan or plan you want to apply the scenario to. If you selected <b>Shared</b>, go to step 7. 
+            </li>
+            <li>
+                Modify the Calculation Options, Calculation Dates, Risk, and Sensitivity. 
+            <ul><li><b>Inflation Override</b>: The value you enter overrides all inflation values (general, operating cost, capital cost, price deck inflation, etc.).
+</li><li><b>Selected Companies</b>: Companies that are disabled in the <b>Companies</b> dialog box in <b>Global Project Data</b> are also disabled in the <b>Scenarios</b> dialog box. For Jurisdiction scenarios, only companies selected in the Jurisdiction’s Selected Companies are used. You cannot change a Jurisdictions Selected Companies in the Scenarios dialog box. To change a Jurisdiction’s Selected Companies, see <MadCap:xref href="Create Jurisdictions.htm#Create_Jurisdictions">Create Jurisdictions</MadCap:xref>. 
+</li></ul></li>
+        </ol>
+        <ol start="9">
+            <li>
+                Click <b>OK</b>. 
+            </li>
+        </ol>
+        <p class="ProcedureIntro">To run a scenario</p>
+        <ol>
+            <li>
+                Do one of the following: 
+            <ul class="IndentTightList"><li>
+                On the <b>Tools</b> menu, click <b>Batch Manager</b>.
+            </li><li>
+                On the toolbar, click the <b>Batch Manager</b> icon <img src="Resources/Images/image054_001.png" class="InlineImage" />.
+            </li></ul></li>
+        </ol>
+        <ol start="2">
+            <li>
+                In the <b>Batch Manager</b>, click the <b>Entities</b> tab.
+            </li>
+            <li>
+                Under Entity Selection Mode, click Quick Selection. 
+            </li>
+            <li>
+                Under <b>Entities to report</b>, select the entities and/or folders you want to report on. 
+            </li>
+            <li>
+                Under <b>Reserves categories</b>, select the reserves categories you want to report on. 
+            </li>
+            <li>
+                On the <b>Report Options</b> tab, select the currency you want to use for the batch.
+            </li>
+            <li>
+                Do one of the following: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            To
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Do this
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Save the batch for future use
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Go to step 8.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Run the batch
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Go to step 9.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Click <b>Save as Batch</b>, enter a name, and click <b>Save</b>.<br />The created batch is selected in the batches list. 
+            </li>
+            <li>
+                On the Scenarios tab, under Scenario Selection Mode, select Calculate selected scenarios. 
+            </li>
+            <li>
+                Under <b>Scenarios</b>, select the scenarios you want to run. 
+            </li>
+            <li>
+                For <b>Recalculation</b> mode, select one of the following options:
+            <ul class="IndentTightList"><li>
+                Calculate if necessary
+            </li><li>
+               Do not calculate
+            </li><li>
+                Force recalculation
+            </li></ul></li>
+        </ol>
+        <ol start="12">
+            <li>
+                For <b>After calculation</b>, select one of the following options: 
+            </li>
+            <table style="mc-table-style: url('Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Do not show reports
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            The Print Preview is not displayed after the scenario is calculated.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Show print preview
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            The Print Preview is displayed after the scenario is calculated.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Print selected reports
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            If you have already created a report list, the reports you selected are automatically printed after the scenario is calculated. See <MadCap:xref href="Create a Report List.htm#Create_a_Report_List">Create a Report List</MadCap:xref>.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Click <b>Run</b>.
+            </li>
+            <li>
+                In the <b>Print Preview</b>, click a report to view or click <b>Select/Manage Reports</b> to create a report list. 
+            </li>
+        </ol>
+    </body>
+</html>

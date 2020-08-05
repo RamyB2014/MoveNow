@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Recalculate a Group Forecast" />
+        <h1>Recalculate a Group Forecast</h1>
+        <p>By default, the forecast on a group is a summation of the forecasts of the child wells. </p>
+        <p>You can recalculate the group forecast if you have: </p>
+        <ul class="DoubleSpace">
+            <li style="margin-left: 0pt;text-indent: 0pt;">Deleted it to do a best fit on the group, but want to return the manual summation forecast (summation of child wells)</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Edited the forecasts of child wells and want to incorporate these changes into the group forecast</li>
+            <li style="margin-left: 0pt;text-indent: 0pt;">Added or deleted wells from the group</li>
+        </ul>
+        <p class="ProcedureIntro">To recalculate a group forecast</p>
+        <ol>
+            <li>
+                Do one of the following: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            To
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Do this
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Recalculate one group, 
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            On <b>Predictions | Declines</b>, click <img src="../Resources/Images/image069_002.jpg" class="InlineImage" />&#160;and click <b>Recalculate</b>.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Recalculate more than one group,
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Select the groups you want to recalculate (or filter to them). 
+                            From the <b>Entity</b> menu, select <b>Recalculate Groups</b>. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                Select the following options from the <b>Recalculate Group</b> dialog box, as required: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Recalculate production history
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Updates the production history, but does not move the group forecast or decline.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Recalculate forecast
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Recalculates the group forecast (summation of child wells).
+                            If there is a decline, it is deleted unless <i>Skip groups with declines</i> is selected. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Skip groups with declines
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            When updating forecasts for more than one group at a time, use this option to skip groups with a decline. Only group forecasts (summation of child wells) are updated. Declines are not updated. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Recalculate volumetrics recoverable
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Recalculates volumetrics recoverable. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Recalculate P/Z recoverable
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Recalculates P/Z recoverable.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Recalculate GCI depth
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Recalculates GCI depth.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Recalculate child groups
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            If the group contains groups (child groups) they are only updated if this option is selected. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            Current reserves category
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Applies the selected options to the current reserves category. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            All reserves categories with forecasts
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            Applies the selected options to all reserves categories with a forecast. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="NoteInProcedure"> When a group has child groups, if some of these child groups have declines at the child group level (instead of a summation forecast), it is possible to sum these child group declines by selecting <b>Skip groups with declines</b>. This allows you to keep any child group declines intact.</div>
+            <li>
+                Click <b>OK</b>.
+            </li>
+        </ol>
+    </body>
+</html>

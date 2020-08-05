@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:keyword term="Understanding the Common Reserves Category" />
+        <h1>Understanding the Common Reserves Category </h1>
+        <p>The Common reserves category provides you a single place to enter values that you want to apply to all reserves categories or plans. In other words, if an entity’s working interest is the same for all reserves categories, you only need to enter it in Common—the value will automatically be inherited by all other reserves categories or child plans. </p>
+        <p>However, you can also override any reserves category with a value that is different from Common. So if you want all reserves categories except one to use the same working interest, you can enter the value in Common and override it in the one category. See <MadCap:xref href="Override Inherited Values.htm#Override_Inherited_Values">Override Inherited Values</MadCap:xref>. </p>
+        <p>The default behaviour for the Common reserves category and the relationship between it and the other categories is different in new projects versus upgraded projects. If you are creating a new project, see <MadCap:xref href="Common Reserves Category Behaviour in New Projects.htm#Common_Reserves_Category_Behaviour_in_New_Projects">Common Reserves Category Behaviour in New Projects</MadCap:xref>. If you are working in an upgraded project, see <MadCap:xref href="Common Reserves Category Behaviour in Upgraded Projects.htm#Common_Reserves_Category_Behaviour_in_Upgraded_Projects">Common Reserves Category Behaviour in Upgraded Projects</MadCap:xref>. </p>
+        <h2>Input Values</h2>
+        <p>Only the following tabs contain values that can be inherited from Common: </p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+            <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+            <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                    <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                        Tab
+                    </th>
+                    <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                        Subtabs
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 1.4pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td rowspan="3" class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Economics
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        General
+                    </td>
+                </tr>
+                <tr style="height: 1.85pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Interests &amp; Royalties
+                    </td>
+                </tr>
+                <tr style="height: 11.5pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Prices &amp; Costs (and all subtabs)
+                    </td>
+                </tr>
+                <tr style="height: 1.1pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td rowspan="3" class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                        Predictions
+                    </td>
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        P/Z
+                    </td>
+                </tr>
+                <tr style="height: 1.1pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                        Volumetrics
+                    </td>
+                </tr>
+                <tr style="height: 13.25pt;" class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                    <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                        Data|Plant
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Data Inheritance</h2>
+        <p>Data entered in Working-Common is inherited by other reserves categories and plans through intervening plans and reserves categories, as displayed in the grey message bar below. </p>
+        <img src="../Resources/Images/a_image028.jpg" />
+        <p>In the example above, the current plan/reserves category (New Plan 2-PDP) inherits data from Working-Common. </p>
+        <p>If you override an intervening plan/reserves category (New Plan 1-PDP, in the example below), the inheritance from Common is interrupted, and data is inherited from the overridden plan/reserves category, as displayed below. </p>
+        <img src="../Resources/Images/image030_003.png" />
+        <p>If you override New Plan 2, it no longer inherits data from any other plan/reserves category, as displayed below. </p>
+        <img src="../Resources/Images/image032_004.png" />
+        <p>If you reset New Plan 2, it reverts to inheriting its data from the next closest link in the inheritance chain. </p>
+        <img src="../Resources/Images/image034_004.png" />
+        <p>If you reset New Plan 1, it reverts to inheriting data from Working-Common, as does New Plan 2. </p>
+        <img src="../Resources/Images/image036_002.png" />
+        <p>For more information about how inherited and overridden values are displayed, see Inherited and Overridden Values, below. </p>
+        <p>For more information about overriding and resetting values, see <MadCap:xref href="Override Inherited Values.htm#Override_Inherited_Values">Override Inherited Values</MadCap:xref> and <MadCap:xref href="Reset Overridden Values.htm#Reset_Overridden_Values">Reset Overridden Values</MadCap:xref>. </p>
+        <p>Also see <MadCap:xref href="../Plans.htm#Plans">Plans</MadCap:xref>. </p>
+        <h2>Inherited and Overridden Values</h2>
+        <p>When you open a tab with values that can be inherited from Common, one of three information bars is displayed on the tab, as described below. </p>
+        <h2>Values Inherited Directly from Common </h2>
+        <p>The yellow information bar indicates that values on this tab are inherited directly from Working-Common, as displayed in the breadcrumbs.</p>
+        <img src="../Resources/Images/image038_002.jpg" />
+        <p>To override the values on this tab and enter values in Working-PDP, click Override.</p>
+        <p>To edit the values in Working-Common, click the Working-Common hyperlink.</p>
+        <h2>Values Inherited Indirectly from Common or other Plans/Reserves Categories </h2>
+        <p>The grey information bar indicates that values on this tab are inherited indirectly from Working-Common (through Working-PDP and New Plan 1-PDP) or that the values are inherited from another plan/reserves category, as displayed in the breadcrumbs. </p>
+        <img src="../Resources/Images/image040_002.png" />
+        <p>To override the values on this tab and enter values in New Plan 2-PDP, click Override.</p>
+        <p>To edit the source of the values on this tab (Working-Common, in this example), click Edit Source.</p>
+        <h2>Overridden Values </h2>
+        <p>The green information bar indicates that values on this tab are not inherited from any other plan/reserves category. The green information bar is displayed when you are viewing Common or when you are viewing any other tab that has overrides. </p>
+        <img src="../Resources/Images/a_image042.jpg" />
+        <p>To remove the overrides (in any reserves category other than Common), and enable a tab to inherit values from its source, click Reset.</p>
+        <p>For more information about overriding and resetting values, see <MadCap:xref href="Override Inherited Values.htm#Override_Inherited_Values">Override Inherited Values</MadCap:xref> and <MadCap:xref href="Reset Overridden Values.htm#Reset_Overridden_Values">Reset Overridden Values</MadCap:xref>. </p>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Specify a Change Reason on Wells</h1>
+        <p>Change Reasons act as a Change Record Category override in the automated reserves reconciliation (ARR) process. For example, if you acquire a well, you might want to log all changes to the well under the Acquisition change record category, even if the changes you make (such as forecast revisions or price changes) would not normally be associated with that change record category. To do this, you specify a Change Reason on the well.</p>
+        <p>There are two types of Change Reason: Change Reason (Entity) and Change Reason (Detail):</p>
+        <ul>
+            <li><![CDATA[	]]><b>Change Reason (Entity)</b>: Any change record created uses the Change Reason as the change record category, regardless of the type of change.</li>
+            <li><![CDATA[	]]><b>Change Reason (Detail)</b>: Any change that falls under a Summary Type is assigned the specified Change Reason (detail). For example, you might have several change record categories (including one called Advanced Technology) that all fall under the Summary Type “Technical Revision”. If you specify Advanced Technology as the Change Reason (Detail), any type of change that would fall under Technical Revision is given a change record with Advanced Technology as the change record category.</li>
+        </ul>
+        <div class="Note">Only use one change reason type at a time. If you specify both types of change reason, the detail change reason is ignored.</div>
+        <h2>Change Reasons on New Wells</h2>
+        <p>All wells require an opening balance or a Change Reason to use the ARR process. When you create a new well, it has no opening balance so you must specify a change reason. Without an opening balance, <MadCap:variable name="General.ProductName" /> cannot determine the type of change you’ve made, so it uses the Change Reason.</p>
+        <p>Once you post your database, your new entities will have an opening balance so you no longer need the change reason. You can continue to use it or delete it from your wells. To delete change reasons in bulk, go to the Data View, <b>Wells and General Economics | Well Info and Custom Fields</b>.</p>
+        <p>You can specify a Change Reason in three places, as described below.</p>
+        <h2>Well Information Dialog Box</h2>
+        <p class="ProcedureIntro">To specify a Change Reason in Well Information</p>
+        <ol class="Procedure">
+            <li>	In the entity hierarchy, right-click the well and select <b>Edit Entity</b>.</li>
+            <li>	In the Well Information dialog box, select the <b>Reserves Properties</b> tab.</li>
+            <li>	Select a <b>Change Reason</b> (Entity and/or Detail).</li>
+            <li>	Click <b>OK</b>.</li>
+        </ol>
+        <h2>Data View</h2>
+        <p class="ProcedureIntro">To specify a Change Reason in Data View</p>
+        <ol class="Procedure">
+            <li>In the main toolbar, select <b>Data View</b>.</li>
+            <li>Select <b>Wells and General Economics | Well Info and Custom Fields</b>.</li>
+            <li>Scroll to the Change Reason columns (far right).</li>
+            <li>Select a <b>Change Reason</b> (Entity and/or Detail).</li>
+            <li>Click <b>Save</b> in the Data View.</li>
+        </ol>
+        <h2>Predictions | Declines</h2>
+        <p class="ProcedureIntro">To specify a Change Reason on <b>Predictions | Declines</b></p>
+        <ol class="Procedure">
+            <li>Go to <b>Predictions | Declines</b> and click (far right).</li>
+            <li>Under Quick Display Fields, either change an existing field to Change Reason or add a field and select <b>Change Reason</b>.</li>
+            <li>Click anywhere outside the dialog box to close it.</li>
+            <li>In the display field above the decline parameters, select the <b>Change Reason</b>.</li>
+        </ol>
+    </body>
+</html>

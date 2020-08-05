@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/TopHeadRowTableInProc.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <MadCap:keyword term="Adjust Entity Dates" />
+        <h1>Adjust Entity Dates</h1>
+        <p>The Adjust Dates dialog box is a planning tool used to move entity dates forward or backward in time. You can adjust the dates for items such as declines, costs, interests and royalties, and entity start dates. Adjust Dates is useful for adjusting the dates of wells in a drilling program because it maintains the relative time relationships between the wells.&#160; </p>
+        <p>When you adjust the forecast, it is transposed to the adjusted date (rather than extrapolated). Its parameters (such as its initial rate, decline rate, etc.) are not altered. </p>
+        <div class="Note"> If the forecast starts before the <MadCap:xref href="../Create, Convert and Open Projects/Set the Current Month.htm#Set_the_Current_Month" target="_popup">Current Month</MadCap:xref>, it is extrapolated to the Current Month and then transposed after that. </div>
+        <h2>Relative Date Adjustment</h2>
+        <p>This option moves all entities by the same relative amount. Declines move by day. All other dates move by month only. Custom field dates will move to the same date in the relative month.</p>
+        <h2>Absolute Date Adjustment</h2>
+        <p>This adjustment moves all entities to a common date based on an anchor type: first forecast date or first capital date. When multiple entities are included in the selection, the entity (or entities) with the earliest forecast date or capital date is moved to the new absolute date. </p>
+        <p>All other wells in the selection are moved the same relative amount. This maintains offsets between wells.</p>
+        <h2>Reserves Categories Selection</h2>
+        <p>By default, All Except Developed Producing and Common, is selected. This allows you to adjust only non-producing reserves categories. To adjust well level data (entity fields, production history, etc.), you must select All Reserves Categories under Options. When you select All Reserves Categories, the options under All Reserves Categories in the Items to Adjust section become active. </p>
+        <p class="ProcedureIntro">To adjust the dates on an entity or folder</p>
+        <ol class="Procedure">
+            <li>
+                In the entity explorer, select the entities (or folder level) you want to adjust. Filter to the entities first, if required.
+            </li>
+            <li>
+                From the <b>Entity</b> menu, select Adjust Dates. 
+            </li>
+            <li>
+                Under Adjustment Date Setup, select <b>Relative</b> or <b>Absolute</b> and enter the time adjustment amount or date. 
+            </li>
+            <li>
+                Under <b>Options</b>, select one of the following: 
+            </li>
+            <table style="mc-table-style: url('../Resources/TableStyles/TopHeadRowTableInProc.css');" class="TableStyle-TopHeadRowTableInProc" cellspacing="0">
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <col class="TableStyle-TopHeadRowTableInProc-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Head-Header1">
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadE-Column1-Header1">
+                            Option
+                        </th>
+                        <th class="TableStyle-TopHeadRowTableInProc-HeadD-Column1-Header1">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            All Reserves Categories
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Adjusts dates for all reserves categories and enables you to adjust the options under All Reserves Categories.
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyE-Column1-Body1">
+                            All except Developed Producing and Common
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyD-Column1-Body1">
+                            Adjusts only non-producing categories. Common is not adjusted. 
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TopHeadRowTableInProc-Body-Body1">
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyB-Column1-Body1">
+                            Current Reserves Category
+                        </td>
+                        <td class="TableStyle-TopHeadRowTableInProc-BodyA-Column1-Body1">
+                            The reserves category you currently have selected. Only data that is not being inherited from another category or plan is moved. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>
+                If you do not want to apply the adjustment to the children of groups, deselect <b>Apply to children of groups</b>. 
+            </li>
+            <li>
+                Under <b>Items to Adjust</b>, select the items you want to adjust. 
+            </li>
+            <li>
+                If you selected <b>All Reserves Categories</b> in step 4, the items under <b>All Reserves Categories</b> are active. Select the items you want to adjust. 
+            </li>
+            <li>
+                Click <b>OK</b>.
+            </li>
+        </ol>
+    </body>
+</html>
